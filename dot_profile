@@ -1,0 +1,96 @@
+# ~/.profile: executed by the command interpreter for login shells.
+# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
+# exists.
+# see /usr/share/doc/bash/examples/startup-files for examples.
+# the files are located in the bash-doc package.
+
+# the default umask is set in /etc/profile; for setting the umask
+# for ssh logins, install and configure the libpam-umask package.
+#umask 022
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+  # include .bashrc if it exists
+  if [ -f "$HOME/.bashrc" ]; then
+    . "$HOME/.bashrc"
+  fi
+fi
+
+# ======= PATH ENVs ========
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ]; then
+  PATH="$HOME/bin:$PATH"
+fi
+
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/.local/bin" ]; then
+  PATH="$HOME/.local/bin:$PATH"
+fi
+
+# Add cargo environment variables
+. "$HOME/.cargo/env"
+
+# Path for Setup Golang
+export PATH=$PATH:/usr/local/go/bin
+export PATH="$PATH:$HOME/go/bin"
+
+# Add Latex to PATH, MANPATH, INFOPATH
+export PATH=/usr/local/texlive/2025/bin/x86_64-linux:$PATH
+export INFOPATH=/usr/local/texlive/2025/texmf-dist/doc/info:$INFOPATH
+
+# Add luarocks
+export PATH="$HOME/.luarocks/bin:$PATH"
+
+#DuckDB
+export PATH=$HOME/.duckdb/cli/latest:$PATH
+
+# ======== Credentials =========
+
+#Set Gemini-API key
+export GEMINI_API_KEY="AIzaSyDbu7CBAEOLw4b4-_HFvhJGV4Imi3zBfTw"
+
+# ======== OTHER ENVs ==========
+
+# Increasing the command history size
+export HISTSIZE=100000
+
+# Add timestamp for the commands
+export HISTTIMEFORMAT="%Y/%m/%d %H:%M:%S "
+
+# Change ENV for zoxide to not display an error
+export _ZO_DOCTOR='0'
+
+# Add manpager theme to bat
+export MANPAGER="sh -c 'sed -u -e \"s/\\x1B\[[0-9;]*m//g; s/.\\x08//g\" | bat -p -lman'"
+
+# set the $default editor and sudoedit to nvim
+export EDITOR="/usr/local/bin/nvim"
+export SUDO_EDITOR="/usr/local/bin/nvim"
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+
+# ======= THEME ========
+
+# Add Dracula Theme to fzf
+export FZF_DEFAULT_OPTS='--color=fg:#f8f8f2,bg:#282a36,hl:#bd93f9 --color=fg+:#f8f8f2,bg+:#44475a,hl+:#bd93f9 --color=info:#ffb86c,prompt:#50fa7b,pointer:#ff79c6 --color=marker:#ff79c6,spinner:#ffb86c,header:#6272a4'
+
+# EZA Dracula Theme
+export EZA_COLORS="\
+uu=36:\
+uR=31:\
+un=35:\
+gu=37:\
+da=2;34:\
+ur=34:\
+uw=95:\
+ux=36:\
+ue=36:\
+gr=34:\
+gw=35:\
+gx=36:\
+tr=34:\
+tw=35:\
+tx=36:\
+xx=95:"

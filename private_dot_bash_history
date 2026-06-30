@@ -1,0 +1,2553 @@
+#1781185441
+cd
+#1781185446
+cd repo conf
+#1781185448
+ls
+#1781185449
+lazygit
+#1781185605
+lazygit
+#1781185639
+tldr git pull
+#1781185656
+git pull chabokan-gitlab-origin main
+#1781185676
+ssh-add ~/.ssh/iran-gitlab-empty
+#1781185689
+ssh-add ~/.ssh/iran-gitlab
+#1781185696
+ls
+#1781185729
+git pull chabokan-gitlab-origin main
+#1781185753
+lazygit
+#1781185918
+git push --all 
+#1781185940
+ssh-add ~/.ssh/gitlab
+#1781185948
+git push --all 
+#1781186035
+git remote -v
+#1781186167
+lazygit
+#1781186188
+lazygit
+#1781186231
+lazygit
+#1781186261
+lazygit
+#1781186722
+tldr git push
+#1781186758
+lazygit
+#1781186785
+sudo git reset --hard chabokan-gitlab-origin/main
+#1781186798
+ls
+#1781186826
+tldr git push
+#1781186855
+git remote -v
+#1781186903
+lazygit
+#1781186951
+sudo git reset --hard chabokan-gitlab-origin/main
+#1781186958
+sudo git reset --hard gitlab/main 
+#1781186966
+lazygit
+#1781186987
+git remote -v
+#1781186989
+lazygit
+#1781187415
+git fetch --all
+#1781187565
+git log --oneline -10 gitlab/main
+#1781187577
+git log --oneline -10 chabokan-gitlab-origin/main
+#1781187628
+sudo git reset --hard gitlab/main 
+#1781187634
+ls
+#1781187636
+lazygit
+#1781187665
+git push --force chabokan-gitlab-origin main
+#1781188137
+git push --force chabokan-gitlab-origin main
+#1781189138
+git remote -v
+#1781189235
+git remote add hamgit git@hamgit.ir:master.masterblocker/backup.git
+#1781189239
+git remote -v
+#1781189251
+git remote rename chabokan-gitlab-origin chabokan-gitlab
+#1781189274
+git remote rename github-origin github
+#1781189280
+git remote -v
+#1781189396
+git push hamgit main
+#1781189430
+tldr ssh-agent 
+#1781189438
+tldr ssh-add
+#1781189444
+ssh-add -l
+#1781189459
+ls ~/.ssh/
+#1781189485
+git push hamgit main
+#1781189785
+lazygit
+#1781189960
+git remote -v
+#1781190042
+lazygit
+#1781192028
+git remote add git@bitbucket.org:amiralitoori/backup.git
+#1781192038
+git remote add bitbucket git@bitbucket.org:amiralitoori/backup.git
+#1781192047
+git remote -v
+#1781192101
+git push bitbucket main
+#1781192250
+proxychains4 -q git push bitbucket main
+#1781192270
+ssh-add ~/.ssh/bitbucket
+#1781192278
+proxychains4 -q git push bitbucket main
+#1781192549
+proxychains4 -q git push bitbucket main
+#1781193839
+ssh-add ~/.ssh/codeberge
+#1781193869
+git remote add codeberge git@codeberg.org/itsamiralitoori/backup.git
+#1781193874
+git remote -v
+#1781193884
+git push codeberge main
+#1781193990
+git push codeberge main
+#1781194009
+git remote remove codeberge 
+#1781194016
+git remote add codeberge ssh://git@codeberg.org/itsamiralitoori/backup.git
+#1781194020
+git remote -v
+#1781194025
+git push codeberge main
+#1781194195
+proxychains4 -q git push codeberge main
+#1781194760
+ls
+#1781194772
+git remote -v
+#1781194780
+git remote remove codeberge
+#1781194785
+exit
+#1781186809
+cd
+#1781186812
+nvim myscripts/backup/mybackup_cron.sh 
+#1781186887
+sudo ./myscripts/backup/mybackup_cron.sh 
+#1781187395
+tldr got fetch
+#1781187401
+tldr git fetch
+#1781187447
+tldr git log
+#1781188389
+nvim myscripts/backup/mybackup_cron.sh
+#1781189122
+tldr git remote
+#1781189171
+git remote add hamgit git@hamgit.ir:master.masterblocker/backup.git
+#1781189186
+git remote add hamgit git@hamgit.ir:master.masterblocker/backup.git
+#1781189192
+git remote add hamgit git@hamgit.ir:master.masterblocker/backup
+#1781189195
+git remote add hamgit git@hamgit.ir:master.masterblocker/backup.git
+#1781189288
+nvim myscripts/backup/mybackup_cron.sh
+#1781189935
+sudo myscripts/backup/mybackup_cron.sh 
+#1781189973
+nvim myscripts/backup/mybackup_cron.sh
+#1781191505
+ssh-keygen -t ed25519 -a 32 -f .ssh/bitbucket
+#1781191520
+ssh-keygen -t ed25519 -a 32 -f .ssh/bitbucket-empty
+#1781191587
+cat .ssh/bitbucket.pub | xsel -b
+#1781191633
+cat .ssh/bitbucket-empty | xsel -b
+#1781191649
+cat .ssh/bitbucket-empty.pub | xsel -b
+#1781192068
+cd Documents/
+#1781192068
+ls
+#1781192077
+sudo mv -v bitbucket-recovery-codes-amiralitoori-admin.txt BackupCodes/
+#1781193392
+ls
+#1781193402
+cat > Codeberge-recovery-code.txt
+#1781193409
+cat Codeberge-recovery-code.txt 
+#1781193410
+ls
+#1781193416
+sudo mv -v Codeberge-recovery-code.txt BackupCodes/
+#1781193482
+cd
+#1781193492
+ssh-keygen -t ed25519 -a 32 -f .ssh/codeberge
+#1781193508
+ssh-keygen -t ed25519 -a 32 -f .ssh/codeberge-empty
+#1781193521
+cat .ssh/codeberge.pub | xsel -b
+#1781193576
+echo -n '6e50fc9361b01b2ccf36675a27f60abec7ef277a876a621b0999626fdfef6cba' | ssh-keygen -Y sign -n codeberg.org -f ~/.ssh/id_ed25519 # or the path to the private key if it is different.
+#1781193593
+echo -n '6e50fc9361b01b2ccf36675a27f60abec7ef277a876a621b0999626fdfef6cba' | ssh-keygen -Y sign -n codeberg.org -f ~/.ssh/codeberge
+#1781193632
+echo -n '0a016b4a9f217259b63585b937cd37fd0760cdacef831ea25410450b9ba21536' | ssh-keygen -Y sign -n codeberg.org -f ~/.ssh/codeberge
+#1781193684
+cat .ssh/codeberge-empty | xsel -b
+#1781193693
+cat .ssh/codeberge-empty.pub | xsel -b
+#1781193723
+echo -n '0daf8f5ab4cd25e5cd848333c5e3c0124a8335367e9cd200b02c9076e7af8fc2' | ssh-keygen -Y sign -n codeberg.org -f ~/.ssh/codeberge-empty
+#1781193863
+cd repo conf
+#1781193866
+git remote -v
+#1781194793
+sudo ~/myscripts/backup/mybackup_cron.sh 
+#1781194824
+bat ~/myscripts/backup/mybackup_cron.sh 
+#1781194839
+lazygit
+#1781194898
+exit
+#1781607567
+tldr notify-send 
+#1781608096
+cd Downloads/ABDM/Compressed/
+#1781608097
+ls
+#1781608100
+y
+#1781608268
+ls
+#1781608278
+..
+#1781608279
+ls
+#1781608284
+..
+#1781608284
+ls
+#1781608296
+mv -v fixed.Grim.Fandango.Remastered.v1.4.1-P2P-Par30Game/ ~/Games/
+#1781608300
+y
+#1781608303
+cd
+#1781608305
+cd Games/
+#1781608305
+ls
+#1781608307
+cd fixed.Grim.Fandango.Remastered.v1.4.1-P2P-Par30Game/
+#1781608308
+ls
+#1781608311
+cd Grim.Fandango.Remastered.v1.4.1-P2P-Par30Game/
+#1781608311
+s
+#1781608312
+ls
+#1781608316
+exit
+#1781609979
+cd repo conf
+#1781609982
+git remote -v
+#1781610071
+lazygit
+#1781613188
+flameshot --version
+#1781613197
+flameshot --version
+#1781619785
+dusk
+#1781619788
+lsblk
+#1781619793
+mounter
+#1781619803
+cd
+#1781619809
+cd /media/glados/
+#1781619809
+ls
+#1781619817
+mounter
+#1781619827
+ls
+#1781619828
+ls -a
+#1781619830
+cd
+#1781619832
+mounter
+#1781619847
+cd /media/glados/Ventory
+#1781619851
+cd /media/glados/Ventoy
+#1781628149
+exit
+#1781609284
+dysk
+#1781609286
+ls
+#1781609288
+dysk
+#1781609392
+dysk
+#1781609577
+cd repo conf
+#1781609578
+ls
+#1781609580
+lazygit
+#1781609656
+ls
+#1781609662
+cd
+#1781609665
+nvim .bashrc 
+#1781609749
+source .bashrc 
+#1781609773
+ls
+#1781609778
+nvim .bashrc 
+#1781609956
+sudo ./myscripts/backup/mybackup_cron.sh 
+#1781609995
+bat ./myscripts/backup/mybackup_cron.sh 
+#1781610155
+bat ./myscripts/backup/mybackup_cron.sh 
+#1781628150
+exit
+#1781632618
+ls
+#1781632627
+exit
+#1781698384
+ls
+#1781698392
+cd books
+#1781698392
+ls
+#1781698396
+y
+#1781698420
+ls -1 | xsel -b
+#1781699047
+y
+#1781712743
+exiyt
+#1781712747
+exit
+#1781699474
+tldr jigdo
+#1781712748
+exit
+#1781771453
+exit
+#1781771455
+exit
+#1781771458
+exit
+#1781771427
+ls
+#1781771431
+ls
+#1781771432
+ls
+#1781771433
+ls
+#1781771434
+ls
+#1781771434
+ls
+#1781771435
+ls
+#1781771464
+wezterm --version
+#1781771468
+which wezterm
+#1781771475
+apt search wezterm
+#1781771484
+exit
+#1781771496
+which wezterm
+#1781771503
+apt info wezterm
+#1781771525
+sudo apt remove wezterm 
+#1781771555
+tldr fd
+#1781771563
+sudo fd 'wezterm' /
+#1781771583
+sudo fd -i 'wezterm' /
+#1781771668
+ls
+#1781791962
+notify-send "Test" -u
+#1781791971
+notify-send -u low "Test"
+#1781791976
+notify-send -u normal "Test"
+#1781791982
+notify-send -u critical "Test"
+#1781792381
+alert
+#1781792458
+Murdoch family
+#1781792465
+echo -en "\007"
+#1781792467
+echo -en "\007"
+#1781792470
+echo -en "\007"
+#1781792511
+pactl list | grep Name
+#1781792576
+paplay --d"audio-volume-change"
+#1781797062
+exit
+#1781791073
+ls
+#1781791085
+rm -rvf arvan-resources/
+#1781791086
+ls
+#1781791939
+tldr notify-send 
+#1781791992
+notify-send --help
+#1781792520
+tldr pactl
+#1781792553
+tldr paplay
+#1781797063
+exit
+#1782029210
+ls
+#1782029212
+ls
+#1782029215
+fzf **
+#1782029219
+cd **
+#1782029228
+zi
+#1782029234
+ls
+#1782029235
+y
+#1782029358
+dolphin .
+#1782029409
+y
+#1782029445
+cd
+#1782032522
+ثطهف
+#1782032525
+exit
+#1782037964
+nvidia-smi 
+#1782037992
+nvidia-smi --version
+#1782038000
+nvidia-smi --help
+#1782038013
+exit
+#1782042915
+cd Videos/
+#1782042916
+y
+#1782046870
+exit
+#1782109626
+ls
+#1782109629
+ls
+#1782109635
+ls
+#1782109638
+ls -a
+#1782109650
+cd
+#1782109652
+ls
+#1782109734
+exit
+#1782109762
+bat .bashrc 
+#1782109796
+exit
+#1782107863
+ls
+#1782107868
+cd Videos/
+#1782107868
+y
+#1782112585
+exit
+#1782109587
+cp **
+#1782109593
+mv **
+#1782109602
+ls
+#1782109655
+ls
+#1782109675
+fd 'Videos'
+#1782109683
+ls VMs/
+#1782109702
+mv -v VMs/* .
+#1782109704
+ls
+#1782109715
+mv -v Fedora-KDE/ Arch/ VMs/
+#1782109717
+ls
+#1782109728
+rmdir Debian/ FreeBSD/
+#1782109730
+ls
+#1782109805
+cd Videos/
+#1782109806
+y
+#1782111774
+cd Videos/
+#1782111775
+y
+#1782115945
+exit
+#1782135902
+cd Videos/
+#1782135903
+y
+#1782147663
+exit
+#1782200247
+cd Videos/
+#1782200248
+y
+#1782204994
+exit
+#1782210453
+cd Videos/
+#1782210454
+y
+#1782213621
+dysk
+#1782213622
+exit
+#1782213624
+exit
+#1782379643
+ls
+#1782379646
+cd Videos/
+#1782379646
+ls
+#1782379740
+ls
+#1782379742
+..
+#1782379742
+ls
+#1782379752
+cd Downloads/ABDM/Documents/
+#1782379752
+y
+#1782380025
+exit
+#1782400772
+cd Downloads/ABDM/Videos/
+#1782400772
+y
+#1782401255
+exit
+#1782454370
+ls
+#1782454378
+cd Downloads/ABDM/
+#1782454379
+ls
+#1782454380
+lt3
+#1782454385
+cd Compressed/
+#1782454386
+l
+#1782454388
+sls
+#1782454390
+ls
+#1782454395
+y
+#1782454614
+lsblk
+#1782454617
+lsblk
+#1782454622
+lsblk
+#1782454630
+watch -1 'lsblk'
+#1782454634
+watch -n 1 'lsblk'
+#1782454659
+tldr watch
+#1782454682
+mounter
+#1782454702
+cd /media/glados/
+#1782454703
+ls
+#1782454704
+ls
+#1782454706
+cd
+#1782455369
+dysk
+#1782455376
+mounter
+#1782455435
+ls
+#1782455436
+ls
+#1782539253
+zls
+#1782539254
+ls
+#1782542547
+exit
+#1782544029
+ls /dev/nt
+#1782544032
+ls /dev/
+#1782544046
+fastfetch 
+#1782544081
+lsmod | grep -i ntsync
+#1782544131
+nano /boot/config-"$(uname -r)"
+#1782544998
+cd /etc/modules-load.d/
+#1782544998
+ls
+#1782545041
+sudo echo -e "ntsync\n" > ntsync.conf
+#1782545049
+ls
+#1782545059
+sudoedit nvim ntsync.conf
+#1782545075
+ls
+#1782545080
+rm nvim 
+#1782545090
+sudo rm -vf nvim 
+#1782545091
+ls
+#1782545095
+bat ntsync.conf 
+#1782545100
+nvim ntsync.conf 
+#1782545109
+ls
+#1782545113
+sudoedit ntsync.conf 
+#1782545120
+ls
+#1782545122
+bat ntsync.conf 
+#1782545136
+sudo modprobe ntsync
+#1782545144
+lsmod | grep -i ntsync
+#1782545311
+ exit
+#1782559022
+cd
+#1782559024
+cd VMs/
+#1782559025
+ls
+#1782559027
+lt3
+#1782559034
+rm -rvf Arch/ Fedora-KDE/
+#1782559035
+ls
+#1782559036
+..
+#1782559037
+ls
+#1782559042
+rmdir VMs/
+#1782559048
+rm -rvf VMs/
+#1782559050
+ls
+#1782559069
+dysk
+#1782559071
+ls
+#1782559102
+rmdir R-Studio/
+#1782559103
+ls
+#1782559153
+echo $PATH | tr ':' '\n'
+#1782559207
+exit
+#1782559653
+cd
+#1782559665
+fd 'texlive' /
+#1782559679
+apt search texlive
+#1782559725
+fd 'java21' /
+#1782559939
+exit
+#1782559479
+bat .bashrc 
+#1782559486
+nvim .bashrc 
+#1782560011
+exit
+#1782559122
+nvim .bashrc 
+#1782559213
+source .bashrc 
+#1782559224
+echo $PATH | tr ':' '\n'
+#1782559240
+bat .bashrc 
+#1782559266
+bat .bashrc 
+#1782559429
+ls .profile 
+#1782559432
+bat .profile 
+#1782559543
+bat .profile 
+#1782559546
+nvim .profile 
+#1782559833
+agy
+#1782559845
+jobs
+#1782559851
+kill %1
+#1782559853
+jobs
+#1782559856
+jobs
+#1782559863
+kill -9 %1
+#1782559866
+jobs
+#1782560258
+exit
+#1782560716
+bat .cargo/env 
+#1782560738
+exit
+#1782560581
+echo $HOME
+#1782560274
+echo $PATH | tr ':' '\n'
+#1782560305
+ls \.*
+#1782560310
+ls .*
+#1782560341
+source .profile 
+#1782560345
+echo $PATH | tr ':' '\n'
+#1782560510
+ls
+#1782560563
+nvim .profile 
+#1782560744
+exit
+#1782560746
+exit
+#1782560971
+cd /usr/share/doc/bash/
+#1782560972
+ls
+#1782560973
+y
+#1782561002
+sudo apt search bash-doc
+#1782561032
+echo $BASH_VERSION 
+#1782561078
+cd
+#1782561087
+nvim .profile 
+#1782561137
+which duckdb
+#1782561154
+exit
+#1782561179
+nvim .cargo/env 
+#1782561193
+bat .profile 
+#1782561311
+bat .cargo/env 
+#1782561353
+echo $PATH | tr ':' '\n'
+#1782561359
+exit
+#1782560750
+bat .profile 
+#1782560764
+echo $PATH | tr ':' '\n'
+#1782560786
+bat .profile 
+#1782560816
+bat .bash_login
+#1782560825
+fd 'bash_profile' ~/
+#1782560837
+fd 'bash_login' ~/
+#1782560839
+fd 'bash_login' /
+#1782560851
+fd 'bash_profile' /
+#1782560924
+bat .profile 
+#1782561116
+bat .profile 
+#1782561157
+echo $PATH | tr ':' '\n'
+#1782561237
+bat .bashrc 
+#1782561318
+nvim .bashrc 
+#1782561362
+exit
+#1782563289
+bat .profile 
+#1782563359
+bat .profile 
+#1782563375
+bat .bashrc 
+#1782563395
+exit
+#1782563184
+bat .profile 
+#1782563279
+echo $PATH | tr ':' '\n'
+#1782563401
+nvim .bashrc 
+#1782563653
+exit
+#1782561368
+echo $PATH | tr ':' '\n'
+#1782561394
+sudo fd 'snap' /
+#1782561459
+ls
+#1782561465
+echo .profile 
+#1782561469
+bat .profile 
+#1782561535
+fd '.bash_profile' /
+#1782562627
+ls
+#1782562629
+ls
+#1782562675
+agy 
+#1782562751
+jobs 
+#1782562788
+fg %1
+#1782562841
+kill -9 %1
+#1782562844
+jobs
+#1782562845
+ls
+#1782562849
+nvim .bashrc 
+#1782562870
+unalias agy
+#1782562874
+agy 
+#1782563580
+agy
+#1782563651
+ls
+#1782563664
+echo $PATH | tr ':' '\n'
+#1782563767
+exit
+#1782563782
+reboot
+#1782563791
+poweroff
+#1782564572
+exit
+#1782564574
+exit
+#1782563942
+bat .profile 
+#1782564143
+ls /etc/environment/
+#1782564144
+ls /etc/environment
+#1782564148
+bat /etc/environment
+#1782564236
+nvim .bashrc 
+#1782565395
+exit
+#1782563921
+echo $PATH | tr ':' '\n'
+#1782563946
+bat .bashrc 
+#1782564158
+ls /snap
+#1782564179
+ls /usr/games/
+#1782564186
+ls /usr/local/games/
+#1782564202
+ls -l /usr/games/
+#1782564214
+cowthink 
+#1782564268
+nvim .profile 
+#1782564924
+bat /etc/inputrc 
+#1782564934
+bat /etc/inputrc 
+#1782564979
+nvim /etc/inputrc 
+#1782565005
+sudoedit /etc/inputrc 
+#1782565134
+ls /etc/bash_completion.d/
+#1782565244
+wikiman
+#1782565262
+bat /etc/manpath.config 
+#1782565298
+chsh --help
+#1782565305
+chsh --help
+#1782565308
+chsh -h
+#1782565311
+man chsh
+#1782565362
+cd /etc/bash_completion.d/
+#1782565363
+ls
+#1782565371
+rm -rvf cht.sh kafka 
+#1782565374
+sudo rm -rvf cht.sh kafka 
+#1782565376
+ls
+#1782565396
+exit
+reboot
+#1782565623
+tldr rsync
+#1782565695
+echo $PROFILE
+#1782565698
+exit
+#1782565583
+ls .profile 
+#1782565511
+ls
+#1782565517
+y
+#1782565521
+rm t\ place\ for\ setting\ the\: 
+#1782565523
+ls
+#1782565529
+403unlocker ls
+#1782565531
+ls
+#1782565536
+bat .bashrc 
+#1782565554
+nvim myscripts/backup/mybackup_cron.sh 
+#1782565706
+ls
+#1782565712
+sudo myscripts/backup/mybackup_cron.sh 
+#1782566021
+bat myscripts/backup/mybackup_cron.sh 
+#1782566045
+nvim myscripts/backup/mybackup_cron.sh 
+#1782566062
+sudo myscripts/backup/mybackup_cron.sh 
+#1782566084
+exit
+#1782567295
+cd
+#1782567301
+cd myscripts/backup/
+#1782567302
+ls
+#1782567336
+ls
+#1782567337
+exit
+#1782566258
+cd
+#1782566263
+nvim /etc/anacrontab
+#1782566393
+sudoedit /etc/anacrontab
+#1782566439
+systemctl status anacron.service 
+#1782566933
+tldr git remote
+#1782567061
+cd repo conf
+#1782567062
+ls
+#1782567065
+git remote -v
+#1782567083
+git remote remove gitlab
+#1782567100
+git remote add gitlab git@gitlab.com:itsamiralitoori/backup.git
+#1782567104
+git remote -v
+#1782567139
+lazygit
+#1782567187
+lazygit
+#1782567219
+git remote -v
+#1782567226
+git push gitlab main
+#1782567231
+ls
+#1782567234
+lazygit
+#1782567266
+cd
+#1782567280
+nvim myscripts/backup/mybackup_cron.sh 
+#1782567448
+ls
+#1782567617
+sudo myscripts/backup/mybackup_cron.sh 
+#1782567658
+ls
+#1782567901
+kitty --version
+#1782567958
+curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
+#1782568112
+ls
+#1782568114
+exit
+#1782565727
+cd repo conf
+#1782565727
+l
+#1782565731
+ls -a
+#1782565737
+lazygit
+#1782566081
+lazygit
+#1782566124
+ls
+#1782566133
+..
+#1782566136
+ls -l
+#1782566143
+du -sh Configs/
+#1782566152
+ls backup/
+#1782566154
+ls
+#1782566166
+rm -rvf backup/
+#1782566167
+ls
+#1782566178
+cd
+#1782566181
+cd Documents/
+#1782566181
+ls
+#1782566184
+cd Obsidian\ Vaults/
+#1782566185
+ls
+#1782566187
+lazygit
+#1782566240
+ls
+#1782566243
+du -sh Vault\ 101/
+#1782566247
+ls
+#1782566295
+bat /etc/crontab 
+#1782566322
+bat /tmp/
+#1782566324
+ls /tmp/
+#1782566476
+git remote -v
+#1782566955
+git remote add gitlab git@gitlab.com:master.masterblocker/obsidiannotes.git
+#1782566962
+git remote -v
+#1782567036
+git remote remote gitlab
+#1782567041
+git remote remove gitlab
+#1782567055
+git remote add gitlab git@gitlab.com:itsamiralitoori/obsidiannotes.git
+#1782567251
+git remote -v
+#1782567388
+ls
+#1782567644
+ls
+#1782567647
+lazygit
+#1782567663
+lazygit
+#1782567988
+starship --version
+#1782568011
+cd
+#1782568013
+ls
+#1782568015
+cd myscripts/
+#1782568015
+ls
+#1782568018
+cd automation/
+#1782568019
+ls
+#1782568115
+exit
+#1782568178
+exit
+#1782568684
+ls
+#1782568686
+..
+#1782568687
+ls
+#1782568695
+exit
+#1782568834
+exit
+#1782568105
+kitty --version
+#1782568151
+cd myscripts/automation/
+#1782568158
+nvim bootstrap.sh
+#1782572857
+exit
+#1782568891
+cd
+#1782568944
+echo $HOME
+#1782568954
+ls .config/
+#1782569220
+tldr read
+#1782571252
+fd 'kitty.conf' ~
+#1782571259
+fd 'kitty.conf' .config
+#1782571647
+lsix
+#1782571653
+which lsix
+#1782571680
+ls /home/glados/bin/lsix 
+#1782571684
+ls -l /home/glados/bin/lsix 
+#1782571841
+ls
+#1782571848
+nvim test
+#1782571905
+ls
+#1782571910
+chmod u+x ./test 
+#1782571911
+ls
+#1782571912
+bat test 
+#1782571918
+./test 
+#1782571924
+nvim test 
+#1782571931
+./test 
+#1782571943
+ls
+#1782571945
+rm test 
+#1782571946
+ls
+#1782571975
+bat myscripts/backup/mybackup_cron.sh 
+#1782572193
+batresolv-it
+#1782572196
+bat resolv-it
+#1782572200
+which resolv-it
+#1782572210
+bat /usr/local/bin/resolv-it 
+#1782572859
+exit
+#1782589623
+ls
+#1782589647
+man -k qcow
+#1782589653
+apt search qcow
+#1782589662
+dysk
+#1782589695
+qemu-img --version
+#1782589726
+qemu-img --version
+#1782589865
+apt-get install qemu-system
+#1782589871
+sudo apt-get install qemu-system
+#1782589885
+sudo apt update
+#1782589937
+apt list --upgradable 
+#1782589996
+ls
+#1782589998
+exit
+#1782615150
+tldr eval
+#1782615158
+eval "ls"
+#1782615181
+./test.sh 
+#1782615365
+s
+#1782615367
+ls
+#1782615369
+./test.sh 
+#1782615393
+./test.sh 
+#1782615396
+exit
+#1782615101
+ls
+#1782615106
+chmod u+x ./test.sh 
+#1782615107
+./test.sh 
+#1782617658
+tldr tar
+#1782617853
+tldr cargo 
+#1782618387
+apt info nvim
+#1782618392
+apt info neovim
+#1782618485
+apt search lua
+#1782618572
+exit
+#1782615045
+cd
+#1782615046
+ls
+#1782615054
+nvim test.sh
+#1782615577
+apt search ffmpeg
+#1782615593
+ffmpeg --version
+#1782615599
+ffmpeg -v
+#1782615605
+ffmpeg --help
+#1782615612
+ffmpeg -V
+#1782615627
+ffmpeg -version
+#1782615751
+apt search 7zz
+#1782615757
+apt search 7z
+#1782615842
+apt install file
+#1782615847
+apt search file
+#1782615856
+apt info file
+#1782615869
+sudo apt install file
+#1782616116
+sudo apt search jq
+#1782616126
+sudo apt info jq
+#1782616133
+sudo apt info poppler
+#1782616141
+sudo apt search poppler
+#1782616218
+apt info poppler
+#1782616304
+apt info poppler-utils
+#1782616324
+apt info poppler-data
+#1782616610
+apt info fzf
+#1782616724
+tldr wget
+#1782617199
+apt info tar
+#1782617254
+tldr tar
+#1782617287
+touch file{1..2}
+#1782617289
+ls
+#1782617333
+tar -cvfa ./file1 ./file2 test.sh test.tar.gz
+#1782617335
+ls
+#1782617347
+tar -cvfa ./file1 ./file2 test.sh test.tar
+#1782617359
+tar -cvfa ./file1 ./file2 test.sh amirali
+#1782617360
+ls
+#1782617363
+rm a 
+#1782617364
+ls
+#1782617367
+tar -cvfa ./file1 ./file2 test.sh amirali
+#1782617368
+ls
+#1782617371
+rm a 
+#1782617374
+tldr tar
+#1782617404
+tar -cvfa amirali ./file1 ./file2 test.sh
+#1782617405
+ls
+#1782617408
+rm a 
+#1782617413
+tar -cvfa amirali.tar ./file1 ./file2 test.sh
+#1782617414
+ls
+#1782617418
+rm a 
+#1782617422
+tar -cfa amirali.tar ./file1 ./file2 test.sh
+#1782617426
+ls
+#1782617428
+rm a 
+#1782617432
+tldr tar
+#1782617462
+tar -czf amirali.tar ./file1 ./file2 test.sh
+#1782617463
+;s
+#1782617464
+ls
+#1782617489
+tar -xvf ./amirali.tar --diretory test_dir/
+#1782617490
+ls
+#1782617495
+tar -xvf ./amirali.tar --directory test_dir/
+#1782617497
+ls
+#1782617521
+tar -xvf ./amirali.tar --directory Public/
+#1782617523
+ls
+#1782617534
+rm -v file2 file1 amirali.tar 
+#1782617537
+cd Public/
+#1782617538
+ls
+#1782617540
+rm -v *
+#1782617543
+..
+#1782617622
+wget https://github.com/junegunn/fzf/releases/download/v0.73.1/fzf-0.73.1-linux_amd64.tar.gz
+#1782617638
+ls
+#1782617649
+tar -tvf ./fzf-0.73.1-linux_amd64.tar.gz
+#1782617667
+y
+#1782617696
+which fzf
+#1782617839
+resvg --help
+#1782617843
+which resvg
+#1782617859
+cargo search resvg
+#1782617936
+apt search wl-clipboard
+#1782618047
+apt search imagemagick
+#1782618058
+apt search info imagemagick
+#1782618152
+magick --version
+#1782618158
+magick --help
+#1782618379
+nvim --version
+#1782618574
+exit
+#1782613447
+cd Downloads/ABDM/Compressed/
+#1782613447
+ls
+#1782613453
+ls -l
+#1782613721
+y
+#1782614128
+ls
+#1782614129
+cd
+#1782614131
+ls
+#1782614141
+cd myscripts/
+#1782614141
+ls
+#1782614142
+y
+#1782614836
+echo $UID 
+#1782614838
+y
+#1782614954
+which uv
+#1782614982
+ls
+#1782614986
+nvim bootstrap.sh 
+#1782623279
+ls
+#1782623287
+cd
+#1782623291
+ls
+#1782623294
+rm test.sh 
+#1782623299
+cd myscripts/backup/
+#1782623299
+ls
+#1782623301
+..
+#1782623301
+ls
+#1782623302
+y
+#1782623308
+nvim bootstrap.sh 
+#1782623341
+which pip
+#1782623346
+apt info pip
+#1782623354
+apt search pip
+#1782623437
+pipx list
+#1782623447
+uv tool list
+#1782623457
+tldr uv tool
+#1782623468
+uv tool list
+#1782623479
+uv tool uninstall miunlock torrra
+#1782623483
+uv tool list
+#1782624318
+locale
+#1782624352
+sudo dpkg-reconfigure locales
+#1782624536
+locale
+#1782624556
+export LC_NUMERIC="en_US.UTF-8"
+#1782624561
+ls
+#1782624562
+ls
+#1782624565
+ls -l
+#1782624568
+locale
+#1782624570
+ls
+#1782624572
+ls -l
+#1782624573
+exit
+#1782624582
+printenv | grep -E 'LANG|LC_|NUM'
+#1782624648
+reboot
+#1782626369
+tldr cargo
+#1782626376
+cargo install --list
+#1782626399
+exit
+#1782626408
+cargo install --list
+#1782626615
+exit
+#1782625089
+ls
+#1782625096
+bat /etc/os-release 
+#1782625228
+[ -f /etc/os-release ] && . /etc/os-release && echo "$NAME ($ID)"
+#1782625240
+$ID_LIKE
+#1782625244
+echo $ID_LIKE
+#1782625359
+dysk
+#1782625373
+cd
+#1782625376
+cd Downloads/ABDM/
+#1782625377
+ls
+#1782625379
+cd Compressed/
+#1782625379
+ls
+#1782625575
+apt search bsdtar
+#1782625602
+nvidia-smi 
+#1782625620
+lsmod | grep -i ntsync
+#1782625672
+cd
+#1782625673
+ls
+#1782625680
+sudo apt install bsdtar
+#1782625694
+sudo apt install libarchive-tools
+#1782625721
+tldr bsdtar 
+#1782625724
+tldr bsdtar
+#1782625729
+bsdtar --help
+#1782625763
+bsdtar -tf "https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-x86_64.tar.xz"
+#1782625771
+bsdtar -tf https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-x86_64.tar.xz
+#1782625823
+curl -I "https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-x86_64.tar.x" | grep -i accept-ranges
+#1782625832
+curl -I "https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-x86_64.tar.xz" | grep -i accept-ranges
+#1782625835
+ls
+#1782626270
+wget https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-x86_64.tar.x
+#1782626273
+wget https://github.com/zen-browser/desktop/releases/latest/download/zen.linux-x86_64.tar.xz
+#1782626972
+ls
+#1782626983
+tar -tf ./zen.linux-x86_64.tar.xz
+#1782626993
+y
+#1782627030
+ls
+#1782627032
+cd zen.linux-x86_64/
+#1782627034
+lt3
+#1782627036
+ls
+#1782627039
+cd zen/
+#1782627040
+ls
+#1782627090
+ls
+#1782627092
+...
+#1782627093
+lls
+#1782627094
+ls
+#1782627103
+rm -rvf zen.linux-x86_64 ./zen.linux-x86_64.tar.xz 
+#1782627104
+ls
+#1782627580
+btop
+#1782627589
+btop --version
+#1782627610
+apt search btop
+#1782627621
+which btop 
+#1782627628
+sudo apt info btop
+#1782627647
+sudo fd 'btop' /
+#1782627736
+sudo apt install btop
+#1782627756
+which btop
+#1782627767
+btop --version
+#1782627788
+rm -rvf $(which btop)
+#1782627793
+sudo rm -vf $(which btop)
+#1782627799
+which btop
+#1782627803
+btop --version
+#1782627817
+exit
+#1782630032
+cd
+#1782630051
+ls .local/share/Steam/
+#1782630058
+ls .local/share/Steam/compatibilitytools.d/
+#1782630589
+exit
+#1782624777
+ls
+#1782624782
+nvim .bashrc 
+#1782624819
+cd myscripts/automation/
+#1782624820
+s
+#1782624821
+ls
+#1782624823
+nvim bootstrap.sh 
+#1782630616
+exit
+#1782627820
+btop
+#1782628356
+apt info proxychains4
+#1782628408
+apt search lua
+#1782628423
+apt search luarocks
+#1782628436
+tldr luarocks
+#1782628448
+apt search lua5.1
+#1782628460
+apt search lua5.5
+#1782629390
+tldr uv
+#1782629395
+uv --help
+#1782629412
+tldr uv pip
+#1782629424
+uv pip list
+#1782629430
+uv pip show protonup
+#1782629436
+uv pip --help
+#1782629473
+uv pip search protonup
+#1782629481
+uv --help
+#1782629487
+uv pip3 --help
+#1782629496
+tldr pip
+#1782629501
+pip --help
+#1782629516
+uv --version
+#1782629521
+which uv
+#1782629549
+curl -LsSf https://astral.sh/uv/install.sh | sh
+#1782629725
+tldr uvx
+#1782629740
+uv pip --help
+#1782629747
+uv --version
+#1782629759
+uv list
+#1782629764
+uv pip list
+#1782629771
+pip search protonup
+#1782629816
+uv tool --help
+#1782629822
+uv tool list
+#1782629851
+bat .config/uv/uv.toml 
+#1782629874
+bat .config/pip/pip.conf 
+#1782630426
+echo $EDITOR
+#1782630618
+exit
+#1782631190
+cd Downloads/ABDM/
+#1782631191
+ls
+#1782631195
+lt3
+#1782631200
+cd Compressed/
+#1782631201
+ls
+#1782631471
+qemu-img convert -f raw -O qcow2 alpine-extended-3.24.1-x86_64.iso alpine-extended-3.24.1-x86_64.qcow2
+#1782631489
+ls
+#1782631814
+exit
+#1782631229
+tldr qemu-img
+#1782631304
+qemu-img --help
+#1782631519
+tldr qemu-system-x86_64
+#1782631815
+exit
+#1782642023
+exit
+#1782634897
+tldr rg
+#1782634965
+tldr usermod
+#1782635154
+virt-host-validate
+#1782642204
+virt-host-validate | wl-copy 
+#1782642372
+bat /etc/default/grub
+#1782642522
+tldr addgroup 
+#1782642527
+tldr groupadd
+#1782642560
+tldr groups
+#1782642591
+group --help
+#1782642595
+groups --help
+#1782642642
+man -k '/etc/group'
+#1782642651
+man gpasswd
+#1782642658
+man man
+#1782642661
+man gpasswd
+#1782642882
+man -k groups
+#1782643037
+sudo usermod -aG kvm $USER
+#1782643045
+groups
+#1782643052
+exit
+#1782634429
+ls -l /dev/kvm 
+#1782634447
+egrep -c '(vmx|svm)' /proc/cpuinfo
+#1782634456
+lscpu | grep Virtualization
+#1782634527
+apt info qemu-kvm
+#1782634553
+sudo apt install qemu-kvm
+#1782634605
+apt info libvirt-daemon-system
+#1782634634
+sudo apt search libvirt-daemon-system
+#1782634648
+sudo apt search libvirt-clients
+#1782634658
+sudo apt search bridge-utils
+#1782634668
+sudo apt search virt-manager
+#1782634688
+sudo apt search virt-viewer
+#1782634698
+sudo apt search virtinst
+#1782634714
+sudo apt install virt-viewer
+#1782634757
+apt info libguestfs-tools
+#1782634767
+apt search libguestfs-tools
+#1782634781
+apt search libosinfo-bin
+#1782634794
+sudo apt install libosinfo-bin 
+#1782634815
+lsmod | grep kvm
+#1782634835
+systemctl status libvirtd
+#1782634841
+users
+#1782634846
+groups
+#1782634930
+rg 'libvirt' /etc/group
+#1782634947
+groups $USER
+#1782642544
+sudo groupadd kvm
+#1782642551
+groups
+#1782642573
+groups libvirt
+#1782642579
+groups glados
+#1782642625
+rg 'kvm' /etc/group
+#1782642910
+bat /etc/group
+#1782642980
+tldr addgroup
+#1782642984
+tldr groupadd
+#1782643000
+tldr modgroup
+#1782643005
+tldr groupmod
+#1782643023
+tldr usermod
+#1782643053
+exit
+#1782643060
+groups 
+#1782643091
+virt-host-validate 
+#1782643331
+reboot
+#1782643596
+ls
+#1782643597
+dysk
+#1782643629
+virt-host-validate 
+#1782643635
+groups
+#1782643652
+rg 'kvm' /etc/group
+#1782643706
+virsh net-list --all
+#1782643769
+virsh net-dumpxml default
+#1782643779
+ip a
+#1782643872
+sudo virsh pool-list --all 
+#1782643889
+ls -al /var/lib/libvirt/images/
+#1782643903
+sudo ls -al /var/lib/libvirt/images/
+#1782643943
+sudo virsh pool-list --help
+#1782643967
+sudo virsh pool-list --all --details
+#1782644094
+virsh pool-info Compressed 
+#1782644099
+virsh pool-info default 
+#1782644167
+sudo modprobe -r kvm_intel
+#1782644174
+tldr modprobe
+#1782644184
+sudo modprobe kvm_intel nested=1
+#1782644198
+echo "options kvm_intel nested=1" | sudo tee /etc/modprobe.d/kvm-intel.conf
+#1782644207
+bat /etc/modprobe.d/kvm-intel.conf 
+#1782644227
+cat /sys/module/kvm_intel/parameters/nested
+#1782644259
+cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+#1782644333
+cat /proc/meminfo | grep Huge
+#1782644398
+cat /proc/sys/vm/nr_hugepages
+#1782644422
+echo 1024 | sudo tee /proc/sys/vm/nr_hugepages
+#1782644431
+echo "vm.nr_hugepages=1024" | sudo tee -a /etc/sysctl.conf
+#1782644436
+sudo sysctl -p
+#1782644442
+cat /proc/meminfo | grep Huge
+#1782644804
+sudoedit /etc/default/grub
+#1782644859
+sudo update-grub
+#1782644869
+dmesg | grep -i iommu
+#1782644871
+dmesg | grep -i iommu
+#1782644875
+sudo dmesg | grep -i iommu
+#1782645075
+cd Downloads/ABDM/Compressed/
+#1782645076
+ls
+#1782645081
+y
+#1782645133
+ls
+#1782645142
+nvim script.sh
+#1782645579
+exit
+#1782645213
+ls
+#1782645567
+ls
+#1782645570
+y
+#1782645577
+ls
+#1782645580
+ls
+#1782645585
+chmod u+x ./script.sh 
+#1782645588
+sudo ./script.sh 
+#1782645612
+virsh --osinfo list
+#1782645621
+virt-install --osinfo list
+#1782645638
+virt-install --osinfo list | rg 'alpine'
+#1782645670
+exit
+#1782646093
+tldr useradd
+#1782647989
+ip a
+#1782648016
+tldr ping
+#1782648023
+ip a
+#1782648041
+ping -c 5 192.168.122.1
+#1782648051
+cd
+#1782648053
+ls
+#1782648108
+tldr ssh-keygen 
+#1782648169
+tldr ssh-add
+#1782648195
+tldr ssh-copy-id 
+#1782648278
+ip a
+#1782648669
+cd Downloads/ABDM/Compressed/
+#1782648669
+ls
+#1782648671
+y
+#1782648706
+fd 'alpine' /
+#1782648830
+ls /var/lib/libvirt/images/
+#1782648837
+sudo ls -al /var/lib/libvirt/images/
+#1782648850
+exit
+#1782648146
+ssh-keygen -t ed25519 -a 32 -f ~/.ssh/alpine-vm
+#1782648213
+ls .ssh/
+#1782648339
+ssh-copy-id -i ~/.ssh/alpine-vm.pub -p 22 amirali@192.168.122.66
+#1782648443
+ssh-copy-id -i ~/.ssh/alpine-vm.pub -p 22 alpine@192.168.122.66
+#1782648480
+ssh -i /home/glados/.ssh/alpine-vm -p 22 'alpine@192.168.122.66'
+#1782649319
+mounter
+#1782649334
+cd /run/media/glados/Ventoy/
+#1782649335
+ls
+#1782649359
+ls -l
+#1782649405
+rm -rvf archlinux-2025.11.01-x86_64.iso FreeBSD-14.3-RELEASE-amd64-bootonly.iso 
+#1782649406
+ls
+#1782649412
+dysk
+#1782650002
+ls
+#1782650005
+ls -l
+#1782650046
+exit
+#1782649341
+cd
+#1782649347
+cd Downloads/ABDM/Compressed/
+#1782649348
+ls
+#1782649424
+mvg -vg ./alpine-extended-3.24.1-x86_64.iso alpine-minirootfs-3.24.1-x86_64.tar.gz archlinux-2026.06.01-x86_64.iso FreeBSD-15.1-RELEASE-amd64-bootonly.iso.xz /run/media/glados/Ventoy/
+#1782650050
+mounter
+#1782650070
+exit
+#1782650604
+exit
+#1782645650
+nvim script.sh 
+#1782645678
+sudo ./script.sh 
+#1782650303
+apt search qemu
+#1782650313
+cd
+#1782650314
+ls
+#1782650318
+btop
+#1782650526
+ls
+#1782650529
+free -m
+#1782650532
+free -h
+#1782650605
+exit
+#1782651794
+cd Documents/AmirAli\ Toori/
+#1782651794
+ls
+#1782651802
+..
+#1782651802
+ls
+#1782651804
+cd Obsidian\ Vaults/
+#1782651805
+ls
+#1782651812
+git remote -v
+#1782651944
+exit
+#1782651769
+cd myscripts/
+#1782651769
+ls
+#1782651775
+cd backup/
+#1782651776
+ls
+#1782651778
+nvim mybackup_cron.sh 
+#1782651947
+exit
+#1782655558
+ip a
+#1782655587
+ls
+#1782655592
+ping google.com
+#1782655651
+exit
+#1782713121
+ping -c https://github.com/junegunn/fzf/releases/latest/download/fzf-latest-linux_amd64.tar.gz 
+#1782713126
+ping -c 5 https://github.com/junegunn/fzf/releases/latest/download/fzf-latest-linux_amd64.tar.gz 
+#1782713134
+ping -c 5 "https://github.com/junegunn/fzf/releases/latest/download/fzf-latest-linux_amd64.tar.gz" 
+#1782713140
+wget https://github.com/junegunn/fzf/releases/latest/download/fzf-latest-linux_amd64.tar.gz
+#1782713342
+cd
+#1782713352
+ls .config/bat/config 
+#1782713361
+bat .config/bat/config 
+#1782713378
+bat .config/bat/themes/Dracula.tmTheme 
+#1782713392
+cat /etc/os-release 
+#1782713635
+tldr set
+#1782713658
+exit
+#1782712776
+ls
+#1782712780
+cd Videos/
+#1782712781
+cd
+#1782712784
+cd Downloads/ABDM/
+#1782712785
+ls
+#1782712786
+lt3
+#1782712816
+mv -v Compressed/script.sh ~/myscripts/qemu_script.sh
+#1782712953
+cd
+#1782712954
+cd myscripts/
+#1782712955
+ls
+#1782712957
+y
+#1782713690
+cd
+#1782713692
+cd Videos/
+#1782713692
+y
+#1782713739
+...
+#1782713740
+y
+#1782720390
+exit
+#1782747647
+bat .config/eza/theme.yml 
+#1782747684
+nvim .config/eza/theme.yml 
+#1782750682
+exit
+#1782720773
+cd Downloads/Video/
+#1782720773
+y
+#1782720778
+cd Video
+#1782720779
+y
+#1782747616
+cd
+#1782747618
+ls
+#1782747632
+mkdir Projects
+#1782747633
+ls
+#1782747713
+eza --help
+#1782750683
+exit
+#1782737785
+ansible --version
+#1782737796
+pip search ansible
+#1782750689
+exit
+#1782811353
+cd
+#1782811356
+cd repo conf
+#1782811358
+exit
+#1782811344
+cd obsidian
+#1782811345
+ls
+#1782811349
+git remote -v
+#1782811368
+tldr git remote
+#1782811390
+git remote add chabokan-gitlab git@gitlab.chabokan.net:AmiraliToori/obsidiannotes.git
+#1782811405
+git remote add hamgit git@hamgit.ir:master.masterblocker/obsidiannotes.git
+#1782811476
+cd
+#1782811482
+ls .config/tealdeer/
+#1782811530
+cd repo conf
+#1782811533
+lazygit
+#1782811553
+tldr git
+#1782811559
+tldr git push
+#1782811596
+cd
+#1782811604
+ls /etc/anacrontab
+#1782811608
+bat /etc/anacrontab
+#1782811643
+exit
+#1782810736
+ls
+#1782810741
+cd
+#1782810742
+ls
+#1782810761
+cp {.profile,.bashrc} Public/
+#1782810764
+ls
+#1782810769
+rm -v Public/*
+#1782810777
+rm -v ./Public/*
+#1782810780
+ls Public/
+#1782810791
+cd Public/
+#1782810791
+ls
+#1782810793
+ls -a
+#1782810796
+rm -v *
+#1782810799
+ls
+#1782810802
+rm -v .*
+#1782810929
+cd
+#1782810938
+tv env
+#1782810977
+cd myscripts/backup/
+#1782810977
+ls
+#1782810980
+nvim mybackup_cron.sh 
+#1782811646
+exit
+#1782809920
+cat /sys/module/nvidia_drm/parameters/modeset
+#1782809923
+sudo cat /sys/module/nvidia_drm/parameters/modeset
+#1782809939
+echo $XDG_SESSION_TYPE
+#1782810078
+nvidia-smi 
+#1782810282
+ls
+#1782810285
+cd
+#1782810286
+ls
+#1782810346
+ls
+#1782810350
+cd myscripts/
+#1782810350
+ls
+#1782810356
+cd automation/
+#1782810357
+ls
+#1782810363
+nvim bootstrap.sh 
+#1782811649
+exit
+#1782816982
+exit
+#1782817430
+cd Documents/
+#1782817431
+ls
+#1782817439
+cd AmirAli\ Toori/
+#1782817439
+ls
+#1782817444
+ls -l
+#1782817446
+lt3
+#1782817450
+y
+#1782817520
+ls
+#1782817556
+ls
+#1782817557
+..
+#1782817558
+ls
+#1782817571
+mv -v Repositories/ ~/Projects
+#1782817573
+ls
+#1782817577
+cd
+#1782817578
+exit
+#1782817947
+nvim backup/mybackup_cron.sh 
+#1782819974
+GITLAB_PAT="glpat-pWd63ln4z2_K-G4MZPxvgmM6MQpvOjEKdTpicGI5ag8.01.170dhqj94"; git clone https://itsamiralitoori:$GITLAB_PAT@gitlab.com/istamiralitoori/backup.git
+#1782819979
+ls
+#1782819983
+cd
+#1782819984
+ls
+#1782819987
+GITLAB_PAT="glpat-pWd63ln4z2_K-G4MZPxvgmM6MQpvOjEKdTpicGI5ag8.01.170dhqj94"; git clone https://itsamiralitoori:$GITLAB_PAT@gitlab.com/istamiralitoori/backup.git
+#1782820060
+GITLAB_PAT="glpat-pWd63ln4z2_K-G4MZPxvgmM6MQpvOjEKdTpicGI5ag8.01.170dhqj94"; git clone https://oauth2:$GITLAB_PAT@gitlab.com/itsamiralitoori/backup.git
+#1782820083
+GITLAB_PAT="glpat-pWd63ln4z2_K-G4MZPxvgmM6MQpvOjEKdTpicGI5ag8.01.170dhqj94"; git clone "https://oauth2:$GITLAB_PAT@gitlab.com/itsamiralitoori/backup.git"
+#1782820102
+GITLAB_PAT="glpat-pWd63ln4z2_K-G4MZPxvgmM6MQpvOjEKdTpicGI5ag8.01.170dhqj94" && echo $GITLAB_PAT && git clone "https://oauth2:$GITLAB_PAT@gitlab.com/itsamiralitoori/backup.git"
+#1782820348
+GITLAB_PAT="glpat-agm_Ps0GmgPZApuB4P63cmM6MQpvOjEKdTpicGI5ag8.01.171chwnuj" && echo $GITLAB_PAT && git clone "https://oauth2:$GITLAB_PAT@gitlab.com/itsamiralitoori/backup.git"
+#1782820352
+ls
+#1782820395
+ls
+#1782820399
+exit
+#1782816896
+ls
+#1782816918
+exercism --help
+#1782816948
+nvim .bashrc 
+#1782817372
+go --help
+#1782817398
+mv -v Projects/ Project
+#1782817399
+ls
+#1782817403
+rmdir Project/
+#1782817404
+ls
+#1782817534
+mkdir Projects
+#1782817535
+ls
+#1782817552
+mv -v code/ myscripts/ Projects/
+#1782817579
+ls
+#1782817586
+cd Projects/
+#1782817587
+ls
+#1782817597
+ls -d code/
+#1782817604
+ls -d -lt2 code/
+#1782817616
+lt2 code/
+#1782817623
+y
+#1782817744
+tldr anacrontab
+#1782817750
+tldr anacron
+#1782817759
+anacron --help
+#1782817764
+anacron -h
+#1782817780
+nvim /etc/anacrontab
+#1782817789
+sudoedit /etc/anacrontab
+#1782817825
+ls
+#1782817827
+nvim mybackup_cron.sh 
+#1782817908
+...
+#1782817908
+ls
+#1782817910
+cd myscripts/
+#1782817910
+ls
+#1782817927
+nvim automation/bootstrap.sh 
+#1782818017
+nvim automation/bootstrap.sh 
+#1782821824
+tldr gpg
+#1782821942
+sudo apt install git-crypt
+#1782822044
+gpg --version
+#1782822055
+gpg --full-gen-key
+#1782822167
+cd repo conf
+#1782822175
+cd
+#1782822176
+cd conf
+#1782822178
+cd
+#1782822179
+..
+#1782822189
+cd 
+#1782822191
+ls
+#1782822193
+cd Projects/
+#1782822194
+ls
+#1782822196
+cd Repositories/
+#1782822197
+ls
+#1782822199
+cd Configs/
+#1782822200
+ls
+#1782822226
+git-crypt --help
+#1782822230
+git-crypt init
+#1782822275
+ls -a
+#1782822288
+nvim .gitattributes
+#1782822900
+git-crypt add-gpg-user itsamiralitoori@gmail.com
+#1782822915
+lazygit
+#1782823012
+sudo git-crypt add-gpg-user itsamiralitoori@gmail.com
+#1782823110
+git-crypt add-gpg-user itsamiralitoori@gmail.com
+#1782823127
+git-crypt --help
+#1782823145
+git-crypt status
+#1782823215
+git push chabokan-gitlab main
+#1782823236
+git push hamgit main
+#1782823244
+git push gitlab main
+#1782823255
+git-crypt status
+#1782823269
+git-crypt status -f
+#1782823282
+sudo git-crypt status -f
+#1782823310
+lazygit
+#1782823346
+git push gitlab main && git push hamgit main && git push chabokan-gitlab main
+#1782823364
+y
+#1782823366
+lazygit
+#1782823394
+lazygit
+#1782823455
+git commit -m "add: encrypted files"
+#1782823463
+git push gitlab main && git push hamgit main && git push chabokan-gitlab main
+#1782823617
+lazygit
+#1782823839
+exit

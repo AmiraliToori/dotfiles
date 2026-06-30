@@ -1,0 +1,130 @@
+# Enable the subsequent settings only in interactive sessions
+case $- in
+*i*) ;;
+*) return ;;
+esac
+
+# ====== Bash Completions ======
+
+# bash-completion
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+
+# Wrapper function for yazi file manager
+function y() {
+  local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+  yazi "$@" --cwd-file="$tmp"
+  if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+    cd -- "$cwd"
+  fi
+  rm -f -- "$tmp"
+}
+
+# Which plugins would you like to conditionally load? (plugins can be found in ~/.oh-my-bash/plugins/*)
+# Custom plugins may be added to ~/.oh-my-bash/custom/plugins/
+# Example format:
+#  if [ "$DISPLAY" ] || [ "$SSH" ]; then
+#      plugins+=(tmux-autoattach)
+#  fi
+
+# source "$OSH"/oh-my-bash.sh
+
+# User configuration
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# ====== System Management ======
+alias reboot="sudo reboot" # Reboot the system
+alias ping="ping -c 5"     # Ping with 5 packets
+alias poweroff="sudo systemctl poweroff"
+
+# ====== Navigation Shortcuts ======
+alias cd='z'
+alias cd..='z ..'           # One directory up
+alias ..='z ..'             # One directory up (short)
+alias ...='z ../..'         # Two directories up
+alias ....='z ../../..'     # Three directories up
+alias .....='z ../../../..' # Four directories up
+
+# ====== Listing (ls) Aliases ======
+alias l="eza --icons"
+alias ls="eza --icons"
+alias ll="eza -lg --icons"
+alias la="eza -lag --icons"
+alias lt="eza -lTg --icons"
+alias lt1="eza -lTg --level=1 --icons"
+alias lt2="eza -lTg --level=2 --icons"
+alias lt3="eza -lTg --level=3 --icons"
+alias lta="eza -lTag --icons"
+alias lta1="eza -lTag --level=1 --icons"
+alias lta2="eza -lTag --level=2 --icons"
+alias lta3="eza -lTag --level=3 --icons"
+
+# ======= Grep =======
+alias grep="grep --color=auto"
+
+# ======= ip =======
+alias ip="ip --color=auto"
+
+# ======= gemini ======
+alias gemini="proxychains4 -q gemini"
+
+# ====== protontricks-launch =======
+alias protontricks='flatpak run com.github.Matoking.protontricks'
+alias protontricks-launch='flatpak run --command=protontricks-launch com.github.Matoking.protontricks'
+
+# ====== Shell Integrations ======
+
+# Zoxide
+eval "$(zoxide init bash)"
+
+# Startship
+eval "$(starship init bash)"
+
+# Navi
+eval "$(navi widget bash)"
+
+# Tv
+eval "$(tv init bash)"
+
+# Set up fzf key bindings and fuzzy completion
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# A wrapper Function for exercism
+exercism() {
+  local out
+  readarray -t out < <(command exercism "$@")
+  printf '%s\n' "${out[@]}"
+  if [[ $1 == "download" && -d "${out[-1]}" ]]; then
+    cd "${out[-1]}" || return 1
+  fi
+}
+
+# A wrapper function for overriding the tests
+bats() {
+  BATS_RUN_SKIPPED=true command bats *.bats
+}
+
+# Node Version Manager
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+
+# Add SSH Keys
+if ! ssh-add -l &>/dev/null; then
+  ssh-add ~/.ssh/gitlab
+  ssh-add ~/.ssh/iran-gitlab
+fi
