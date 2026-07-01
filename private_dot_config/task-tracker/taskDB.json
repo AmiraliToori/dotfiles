@@ -1,0 +1,152 @@
+{
+    "items": {
+        "1": {
+            "description": "Create GitHub Tracker",
+            "status": "done",
+            "createdAt": "2026/01/30 21:00:11",
+            "updatedAt": "2026/02/01 19:46:03"
+        },
+        "2": {
+            "description": "Create Expense Tracker",
+            "status": "done",
+            "createdAt": "2026/02/01 19:46:59",
+            "updatedAt": "2026/02/16 18:09:57"
+        },
+        "3": {
+            "description": "DNS script automation",
+            "status": "done",
+            "createdAt": "2026/02/14 16:44:20",
+            "updatedAt": "2026/02/14 16:44:43"
+        },
+        "4": {
+            "description": "resolv-it: Rename the dnser to resolv-it",
+            "status": "done",
+            "createdAt": "2026/02/15 07:19:14",
+            "updatedAt": "2026/02/15 11:34:33"
+        },
+        "5": {
+            "description": "resolv-it: Add latency check",
+            "status": "todo",
+            "createdAt": "2026/02/15 07:19:38",
+            "updatedAt": "2026/02/17 13:57:26"
+        },
+        "6": {
+            "description": "resolv-it: Add DNS addresses within script",
+            "status": "todo",
+            "createdAt": "2026/02/15 07:20:07",
+            "updatedAt": "N/A"
+        },
+        "7": {
+            "description": "task-tracker: Add consistent config path",
+            "status": "done",
+            "createdAt": "2026/02/15 13:36:14",
+            "updatedAt": "2026/02/15 14:54:11"
+        },
+        "8": {
+            "description": "expense-tracker: Category for the items",
+            "status": "done",
+            "createdAt": "2026/02/16 18:11:08",
+            "updatedAt": "2026/02/19 10:42:44"
+        },
+        "9": {
+            "description": "expense-tracker: Filter summary by category",
+            "status": "done",
+            "createdAt": "2026/02/16 18:12:46",
+            "updatedAt": "2026/02/19 11:36:27"
+        },
+        "10": {
+            "description": "weather-api: Implement a weather api in Python",
+            "status": "todo",
+            "createdAt": "2026/02/17 13:40:09",
+            "updatedAt": "N/A"
+        },
+        "11": {
+            "description": "neovimtutor: Complete the Neovim tutorial",
+            "status": "todo",
+            "createdAt": "2026/02/17 13:40:34",
+            "updatedAt": "N/A"
+        },
+        "12": {
+            "description": "Pytest: Learning Pytest",
+            "status": "done",
+            "createdAt": "2026/02/17 13:40:57",
+            "updatedAt": "2026/02/22 11:22:51"
+        },
+        "13": {
+            "description": "task-tracker: Create a cleaner and compact display of the items.",
+            "status": "done",
+            "createdAt": "2026/02/17 13:46:07",
+            "updatedAt": "2026/02/23 16:38:09"
+        },
+        "14": {
+            "description": "timer: Create a python timer.",
+            "status": "done",
+            "createdAt": "2026/02/17 13:56:24",
+            "updatedAt": "2026/02/17 16:25:14"
+        },
+        "15": {
+            "description": "timer: Add rest time",
+            "status": "done",
+            "createdAt": "2026/02/17 16:25:59",
+            "updatedAt": "2026/02/19 12:41:16"
+        },
+        "16": {
+            "description": "timer: Add the flags like seconds, minutes and hours",
+            "status": "done",
+            "createdAt": "2026/02/18 08:45:25",
+            "updatedAt": "2026/02/19 23:31:25"
+        },
+        "17": {
+            "description": "expense-tracker: add category specific option for summary",
+            "status": "done",
+            "createdAt": "2026/02/19 12:04:26",
+            "updatedAt": "2026/02/19 12:40:47"
+        },
+        "18": {
+            "description": "timer: add stopwatch",
+            "status": "done",
+            "createdAt": "2026/02/20 02:41:53",
+            "updatedAt": "2026/02/22 11:21:56"
+        },
+        "19": {
+            "description": "timer: add Pomodoro option",
+            "status": "done",
+            "createdAt": "2026/02/20 02:42:08",
+            "updatedAt": "2026/02/22 11:22:02"
+        },
+        "21": {
+            "description": "tsk: Hide the 'done' tasks by default",
+            "status": "todo",
+            "createdAt": "2026/02/23 16:58:31",
+            "updatedAt": "N/A"
+        },
+        "22": {
+            "description": "tsk: Add option 'all' for view all the 'done' tasks",
+            "status": "todo",
+            "createdAt": "2026/02/23 16:59:35",
+            "updatedAt": "N/A"
+        },
+        "20": {
+            "description": "Install Custom ROM on my phone",
+            "status": "done",
+            "createdAt": "2026/02/24 12:19:45",
+            "updatedAt": "2026/02/24 12:20:12"
+        },
+        "23": {
+            "description": "Study: Network Plus",
+            "status": "todo",
+            "createdAt": "2026/04/19 19:48:29",
+            "updatedAt": "N/A"
+        },
+        "24": {
+            "description": "tsk: Add xp or level experience for the task manager",
+            "status": "todo",
+            "createdAt": "2026/04/19 19:49:24",
+            "updatedAt": "N/A"
+        }
+    },
+    "id_counter": {
+        "counter": 24,
+        "available_ids": []
+    }
+}
