@@ -161,8 +161,8 @@ format = '[[\[$symbol($version)\] ](fg:green)]($style)'
 
 [lua]
 symbol = " "
-style = "bg:#00008B"
-format = '[[\[$symbol($version)\] ](fg:#00008B)]($style)'
+style = "bg:#2a1985"
+format = '[[\[$symbol($version)\] ](fg:#2a1985)]($style)'
 detect_folders = ['']
 
 [c]
