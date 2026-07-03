@@ -1,0 +1,11 @@
+[user]
+	email = master.masterblocker@gmail.com
+	name = Amirali Toori
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[safe]
+	directory = /home/glados/Projects/Repositories/Configs
+	directory = /home/glados/Documents/Obsidian Vaults/
