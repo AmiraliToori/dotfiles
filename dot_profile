@@ -65,8 +65,8 @@ export _ZO_DOCTOR='0'
 export MANPAGER="sh -c 'sed -u -e \"s/\\x1B\[[0-9;]*m//g; s/.\\x08//g\" | bat -p -lman'"
 
 # set the $default editor and sudoedit to nvim
-export EDITOR="/usr/local/bin/nvim"
-export SUDO_EDITOR="/usr/local/bin/nvim"
+export EDITOR="/usr/bin/nvim"
+export SUDO_EDITOR="/usr/bin/nvim"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
