@@ -52,14 +52,6 @@ alias reboot="sudo reboot" # Reboot the system
 alias ping="ping -c 5"     # Ping with 5 packets
 alias poweroff="sudo systemctl poweroff"
 
-# ====== Navigation Shortcuts ======
-alias cd='z'
-alias cd..='z ..'           # One directory up
-alias ..='z ..'             # One directory up (short)
-alias ...='z ../..'         # Two directories up
-alias ....='z ../../..'     # Three directories up
-alias .....='z ../../../..' # Four directories up
-
 # ====== Listing (ls) Aliases ======
 alias l="eza --icons"
 alias ls="eza --icons"
@@ -90,13 +82,7 @@ alias protontricks-launch='flatpak run --command=protontricks-launch com.github.
 # ====== Shell Integrations ======
 
 # Zoxide
-eval "$(zoxide init bash)"
-
-# Startship
-eval "$(starship init bash)"
-
-# Navi
-eval "$(navi widget bash)"
+eval "$(zoxide init bash --cmd cd)"
 
 # Tv
 eval "$(tv init bash)"
@@ -119,12 +105,13 @@ bats() {
   BATS_RUN_SKIPPED=true command bats *.bats
 }
 
-# Node Version Manager
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-
 # Add SSH Keys
 if ! ssh-add -l &>/dev/null; then
   ssh-add ~/.ssh/gitlab
   ssh-add ~/.ssh/iran-gitlab
 fi
+
+# Flyline - enhanced Bash experience
+enable -f /home/glados/.local/lib/libflyline.so flyline
+export PS1='\033[38;2;189;147;249m\u\033[0m@\033[38;2;141;233;263m\h\033[0m:\033[38;2;80;250;123m\w\033[0m\033[38;2;255;121;198m$\033[0m '
+export RPS1='\033[38;2;98;114;164m\D{%H:%M}\033[0m'
