@@ -2551,3 +2551,7005 @@ git push gitlab main && git push hamgit main && git push chabokan-gitlab main
 lazygit
 #1782823839
 exit
+#1783002074
+chezmoi --help
+#1783002124
+exit
+#1783002135
+ls
+#1783002136
+lazygit
+#1783002158
+exit
+#1783001891
+cd
+#1783001895
+nvim .config/starship.toml
+#1783001993
+nvim .config/starship.toml
+#1783002063
+chezmoi apply --check -v
+#1783002083
+chezmoi apply -n -v
+#1783002118
+chezmoi apply -v
+#1783002133
+chezmoi cd
+#1783002191
+nvim .config/starship.toml
+#1783002263
+nvim .config/starship.toml
+#1783002338
+cd nvim
+#1783002340
+y
+#1783002431
+chezmoi add
+#1783002438
+tldr chezmoi
+#1783002478
+chezmoi apply -v -n
+#1783002547
+ls
+#1783002563
+exit
+#1783002576
+chezmoi re-add ~/.config/starship.toml
+#1783002633
+exit
+#1783001946
+ls
+#1783002010
+ls
+#1783002161
+ls
+#1783002163
+ls
+#1783002247
+ls
+#1783002250
+ls
+#1783002259
+ls
+#1783002285
+ls
+#1783002325
+ls
+#1783002390
+ls
+#1783002608
+chezmoi re-add ~/.config/nvim
+#1783002616
+chezmoi diff
+#1783002623
+ls
+#1783002669
+nvi
+#1783002670
+cd
+#1783002674
+nvim
+#1783002770
+nvim
+#1783002878
+exit
+#1783002904
+exit
+#1783002917
+ping -c 5 qemu.alpine.org
+#1783006135
+tldr ansible
+#1783006198
+ansible-doc yum
+#1783006203
+ansible-doc -l
+#1783006293
+ansible-doc -l | grep 'yum'
+#1783006315
+ansible-doc -l | grep 'apk'
+#1783006343
+ansible-doc apk
+#1783010212
+ls
+#1783010214
+bat site.yml 
+#1783010451
+ansible webservers -m command -a "apk query httpd"
+#1783010519
+ansible webservers -m command -a "rc-service status httpd"
+#1783010528
+ansible webservers -m command -a "rc-service --help
+#1783010535
+ansible webservers -m command -a "rc-service --help"
+#1783010545
+ansible webservers -m command -a "rc-service -l"
+#1783010617
+ansible webservers -m command -a "apk query apache2"
+#1783010657
+ansible webservers -m command -a "apk add apache2" -b
+#1783010669
+ansible webservers -m command -a "rc-service -l"
+#1783010740
+ansible webservers -m command -a "apk add httpd" -b
+#1783010900
+ansible webservers -m command -a "apk del apache2" -b
+#1783010924
+tldr ansible-playbook
+#1783010943
+ls
+#1783010958
+mv -v httpd.yml apache.yml
+#1783011088
+ansible-doc -l | grep copy
+#1783011101
+ansible-doc copy
+#1783012020
+exit
+#1783012052
+ls
+#1783012074
+ansible-playbook --check apache.yml
+#1783015106
+ansible-playbook apache.yml --check
+#1783015138
+ansible-playbook apache.yml --check -i ../inventory
+#1783016368
+nvim ansible-files/apache.yml 
+#1783018000
+bat ansible-files/apache.yml 
+#1783018037
+bat ansible-files/apache.yml 
+#1783018138
+nvim ansible-files/apache.yml 
+#1783018681
+bat ansible-files/apache.yml 
+#1783018690
+ls
+#1783018694
+bat inventory 
+#1782972701
+ls
+#1782972704
+ls
+#1782972715
+cd Projects/
+#1782972715
+ls
+#1782972718
+cd Repositories/Configs/
+#1782972718
+ls
+#1782972721
+lazygit
+#1782972734
+bat /etc/anacrontab
+#1782972754
+bat ../../myscripts/backup/mybackup_cron.sh 
+#1782972792
+cd
+#1782972795
+cd .config/nvim/
+#1782972796
+ls
+#1782972798
+y
+#1782973234
+cd
+#1782973238
+cd Projects/Code/
+#1782973239
+ls
+#1782973240
+y
+#1782973376
+y
+#1782973468
+nvim
+#1783002880
+ls
+#1783002883
+nvim inventory 
+#1783005368
+nvim ansible.conf
+#1783005415
+tldr ansible
+#1783005427
+ansible webservers -m ping
+#1783005445
+ansible --version
+#1783005463
+ls
+#1783005470
+ls
+#1783005473
+nvim ansible.conf 
+#1783005480
+mv -v ansible.conf ansible.cfg
+#1783005485
+ansible webservers -m ping
+#1783005545
+ansible webservers -m ping
+#1783005606
+ip a
+#1783005629
+ansible webservers -m ping
+#1783005655
+ls
+#1783005657
+nvim inventory 
+#1783005679
+ansible webservers -m ping
+#1783005699
+ansible-doc -l
+#1783005746
+ansible-doc -l user
+#1783005755
+tldr ansible-doc
+#1783005763
+tldr ansible-doc user
+#1783005767
+ansible-doc user
+#1783005864
+ansible qemu.alpine.org -m command -i "whoami"
+#1783005877
+ansible qemu.alpine.org -m command -i "id"
+#1783005890
+ansible qemu.alpine.org -m command -a "whoami"
+#1783005910
+bat inventory 
+#1783005957
+ansible qemu.alpine.org -m command -a "id"
+#1783005975
+ansible qemu.alpine.org -m command -a "id root"
+#1783005987
+ansible qemu.alpine.org -m command -a "id amir"
+#1783006015
+ansible qemu.alpine.org -m command -a "uname --help"
+#1783006019
+ansible qemu.alpine.org -m command -a "uname --help" -o
+#1783006056
+ansible qemu.alpine.org -m command -a "uname -r"
+#1783006249
+ansible qemu.alpine.org -m command -a "apk query squid"
+#1783006402
+ansible qemu.alpine.org -m apk -a "squid"
+#1783006459
+ansible qemu.alpine.org -m apk -a 'name="squid" state="present"'
+#1783006470
+ansible qemu.alpine.org -m apk -a 'name="squid" state="present"' -b
+#1783006512
+ansible qemu.alpine.org -m apk -a 'name="squid" state="absent"' -b
+#1783010195
+ls
+#1783010210
+nvim httpd.yml
+#1783010635
+nvim httpd.yml
+#1783010965
+ansible-playbook --check apache.yml
+#1783011037
+ls
+#1783011044
+touch web.html
+#1783011045
+ls
+#1783011049
+nvim apache.yml 
+#1783011356
+mkdir -p ansible-files
+#1783011360
+mv -v web.html ansible
+#1783011365
+ls
+#1783011371
+mv -v ansible web.html
+#1783011378
+mv -v web.html ansible-files/
+#1783011379
+ls
+#1783011384
+nvim apache.yml 
+#1783013422
+ansible-doc uri
+#1783014305
+ls
+#1783014317
+nvim ansible-files/web.html 
+#1783014998
+ls
+#1783015023
+mv -v apache.yml site.yml ansible-files/
+#1783015026
+cd ansible-files/
+#1783015026
+ls
+#1783015031
+mkdir files
+#1783015035
+mv -v web.html 
+#1783015040
+mv -v web.html files/
+#1783015042
+ls
+#1783015053
+nvim apache.yml 
+#1783015568
+..
+#1783015605
+ansible-playbook ansible-files/apache.yml --check
+#1783015660
+ansible-playbook ansible-files/apache.yml
+#1783015702
+ansible-playbook ansible-files/apache.yml --syntax-check
+#1783015748
+nvim ansible-files/apache.yml 
+#1783016436
+ansible-playbook ansible-files/apache.yml
+#1783016496
+ansible webservers -m command -a "rc-server status apache2"
+#1783016512
+ansible webservers -m command -a "rc-servers status apache2"
+#1783016526
+ansible webservers -m command -a "rc-service status apache2"
+#1783016536
+ansible webservers -m command -a "rc-service --help"
+#1783016556
+ansible webservers -m command -a "rc-service --exists apache2"
+#1783016579
+ansible webservers -m command -a "rc-service -l"
+#1783016608
+ansible webservers -m command -a "rc-service --exists apache2 -v"
+#1783018010
+ansible webservers -m command -a "ls -d /var/www/html"
+#1783018046
+ansible webservers -m command -a "ls -d /var/www/"
+#1783018487
+ansible webservers -m command -a "ls -d /var/www/"
+#1783018502
+ansible-playbook ansible-files/apache.yml
+#1783018518
+ansible webservers -m command -a "ls -d /var/www/"
+#1783018525
+ansible webservers -m command -a "ls -l /var/www/"
+#1783018761
+ansible localhost -m uri -a "url=http://192.168.122.66"
+#1783024534
+tldr npm
+#1783024536
+npm ls
+#1783024545
+npm ls -g
+#1783024616
+exit
+#1783024887
+ls
+#1783024890
+cd Downloads/
+#1783024890
+ls
+#1783024915
+proxychains4 -q imagefap-dl "https://www.imagefap.com/pictures/13527850"
+#1783025476
+exit
+#1783024385
+cd Projects/
+#1783024385
+ls
+#1783024396
+cat > imagefap-dl.sh
+#1783024399
+ls
+#1783024405
+chmod u+x ./imagefap-dl.sh 
+#1783024408
+bat imagefap-dl.sh 
+#1783024436
+ls
+#1783024440
+./imagefap-dl.sh --help
+#1783024474
+./imagefap-dl.sh "https://www.imagefap.com/pictures/13656235"
+#1783024476
+ls
+#1783024481
+./imagefap-dl.sh "https://www.imagefap.com/pictures/13656235/"
+#1783024488
+ls
+#1783024498
+proxychains4 -q ./imagefap-dl.sh "https://www.imagefap.com/pictures/13656235/"
+#1783024502
+ls
+#1783024509
+proxychains4 -q ./imagefap-dl.sh "https://www.imagefap.com/pictures/13656235/TeenFidelity%20Matty%20Mila%20Perez%20-%20Latvian%20Lust%20-%2005_20_25"
+#1783024517
+ls
+#1783024521
+rm -v imagefap-dl.sh 
+#1783024552
+npm i -g imagefap-dl
+#1783024599
+npm fund
+#1783024605
+ls
+#1783024614
+imagefap-dl --help
+#1783024629
+cd Pic
+#1783024630
+ls
+#1783024632
+y
+#1783024648
+mkdir Downloads
+#1783024650
+ls
+#1783024654
+cd Downloads/
+#1783024716
+imagefap-dl "https://www.imagefap.com/pictures/13656235" 
+#1783024757
+ls
+#1783024759
+ls -a
+#1783024768
+proxychains4 -q imagefap-dl "https://www.imagefap.com/pictures/13656235" 
+#1783024858
+ls
+#1783024860
+y
+#1783025356
+tldr npm
+#1783025365
+npm list -g
+#1783025379
+npm uninstall imagefap-dl
+#1783025385
+ls
+#1783025388
+y
+#1783025394
+npm list -g
+#1783025403
+npm uninstall imagefap-dl@2.1.0
+#1783025406
+y
+#1783025418
+npm uninstall --help
+#1783025423
+npm uninstall imagefap-dl@2.1.0 -g
+#1783025429
+npm list -g
+#1783025455
+npm rm imagefap-dl@2.1.0 -g
+#1783025458
+npm list -g
+#1783025466
+npm rm imagefap-dl -g
+#1783025469
+npm list -g
+#1783026226
+fastfetch 
+#1783026285
+sudo tune2fs -l /dev/sda1 **OR** /dev/sdb1*  | grep 'Filesystem created:'
+#1783026302
+sudo tune2fs -l /dev/sdb1*  | grep 'Filesystem created:'
+#1783026309
+sudo tune2fs -l /dev/sdb1  | grep 'Filesystem created:'
+#1783026317
+sudo tune2fs -l /dev/sda1  | grep 'Filesystem created:'
+#1783026322
+sudo tune2fs -l /dev/sda  | grep 'Filesystem created:'
+#1783026340
+df /
+#1783026352
+sudo tune2fs -l /dev/mapper/vgubuntu- | grep 'Filesystem created:'
+#1783026357
+
+#1783066904
+ls
+#1783066952
+cd Projects/
+#1783066953
+ls
+#1783066973
+ls
+#1783067084
+ls
+#1783067093
+cd Code/Ansible/
+#1783067094
+ls
+#1783067096
+cd test/
+#1783067096
+ls
+#1783082546
+cd
+#1783082548
+cd Videos/
+#1783082548
+y
+#1783083019
+ls
+#1783083354
+dysk
+#1783096319
+cd ~/Projects/Repositories/Configs/
+#1783096320
+y
+#1783096323
+lazygit
+#1783096376
+cd
+#1783096384
+cd Projects/Repositories/Configs/
+#1783096384
+ls
+#1783096388
+...
+#1783096394
+cd myscripts/backup/
+#1783096395
+ls
+#1783096396
+ls
+#1783096490
+ls
+#1783096522
+ls
+#1783096530
+nvim note_obsidian_backup.sh
+#1783096788
+ls
+#1783096794
+chmod u+x ./note_obsidian_backup.sh 
+#1783096800
+bat /etc/anacrontab
+#1783096827
+bat /tmp/anacron.log 
+#1783096835
+tail -20 /tmp/anacron.log 
+#1783096850
+ls
+#1783096855
+bat /tmp/anacron.log 
+#1783096883
+tldr git config
+#1783097028
+git config --global --add safe.directory /home/glados/Projects/Repositories/Configs
+#1783097056
+git config --global --add safe.directory /home/glados/Documents/Obsidian\ Vaults/
+#1783097079
+ls
+#1783097219
+wcc -l /tmp/anacron.log 
+#1783097222
+wc -l /tmp/anacron.log 
+#1783097258
+ls
+#1783096057
+ls
+#1783096064
+cd Projects/Repositories/Configs/
+#1783096065
+ls
+#1783096067
+lazygit
+#1783096094
+lazygit
+#1783096155
+bat /etc/anacrontab
+#1783096168
+cd
+#1783096231
+bat ~/Projects/myscripts/backup/mybackup_cron.sh 
+#1783096268
+ls
+#1783096275
+sudo ~/Projects/myscripts/backup/mybackup_cron.sh 
+#1783096344
+ls
+#1783096356
+cd ./Projects/myscripts/backup/
+#1783096357
+ls
+#1783096363
+nvim mybackup_cron.sh 
+#1783096910
+git config --list --global
+#1783096947
+git config --help
+#1783096982
+git config --global --unset safe.directory /home/glados/Documents/AmirAli Toori/Lessons/Repositories/Configs
+#1783096994
+git config --global --unset /home/glados/Documents/AmirAli Toori/Lessons/Repositories/Configs
+#1783097002
+git config --global --unset '/home/glados/Documents/AmirAli Toori/Lessons/Repositories/Configs"
+#1783097007
+git config --global --unset "/home/glados/Documents/AmirAli Toori/Lessons/Repositories/Configs"
+#1783097017
+git config --global --unset safe.directory
+#1783097021
+git config --list --global
+#1783097040
+git config --list --global
+#1783097058
+git config --list --global
+#1783097106
+chezmoi add ~/.gitconfig 
+#1783097114
+ls
+#1783097139
+chezmoi edit /etc/anacrontab
+#1783097150
+sudoedit /etc/anacrontab
+#1783097320
+ls
+#1783097326
+..
+#1783097326
+ls
+#1783097328
+lt3
+#1783097335
+cd automation/
+#1783097335
+ls
+#1783147466
+..
+#1783147515
+ls
+#1783147518
+bat apache.yml 
+#1783147605
+tldr bat
+#1783147630
+
+#1783147659
+bat --style plain apache.yml 
+#1783148271
+lt3
+#1783148305
+bat --style plain apache.yml 
+#1783148518
+ping -c 5 192.168.122.66
+#1783148614
+ansible-doc uri
+#1783148937
+tldr ansible-vault
+#1783149506
+..
+#1783149526
+ansible-vault encrypt_string --vault-id amirali@prompt 'Alpine_SSH_password' --name 'ansible_password'
+#1783149539
+ls
+#1783149542
+lt3
+#1783149620
+ls
+#1783149622
+nvim inventory 
+#1783149756
+ls
+#1783149904
+bat ansible-files/deploy_index_html.yml 
+#1783150361
+bat ansible-files/deploy_index_html.yml 
+#1783150447
+cat ansible-files/deploy_index_html.yml | wl-copy 
+#1783154613
+ls -al
+#1783154882
+curl -H "Cache-Control: no-cache" http://192.168.122.66
+#1783155034
+nvim ansible-files/deploy_index_html.yml 
+#1783156104
+nvim ansible-files/deploy_index_html.yml 
+#1783156109
+nvim inventory.yml 
+#1783156142
+nvim inventory.yml 
+#1783156159
+tldr ansible-vault 
+#1783162108
+tldr rg
+#1783164677
+tldr ansible
+#1783164723
+ls
+#1783164739
+nvim ansible-files/vsfrpd.yml
+#1783164968
+bat ansible-files/vsfrpd.yml 
+#1783165134
+mv -v ansible-files/vsfrpd.yml ansible-files/vsftpd.yml
+#1783166160
+docker --version
+#1783166181
+docker images list
+#1783166186
+docker image list
+#1783166191
+docker ps
+#1783166390
+cat /etc/docker/daemon.json 
+#1783166457
+docker pull alpine:3.23.5
+#1783166488
+docker image list
+#1783166770
+docker create --hostname "node1.alpine.org" -p 22:22 --user "node1" alpine:3.23.5 
+#1783166774
+docker ps
+#1783166776
+docker ps -a
+#1783166800
+docker inspect c06
+#1783166894
+docker attach c06
+#1783166907
+docker start c06
+#1783166932
+docker stop c06
+#1783166938
+docker container remove c06
+#1783166950
+docker create --hostname "node1.alpine.org" -p 22:22 --user "root" alpine:3.23.5 
+#1783166957
+docker start 809
+#1783166963
+docker attach 809
+#1783166993
+docker start -a -i 809
+#1783166998
+whoami
+#1783167036
+docker start -i 809
+#1783167039
+ls
+#1783167084
+docker attach --help
+#1783167160
+exit
+#1783145943
+ls
+#1783145980
+cd Projects/
+#1783145982
+ls
+#1783145997
+cd Code/Ansible/
+#1783147158
+ls
+#1783147160
+cd test/
+#1783147161
+ls
+#1783147184
+mkdir group_vars host_vars
+#1783147185
+ls
+#1783147248
+printf "---\n  stage:prod\n" > group_vars/webservers.yml
+#1783147255
+echo "---\n  stage:prod\n" > group_vars/webservers.yml
+#1783147260
+ls group_vars/
+#1783147265
+cat group_vars/webservers.yml 
+#1783147272
+nvim group_vars/webservers.yml 
+#1783147298
+ls
+#1783147322
+nvim host_vars/qemu.alpine.org.yml
+#1783147338
+y
+#1783147397
+ls
+#1783147404
+cd files/
+#1783147404
+ls
+#1783147411
+nvim dev_web.html
+#1783147439
+nvim prod_web.html
+#1783147459
+ls
+#1783147468
+..
+#1783147469
+ls
+#1783147499
+nvim deploy_index_html.yml
+#1783148454
+ls
+#1783148465
+..
+#1783148472
+ansible webserves -m ping
+#1783148479
+ls
+#1783148485
+ansible webserves -m ping -i inventory
+#1783148530
+ansible webservers -m ping -i inventory
+#1783148567
+ansible-playbook ansible-files/deploy_index_html.yml --check
+#1783148619
+ls
+#1783148628
+nvim ansible-files/deploy_index_html.yml 
+#1783148753
+ansible-playbook ansible-files/deploy_index_html.yml --check
+#1783149709
+ansible-playbook ansible-files/deploy_index_html.yml
+#1783149765
+ansible-playbook ansible-files/deploy_index_html.yml
+#1783149810
+nvim ansible-files/deploy_index_html.yml 
+#1783149817
+ansible-playbook ansible-files/deploy_index_html.yml
+#1783149921
+ansible webservers -m command -a "cat /var/www/index.html"
+#1783149975
+ansible webservers -m uri -a "url=http://192.168.122.66"
+#1783149999
+ansible localhost -m uri -a "url=http://192.168.122.66"
+#1783150033
+ansible webservers -m command -a "cat /var/www/index.html"
+#1783150045
+ansible webservers -m command -a "ls /var/www/"
+#1783150381
+ls ansible-files/files/
+#1783150400
+ls group_vars/
+#1783150402
+ls group_vars/webservers.yml 
+#1783150408
+y
+#1783150590
+..
+#1783150648
+ansible-playbook ansible-files/deploy_index_html.yml
+#1783150685
+ls
+#1783150688
+y
+#1783150705
+ansible webservers -m command -a "cat /var/www/index.html"
+#1783150715
+..
+#1783150718
+ansible webservers -m command -a "cat /var/www/index.html"
+#1783151407
+ls
+#1783151409
+nvim inventory 
+#1783151437
+mv -v inventory inventory.yml
+#1783151514
+ls
+#1783151516
+nvim inventory.yml 
+#1783151597
+ls
+#1783151602
+nvim inventory.yml 
+#1783151614
+ansible webservers -m command -a "cat /var/www/index.html"
+#1783151625
+nvim ansible.cfg 
+#1783151633
+ansible webservers -m command -a "cat /var/www/index.html"
+#1783151652
+nvim inventory.yml 
+#1783151673
+ansible webservers -m command -a "cat /var/www/index.html"
+#1783151811
+ls
+#1783151812
+nvim inventory.yml 
+#1783153957
+nvim inventory.yml 
+#1783153977
+ansible webservers -m command -a "cat /var/www/index.html"
+#1783154154
+ansible webservers -m command -a "cat /var/www/index.html"
+#1783154173
+nvim inventory.yml 
+#1783154627
+ls
+#1783154707
+ansible-playbook ansible-files/deploy_index_html.yml
+#1783154752
+ansible webservers -m uri -a "url=http://192.168.122.66"
+#1783154784
+ansible webservers -m command -a "cat /var/www/localhost"
+#1783154799
+ansible webservers -m command -a "ls -al /var/www/"
+#1783154815
+ansible webservers -m command -a "cat /var/www/index.html"
+#1783154826
+ansible webservers -m command -a "ls -l /var/www/localhost"
+#1783154931
+ansible localhost -m uri -a "url=http://192.168.122.66 return_content=yes"
+#1783154957
+ansible webservers -i inventory.yml -m command -a "grep -i DocumentRoot /etc/apache2/httpd.conf"
+#1783154982
+ansible webservers -m command -a "cat /var/www/localhost/htdocs"
+#1783154987
+ansible webservers -m command -a "cat /var/www/localhost/htdocs" -b
+#1783154997
+ansible webservers -m command -a "ls -la /var/www/localhost/htdocs"
+#1783155014
+ansible webservers -m command -a "cat /var/www/localhost/htdocs/index.html"
+#1783155021
+ls
+#1783155068
+ansible webservers -m command -a "ls -l /var/www/localhost"
+#1783155079
+ansible-playbook ansible-files/deploy_index_html.yml
+#1783155104
+ansible webservers -m uri -a "url=http://192.168.122.66"
+#1783155125
+
+#1783155146
+ansible webservers -m command -a "cat /var/www/localhost/htdocs"
+#1783155152
+ansible webservers -m command -a "cat /var/www/localhost/htdocs/index.html"
+#1783156130
+ansible webservers -m command -a "ls -l /var/www/localhost"
+#1783161978
+ansible webservers -m command -a "ls -l /var/www/localhost"
+#1783162002
+ansible qemu.alpine.org -m setup
+#1783162036
+ansible qemu.alpine.org -m setup -a 'filter=ansible_eth0'
+#1783162098
+ansible qemu.alpine.org -m setup | rg -i 'distro'
+#1783162129
+ansible qemu.alpine.org -m setup | rg -i 'host'
+#1783162147
+ansible qemu.alpine.org -m setup | rg -i 'alpine'
+#1783162161
+ansible qemu.alpine.org -m setup | rg -i 'distribution'
+#1783162200
+ansible qemu.alpine.org -m setup | grep -i 'distribution' | head -1
+#1783162234
+ansible qemu.alpine.org -m setup -a 'filter=ansible_distrubution'
+#1783162246
+ansible qemu.alpine.org -m setup -a 'filter=ansible_distribution'
+#1783162253
+ansible qemu.alpine.org -m setup -a 'filter=ansible_distribution' -o
+#1783162349
+nvim ansible-files/facts.yml
+#1783162380
+ansible-playbook ansible-files/facts.yml
+#1783162444
+ls
+#1783162447
+cd ansible-files/
+#1783162448
+y
+#1783164655
+..
+#1783164688
+ansible webservers -m command -a "apk query ftp"
+#1783164713
+ansible webservers -m command -a "apk query vsftpd"
+#1783164749
+bat ansible-files/apache.yml 
+#1783165269
+ansible-playbook --check ansible-files/vsftpd.yml 
+#1783165289
+ansible-playbook ansible-files/vsftpd.yml 
+#1783166495
+tldr docker
+#1783166506
+tldr docker container
+#1783166535
+tldr docker create
+#1783166542
+tldr --update
+#1783166583
+tldr docker create
+#1783166589
+docker create --help
+#1783166870
+tldr docker attach
+#1783166877
+docker attach --help
+#1783166889
+docker ps -a
+#1783166900
+tldr docker start
+#1783166969
+docker ps -a
+#1783166980
+docker start --help
+#1783167001
+docker ps -a
+#1783167026
+docker ps
+#1783167044
+docker ps -a
+#1783167105
+docker attach --help
+#1783167162
+exit
+#1783172131
+docker run -d --name alpine1 -p 2201:22 alpine:3.23.5 
+#1783172136
+docker ps -a
+#1783172144
+docker rm 809
+#1783172147
+docker ps -a
+#1783172158
+docker run -d --name alpine2 -p 2202:22 alpine:3.23.5 
+#1783172164
+docker run -d --name alpine3 -p 2203:22 alpine:3.23.5 
+#1783172167
+docker ps -a
+#1783172245
+docker container *
+#1783172256
+docker container c84 f76
+#1783172264
+docker container remove c84 
+#1783172274
+docker container remove f76 
+#1783172278
+docker container remove alpine3
+#1783172282
+docker ps -a
+#1783172288
+docker container remove alpine1
+#1783172300
+cat > dockerfile
+#1783172304
+ls
+#1783172314
+y
+#1783172331
+y
+#1783172348
+cd
+#1783172350
+y
+#1783172392
+mkdir -p Docker
+#1783172393
+ls
+#1783172396
+cd Docker/
+#1783172396
+ls
+#1783172408
+mkdir -p Docker\ Files
+#1783172409
+ls
+#1783172412
+cd Docker\ Files/
+#1783172412
+ls
+#1783172423
+mkdir Alpine-Containers
+#1783172424
+ls
+#1783172426
+cd Alpine-Containers/
+#1783172427
+ls
+#1783172428
+ls
+#1783172436
+y
+#1783172453
+ls
+#1783172456
+ls dockerfile 
+#1783172459
+bat dockerfile 
+#1783172612
+nvim dockerfile 
+#1783172641
+ls
+#1783172642
+ls -a
+#1783172644
+pwd
+#1783172649
+nvim dockerfile 
+#1783172902
+docker image ls
+#1783172908
+docker image rm alpine
+#1783172913
+docker image rm alpine:3.23.5
+#1783172952
+docker build -f dockerfile -t alpine-ssh:latest .
+#1783172988
+nvim dockerfile 
+#1783173004
+docker build -f dockerfile -t alpine-ssh:3.23.5 .
+#1783173033
+bat dockerfile 
+#1783173054
+docker pull alpine:3.23.5
+#1783173146
+docker pull mirror2.chabokan.net/alpine:3.23.5
+#1783173165
+docker build -f dockerfile -t alpine-ssh:3.23.5 .
+#1783173189
+nvim dockerfile 
+#1783173216
+docker images
+#1783173345
+docker build -f dockerfile -t alpine-ssh:3.23.5
+#1783173355
+docker build -f dockerfile -t alpine-ssh:3.23.5 .
+#1783164868
+systemctl status vsftpd.ser
+#1783164884
+systemctl list-units
+#1783167164
+cd
+#1783172001
+ls
+#1783172023
+tldr docker run
+#1783172031
+tldr docker container run
+#1783172058
+docker run --help
+#1783172527
+bat /etc/ssh/sshd_config
+#1783172591
+tldr sshd
+#1783172825
+tldr adduser
+#1783172858
+adduser --help
+#1783172934
+tldr docker build
+#1783173704
+cd Videos/
+#1783173704
+y
+#1783189831
+ls
+#1783191390
+y
+#1783196947
+exit
+#1783232300
+nvim dockerfile 
+#1783232337
+exit
+#1783233604
+tldr ssh-keygen
+#1783233617
+man ssh-keygen
+#1783233695
+docker image list
+#1783233702
+docker image rm alpine-ssh:latest 
+#1783233705
+docker image rm alpine-ssh:latest 
+#1783233726
+docker image rm alpine-ssh:latest 
+#1783233733
+exit
+#1783233982
+nvim --version
+#1783233988
+apt search nvim
+#1783233993
+apt search neovim
+#1783234021
+which nvim
+#1783234026
+which neovim
+#1783234339
+y
+#1783234352
+nvim --version
+#1783234359
+echo $EDITOR
+#1783234366
+bat ~/.profile 
+#1783234389
+nvim ~/.profile 
+#1783234396
+nano ~/.profile 
+#1783234424
+source ~/.profile 
+#1783234430
+nvim ~/.profile 
+#1783234437
+cd
+#1783232347
+cd
+#1783232484
+ls
+#1783232486
+docker ps
+#1783232489
+docker ps -a
+#1783233283
+man -k "change host name"
+#1783233293
+bat /etc/hostname 
+#1783233365
+bat /etc/hostname 
+#1783233371
+bat /etc/host.conf 
+#1783233378
+bat /etc/hostid 
+#1783233513
+cd docker files
+#1783233515
+ls
+#1783233517
+cd Alpine-Containers/
+#1783233518
+ls
+#1783233520
+nvim dockerfile 
+#1783233734
+nvim
+#1783233751
+cd nvim
+#1783233753
+y
+#1783233847
+nvim
+#1783233870
+y
+#1783233905
+ls
+#1783233915
+chezmoi re-add lazy.lua 
+#1783233926
+y
+#1783234072
+sudo apt install neovim
+#1783234086
+nvim --version
+#1783234108
+which neovim
+#1783234116
+fd 'neovim' /
+#1783234144
+fd 'nvim' /
+#1783234152
+which nvim
+#1783234162
+/usr/bin/nvim --version
+#1783234179
+chezmoi edit ~/.profile 
+#1783234210
+nvim --version
+#1783234219
+source ~/.profile 
+#1783234225
+nvim --version
+#1783234244
+sudoedit /etc/hostname 
+#1783234267
+sudo rm -v /usr/local/bin/nvim 
+#1783234273
+nvim --version
+#1783234288
+/usr/bin/nvim
+#1783234747
+apt search hadolint
+#1783234875
+cd
+#1783234878
+cd Downloads/ABDM/
+#1783234879
+lt3
+#1783234883
+ls
+#1783234889
+chmod u+x ./hadolint-linux-x86_64 
+#1783234891
+ls
+#1783234902
+mv -v hadolint-linux-x86_64 /usr/local/bin/hadolint
+#1783234906
+sudo mv -v hadolint-linux-x86_64 /usr/local/bin/hadolint
+#1783234922
+exit
+#1783235549
+cd
+#1783235555
+cat /root/
+#1783235560
+ls /root/
+#1783235564
+sudo su
+#1783235745
+tldr adduser
+#1783235750
+adduser --help
+#1783235756
+man adduser
+#1783235801
+exit
+#1783234452
+ls
+#1783234455
+nvim dockerfile 
+#1783234590
+nvim dockerfile 
+#1783234917
+nvim dockerfile 
+#1783235794
+ls
+#1783235824
+nvim dockerfile 
+#1783236152
+docker build -f dockerfile -t alpine-ssh:1.0 .
+#1783236182
+docker build images
+#1783236187
+docker image list
+#1783236204
+docker inspect alpine-ssh
+#1783236208
+docker image --help
+#1783236217
+docker inspect alpine-ssh
+#1783236222
+docker image inspect alpine-ssh
+#1783236233
+docker image inspect alpine-ssh:1.0
+#1783236246
+docker image history alpine-ssh:1.0
+#1783236273
+exit
+#1783236498
+bat /etc/sudoers
+#1783236502
+sudo bat /etc/sudoers
+#1783236510
+sudo cat /etc/sudoers
+#1783236621
+sudo cat /etc/sudoers
+#1783236628
+sudo visudo
+#1783240031
+exit
+#1783232173
+dysk
+#1783232185
+dysk
+#1783232208
+cd Projects/
+#1783232209
+ls
+#1783232214
+cd Code/
+#1783232215
+ls
+#1783232218
+cd Ansible/
+#1783232220
+ls
+#1783232222
+cd test/
+#1783232224
+ls
+#1783232341
+nvim
+#1783232506
+tldr docker container run
+#1783232555
+docker run --help
+#1783232665
+tldr ns
+#1783232667
+tldr sn
+#1783232680
+tldr nstat
+#1783232683
+nstat 
+#1783232713
+man -k network statistics
+#1783232754
+tv man
+#1783232759
+tv --help
+#1783232764
+tv
+#1783232852
+tv --version
+#1783232939
+navi
+#1783232966
+navi --version
+#1783233038
+docker ps
+#1783233040
+docker ps -a
+#1783233074
+docker exec -it 5f
+#1783233077
+docker exec -it 5f bash
+#1783233089
+docker start 5f && docker exec -it 5f sh
+#1783233117
+docker container rm 5f
+#1783233119
+docker container rm 65
+#1783233122
+docker container rm 46
+#1783233183
+docker ps -a
+#1783233217
+docker ps -a
+#1783233226
+docker ps -a
+#1783233231
+docker ps
+#1783233506
+ls
+#1783234471
+docker ps
+#1783234486
+bat dockerfile
+#1783235275
+tldr ash
+#1783235278
+man -k ash
+#1783240263
+docker ps
+#1783240918
+docker exec -it 8a
+#1783240922
+docker exec -it 8a sh
+#1783242941
+docker ps 
+#1783242945
+docker ps -a
+#1783242968
+docker start 75c
+#1783242975
+docker ps -a
+#1783243107
+docker container rm 75c
+#1783243113
+docker ps
+#1783243118
+docker ps -a
+#1783243208
+docker container rm 53
+#1783243210
+docker container rm 5e
+#1783243235
+docker image
+#1783243236
+docker images
+#1783243246
+docker image rm 99 bc
+#1783243248
+ls
+#1783243249
+docker images
+#1783243258
+docker images
+#1783243408
+tldr su
+#1783253741
+docker ps
+#1783253743
+docker ps -a
+#1783253748
+docker remove container1 
+#1783253825
+docker ps
+#1783253981
+docker ps
+#1783255316
+tldr docker network
+#1783255322
+docker network ls
+#1783255341
+docker network prune
+#1783255376
+docker network rm none docker-compose_default host gemini-tasks_default 
+#1783255379
+docker network ls
+#1783255397
+docker network remove none
+#1783255400
+docker network remove host
+#1783255415
+docker network inspect bridge 
+#1783255476
+tldr docker network
+#1783255567
+docker network create --drive bridge --subnet=172.20.0.0/16 mynetwork
+#1783255574
+docker network create --driver bridge --subnet=172.20.0.0/16 mynetwork
+#1783255578
+docker network ls
+#1783255681
+ssh -i ~/.ssh/ansible_key -p 2201 root@172.20.0.20
+#1783255687
+ssh -i ~/.ssh/ansible_key -p 2201 user@172.20.0.20
+#1783255697
+ssh -i ~/.ssh/ansible_key -p 2201 user@localhost
+#1783255740
+ssh-keygen -f '/home/glados/.ssh/known_hosts' -R '[localhost]:2201'
+#1783255748
+ssh -i ~/.ssh/ansible_key -p 2201 user@localhost
+#1783255845
+exit
+#1783232230
+....
+#1783232231
+ls
+#1783232236
+cd Docker/Docker\ Files/
+#1783232237
+ls
+#1783232239
+cd Alpine-Containers/
+#1783232239
+ls
+#1783232255
+docker build -f dockerfile -t alpine-ssh:latest .
+#1783232276
+docker images
+#1783232323
+docker build -f dockerfile -t alpine-ssh:latest .
+#1783232495
+docker images
+#1783232969
+docker run --publish 2021:22 alpine-ssh:latest --hostname node1 --name "alpine-container-1" --detach
+#1783232989
+docker run --publish 2021:22 alpine-ssh:latest --name "alpine-container-1" --detach
+#1783233033
+docker run --publish 2021:22 alpine-ssh:latest --name "alpine-container-1"
+#1783233113
+docker ps -a
+#1783233174
+docker run -d --name container1 -p 2201:22 alpine-ssh:latest
+#1783233213
+docker run -d --name container2 -p 2202:22 alpine-ssh:latest --hostname "alpine.container1.org" 
+#1783233222
+docker rm 2b6
+#1783233240
+docker exec -it bb bash
+#1783233243
+docker exec -it bb sh
+#1783233712
+docker ps
+#1783233722
+docker stop bb && docker rm bb
+#1783234476
+docker images
+#1783234490
+bat dockerfile 
+#1783236290
+docker run -d --name container1 -p 2201:22 alpine-ssh:latest
+#1783236299
+docker run -d --name container1 -p 2201:22 alpine-ssh:1.0
+#1783236310
+docker exec -it ce sh
+#1783237314
+docker exec -it ce sh
+#1783238087
+ls
+#1783238088
+docker ps
+#1783238096
+docker stop ce33
+#1783238117
+docker container rename container1 pilot-alpine-container
+#1783238120
+docker ps
+#1783238122
+docker ps -a
+#1783240073
+docker ps -a
+#1783240095
+docker container rm ce33
+#1783240251
+docker run -d --name container1 -p 2201:22 alpine-ssh:1.1
+#1783240272
+docker exec -it container1 sh
+#1783240770
+docker container rm 5bd
+#1783240772
+docker container rm 5db
+#1783240777
+docker container stop 5db
+#1783240780
+docker container rm 5db
+#1783240910
+docker run -d --name container1 -p 2201:22 alpine-ssh:1.1.1 
+#1783240949
+docker run -d --name container1 -p 2201:22 alpine-ssh:1.1.1 --hostname test.org
+#1783240961
+docker run -d --name container2 -p 2202:22 alpine-ssh:1.1.1 --hostname test.org
+#1783240970
+l
+#1783240973
+docker ps
+#1783240975
+docker ps -a
+#1783240981
+docker container rm container 2
+#1783240985
+docker container rm container2
+#1783240989
+docker ps
+#1783240993
+docker ps -a
+#1783241156
+docker container stop 8a
+#1783241160
+docker container remove 8a
+#1783241162
+docker ps
+#1783241164
+docker ps -a
+#1783241434
+docker run -d --name container1 -p 2201:22 alpine-ssh:1.1.2
+#1783241444
+docker exec -it a78 sh
+#1783242823
+docker container stop a78 && docker container remove a78
+#1783242923
+docker run -d --name container1 -p 2201:22 alpine-ssh:1.1.3
+#1783242956
+docker exec -it container1 sh
+#1783242970
+docker exec -it container1 sh
+#1783242993
+docker start container1 && docker exec -it container1 sh
+#1783243051
+docker ps
+#1783243055
+docker ps -a
+#1783243061
+docker container --help
+#1783243065
+tldr docker container
+#1783243070
+tldr docker container start
+#1783243090
+docker images
+#1783243110
+docker run -d --name container1 -p 2201:22 alpine-ssh:1.1.3
+#1783243273
+docker run -d --name container1 -p 2201:22 alpine-ssh:1.1.3
+#1783243277
+docker ps
+#1783243286
+docker exec -it container1 sh
+#1783250632
+docker ps
+#1783250639
+docker container aa
+#1783250642
+docker container stop aa
+#1783250647
+docker container remove aa
+#1783251642
+tldr addgroup 
+#1783251652
+addgroup --help
+#1783251667
+tldr groupadd
+#1783251675
+tldr useradd
+#1783251711
+tldr adduser
+#1783251719
+adduser --help
+#1783253099
+docker run -d --name container1 -p 2201:22 alpine-ssh:1.1.3
+#1783253109
+docker exec -it 7f
+#1783253112
+docker exec -it 7f sh
+#1783253512
+docker exec -it -u user 7f sh
+#1783253619
+ls
+#1783253622
+docker images
+#1783253625
+docker ps
+#1783253629
+docker stop 7f
+#1783253634
+docker remove 7f
+#1783253636
+docker ps
+#1783253733
+docker run -d --name container1 -p 2201:22 alpine-ssh:1.1.3 --hostname alpine-container1-org
+#1783253809
+docker run -d --hostname node1 --name container1 -p 2201:22 alpine-ssh:1.1.3
+#1783253865
+ssh -i ~/.ssh/ansible_key -p 2201 user@node1
+#1783253882
+ssh -i ~/.ssh/ansible_key -p 2201 user@localhost
+#1783253930
+ssh -i ~/.ssh/ansible_key -p 2201 root@localhost
+#1783253949
+ssh -i ~/.ssh/ansible_key -p 2201 root@localhost
+#1783253992
+ssh -i ~/.ssh/ansible_key -p 2201 user@localhost node1
+#1783254035
+ssh -i ~/.ssh/ansible_key -p 2201 root@localhost
+#1783254088
+ssh -i ~/.ssh/ansible_key -p 2201 root@localhost
+#1783254154
+ssh -i ~/.ssh/ansible_key -p 2201 user@localhost
+#1783254223
+docker ps
+#1783254226
+docker stop 104
+#1783254230
+docker remove 104
+#1783255499
+docker run -d --network bridge --ip 172.17.0.20 --hostname node1 --name container1 -p 2201:22 alpine-ssh:1.1.4
+#1783255594
+docker run -d --network mynetwork --ip 172.17.0.20 --hostname node1 --name container1 -p 2201:22 alpine-ssh:1.1.4
+#1783255608
+docker run -d --network mynetwork --ip 172.20.0.20 --hostname node1 --name container1 -p 2201:22 alpine-ssh:1.1.4
+#1783255615
+docker ps
+#1783255807
+docker run -d --network mynetwork --ip 172.20.0.21 --hostname node2 --name container2 -p 2202:22 alpine-ssh:1.1.4
+#1783255826
+docker run -d --network mynetwork --ip 172.20.0.22 --hostname node3 --name container3 -p 2203:22 alpine-ssh:1.1.4
+#1783255829
+docker ps
+#1783255841
+docker container stop 7f a4 73
+#1783255847
+exit
+#1783240428
+sudo cat /etc/sudoers
+#1783241097
+tldr sed 
+#1783241419
+docker images
+#1783241686
+adduser --help
+#1783242718
+tldr adduser
+#1783242732
+id 
+#1783243192
+adduser --help
+#1783249296
+adduser --help
+#1783249303
+man adduser
+#1783250573
+tldr ssh-keygen
+#1783250745
+docker images list
+#1783250748
+docker image ls
+#1783250764
+docker image remove alpine-ssh:1.1.3 
+#1783251034
+nvim dockerfile 
+#1783253087
+ls
+#1783253138
+nvim dockerfile 
+#1783254366
+docker image list
+#1783254370
+docker rmi alpine-ssh:1.1.3 
+#1783254880
+nvim dockerfile 
+#1783254938
+nvim dockerfile 
+#1783255228
+docker images list
+#1783255234
+docker image list
+#1783255862
+docker image list
+#1783255864
+exit
+#1783236423
+nvim dockerfile 
+#1783236794
+nvim dockerfile 
+#1783237518
+nvim dockerfile 
+#1783240033
+ls
+#1783240035
+nvim dockerfile 
+#1783240107
+docker build -f dockerfile -t alpine-ssh:1.1 .
+#1783240157
+docker images
+#1783240168
+nvim dockerfile 
+#1783240194
+docker build -f dockerfile -t alpine-ssh:1.1 .
+#1783240227
+docker image list
+#1783240236
+docker image rm alpine-ssh:1.0
+#1783240238
+ls
+#1783240310
+nvim dockerfile 
+#1783240833
+docker images
+#1783240839
+docker image rm alpine-ssh:1.1 
+#1783240849
+docker build -f dockerfile -t alpine-ssh:1.1.1 .
+#1783240897
+docker images
+#1783241021
+nvim dockerfile 
+#1783241208
+docker images 
+#1783241218
+docker image rm alpine-ssh:1.1.1 
+#1783241221
+nvim dockerfile 
+#1783241239
+docker build -f dockerfile -t alpine-ssh:1.1.2 .
+#1783241602
+nvim dockerfile 
+#1783242830
+docker image ls
+#1783242838
+docker image remove alpine-ssh:1.1.2 
+#1783242844
+docker build -f dockerfile -t alpine-ssh:1.1.3 .
+#1783242913
+docker images
+#1783243015
+nvim dockerfile
+#1783243229
+docker build -f dockerfile -t alpine-ssh:1.1.3 .
+#1783243253
+docker build -f dockerfile -t alpine-ssh:1.1.3 .
+#1783243699
+nvim dockerfile
+#1783250522
+nvim dockerfile
+#1783250601
+ssh-keygen -t 3d25519 -a 32 -f ~/.ssh/ansible_key
+#1783250606
+ssh-keygen -t ed25519 -a 32 -f ~/.ssh/ansible_key
+#1783250610
+ls
+#1783250619
+cp -v ~/.ssh/ansible_key.pub .
+#1783250621
+ls
+#1783250659
+docker build -f dockerfile -t alpine-ssh:1.1.3 .
+#1783251005
+docker build -f dockerfile -t alpine-ssh:1.1.3 .
+#1783251747
+docker image ls
+#1783251751
+docker build -f dockerfile -t alpine-ssh:1.1.3 .
+#1783252543
+docker image ls
+#1783252546
+docker build -f dockerfile -t alpine-ssh:1.1.3 .
+#1783254373
+docker build -f dockerfile -t alpine-ssh:1.1.3 .
+#1783254948
+docker build -f dockerfile -t alpine-ssh:1.1.4 .
+#1783255857
+ls
+#1783255866
+exit
+#1783343146
+cd
+#1783343148
+cd books
+#1783343149
+y
+#1783347408
+cd
+#1783347410
+exit
+#1783311797
+cd Downloads/Video/
+#1783311798
+ls
+#1783311802
+cd
+#1783311805
+docker ps
+#1783311808
+docker ps -a
+#1783311845
+docker inspect container1
+#1783312334
+zip -a
+#1783312335
+ip a
+#1783312387
+docker ps -a
+#1783312403
+docker ps
+#1783312913
+cd Projects/Code/Ansible/test/
+#1783312917
+docker ps
+#1783312949
+ansible pilot -m ping 
+#1783312987
+ansible webservers -m ping 
+#1783312997
+ansible webservers -m ping 
+#1783313122
+ls
+#1783313128
+lt2 ansible
+#1783313131
+lt2 ansible-files/
+#1783313148
+nvim ansible-files/vsftpd.yml 
+#1783313286
+nvim ansible-files/vsftpd.yml 
+#1783313345
+ansible-playbook ansible-files/vsftpd.yml --check
+#1783313669
+ansible-playbook ansible-files/vsftpd.yml --check --ask-become-pass 
+#1783314565
+mkdir -p .ansible/vault/
+#1783314568
+lt3
+#1783314574
+ls -a
+#1783314584
+lt2 .ansible/
+#1783314661
+echo 'Vaultmmgcmb82+' > .ansible/vault/vault_pass.txt
+#1783314670
+chmod 600 .ansible/vault/vault_pass.txt 
+#1783314701
+nvim ansible.cfg 
+#1783314771
+ls
+#1783314780
+ls ~/.ansible
+#1783314789
+ls
+#1783314806
+sudo mv -v .ansible/vault/ ~/.ansible/
+#1783314813
+ls ~/.ansible
+#1783314818
+ls ~/.ansible/vault/
+#1783314823
+ls -l ~/.ansible/vault/
+#1783314826
+ls
+#1783314834
+nvim ansible.cfg 
+#1783314887
+ansible-vault create group_vars/all/vault.yml
+#1783314911
+ls
+#1783314916
+lt3 group_vars/
+#1783314949
+ls
+#1783314954
+cd group_vars/all/
+#1783314955
+ls
+#1783314956
+y
+#1783314996
+ansible-vault view group_vars/all/vault.yml 
+#1783315399
+ansible-playbook ansible-files/vsftpd.yml --check
+#1783323520
+docker ps
+#1783323536
+lazydocker
+#1783323556
+tldr docker volume
+#1783323574
+docker volume ls 
+#1783323597
+docker volume inspect 2f19d760023e4f0589cb56b490b5f4a43098b5dd8c7694f4f2076381e7566805 
+#1783323611
+docker volume prune
+#1783323624
+docker volume ls 
+#1783323629
+docker volume ls 
+#1783323632
+docker ps
+#1783325841
+tldr ansible 
+#1783325883
+ansible vsftpd -m setup
+#1783325906
+ansible vsftpd -m setup -a | rg 'distribution'
+#1783325915
+ansible vsftpd -m setup | rg 'distribution'
+#1783325969
+ansible servers -m setup -a 'filter="ansible_distribution"'
+#1783325982
+ansible servers -m setup -a 'filter="ansible_distribution"' -o
+#1783325992
+ansible --version
+#1783326042
+ping -c 5 node1
+#1783326189
+docker exec node1 ping node2
+#1783326203
+docker exec container1 ping -c 5 container2
+#1783326214
+ping -c 5 container1
+#1783340919
+docker ps
+#1783341015
+bat /etc/hdparm.conf 
+#1783341396
+docker container exec --detach container1 ls -al ~/etc/httpd
+#1783341399
+docker container exec --detach container1 ls -al ~/etc/
+#1783341402
+docker container exec --detach container1 
+#1783341412
+docker container exec --detach container1 'ls -al ~/etc/'
+#1783341420
+docker container exec --detach container1 'ls -al /etc/'
+#1783341449
+docker container exec --detach container1 ls -al /etc/
+#1783341453
+docker container exec --detach container1 ls
+#1783341456
+docker container exec --detach container1 ls ~
+#1783341467
+docker container exec container1 ls 
+#1783341473
+docker container exec container1 ls /etc/
+#1783341478
+docker container exec container1 ls /etc/httpd
+#1783341490
+docker container exec container1 ls /etc/apache
+#1783341493
+docker container exec container1 ls /etc/apache*
+#1783341496
+docker container exec container1 ls /etc/apache2
+#1783341814
+docker container exec container1 ls /var/
+#1783341824
+docker container exec container1 ls /var/lib/www
+#1783341829
+docker container exec container1 ls /www
+#1783341833
+docker container exec container1 ls /var
+#1783341836
+docker container exec container1 ls /var/run
+#1783341842
+docker container exec container1 ls /var/tmp
+#1783341849
+docker container exec container1 ls /var/local
+#1783341857
+docker container exec container1 ls ~
+#1783341859
+docker container exec container1 ls /
+#1783341874
+docker container exec container1 ls /run/
+#1783341880
+docker container exec container1 ls /tmp
+#1783341887
+docker container exec container1 apk query apache2
+#1783341896
+ls
+#1783341902
+cd ansible-files/
+#1783341903
+ls
+#1783341907
+ls files/
+#1783341914
+nvim apache.yml 
+#1783342264
+..
+#1783342280
+ansible-playbook ansible-files/apache.yml --check
+#1783342578
+nvim ansible-files/loop.yml
+#1783342954
+ansible-playbook ansible-files/loop.yml --check
+#1783342979
+nvim ansible-files/loop.yml
+#1783342991
+ansible-playbook ansible-files/loop.yml --check
+#1783343016
+nvim ansible-files/loop.yml
+#1783343022
+ansible-playbook ansible-files/loop.yml --check
+#1783347427
+mkdir -p ansible-files/templates
+#1783347446
+cat > ansible-files/templates/motd-facts.j2
+#1783347467
+ls
+#1783347468
+y
+#1783347489
+...
+#1783347505
+nvim ansible-files/motd-facts.yml
+#1783347603
+ansible-playbook --check ansible-files/motd-facts.yml 
+#1783347672
+ansible-playbook ansible-files/motd-facts.yml 
+#1783347710
+ssh user@0.0.0.0 -p 2201
+#1783347931
+nvim ansible-files/templates/motd-facts.j2 
+#1783348012
+ansible-playbook ansible-files/motd-facts.yml 
+#1783348021
+ssh user@0.0.0.0 -p 2201
+#1783359217
+ansible node1 -m command -a "groupadd --help"
+#1783359230
+ansible node1 -m command -a "addgroup --help"
+#1783359281
+ansible node1 -m command -a "addgroup deploy" -b --check
+#1783359290
+ansible node1 -m command -a "addgroup deploy" --check
+#1783359326
+ansible node1 -m command -a "adduser --help"
+#1783359369
+ansible node1 -m command -a "adduser -s /bin/bash deploy-user -G deploy" --check
+#1783359425
+ansible node1 -m command -a "rc-service --help"
+#1783359812
+exit
+#1783312397
+docker start container{1..3}
+#1783312439
+ssh user@0.0.0.0 -p 2203
+#1783312554
+docker stats
+#1783312583
+tldr docker usage
+#1783312594
+tldr docker stats
+#1783312599
+tldr docker container stats
+#1783312629
+cd
+#1783312630
+ls
+#1783312645
+cd Projects/
+#1783312646
+ls
+#1783312651
+cd Code/
+#1783312651
+ls
+#1783312657
+cd Ansible/
+#1783312657
+ls
+#1783312662
+cd test/
+#1783312663
+ls
+#1783312665
+y
+#1783325944
+y
+#1783340900
+ls -a
+#1783340901
+..
+#1783340905
+rmdir .ansible/
+#1783341313
+tldr scp
+#1783341350
+tldr docker exec 
+#1783341353
+tldr docker container exec 
+#1783342592
+bat ansible-files/apache.yml 
+#1783342650
+ansible-doc user
+#1783347699
+docker ps
+#1783347873
+ansible node1 -m ping
+#1783347893
+ansible node1 -m setup | rg -i 'kernel'
+#1783359257
+tldr ansible
+#1783359270
+ansible --help
+#1783359441
+tldr rc-service
+#1783359813
+exit
+#1783400166
+ps
+#1783400168
+docker ps
+#1783400171
+docker ps -a
+#1783400183
+cd Downloads/ABDM/
+#1783400183
+ls
+#1783400189
+cd Compressed/
+#1783400190
+y
+#1783400549
+tldr wine 
+#1783400559
+wine My\ Hardcore\ Harem.exe 
+#1783400708
+wine64 My\ Hardcore\ Harem.exe 
+#1783400768
+ls
+#1783400770
+..
+#1783400771
+ls
+#1783400772
+y
+#1783400783
+ls
+#1783400786
+wine ./Problematic\ Subjects
+#1783400832
+wine ./Problematic\ Subjects.exe 
+#1783400872
+exit
+#1783400967
+cd Downloads/ABDM/Compressed/
+#1783400968
+y
+#1783400978
+exit
+#1783407185
+cd roles/apache_vhost/
+#1783407193
+nvim tests/inventory 
+#1783407216
+mv -v tests/inventory tests/inventory.yml
+#1783407220
+nvim tests/inventory.yml 
+#1783407294
+cat ../../inventory.yml > tests/inventory.yml 
+#1783407297
+nvim tests/inventory.yml 
+#1783407327
+..
+#1783407335
+cd apache_vhost/
+#1783407350
+nvim tasks/main.yml 
+#1783407609
+ls
+#1783407672
+cp -v ../../ansible-files/files/web.html ./files/
+#1783407689
+nvim tasks/main.yml 
+#1783407777
+nvim handlers/main.yml 
+#1783408003
+nvim handlers/main.yml 
+#1783408015
+y
+#1783410280
+exit
+#1783412220
+y
+#1783412475
+#> sudo netstat -tulpn
+#1783412479
+sudo netstat -tulpn
+#1783419522
+exit
+#1783407094
+ansible-galaxy role init --offline roles/apache_vhost
+#1783407101
+lt3 roles/apache_vhost/
+#1783407353
+lt3 roles/apache_vhost/
+#1783408614
+ansible-doc file
+#1783408808
+y
+#1783408975
+...
+#1783408981
+cd cd apache_vhost/
+#1783408984
+cd apache_vhost/
+#1783408997
+lt3
+#1783409012
+cat > templates/vhost.conf.j2
+#1783409023
+bat templates/vhost.conf.j2 
+#1783410160
+lt3
+#1783410167
+...
+#1783410169
+ls
+#1783410170
+cd ansible-files/
+#1783410171
+ls
+#1783410187
+cat > test_apache_role.yml
+#1783410190
+ls
+#1783410213
+ansible-playbook --check test_apache_role.yml
+#1783410229
+nvim test_apache_role.yml 
+#1783410243
+..
+#1783410263
+ansible-playbook --check ansible-files/test_apache_role.yml 
+#1783410335
+ansible-playbook --check ansible-files/test_apache_role.yml 
+#1783410397
+ansible-playbook --check ansible-files/test_apache_role.yml 
+#1783410542
+ansible-playbook --check ansible-files/test_apache_role.yml 
+#1783410585
+ansible-playbook --check ansible-files/test_apache_role.yml 
+#1783410622
+ansible-playbook ansible-files/test_apache_role.yml 
+#1783410744
+ansible-playbook ansible-files/test_apache_role.yml 
+#1783411338
+ansible-playbook ansible-files/test_apache_role.yml 
+#1783411390
+ansible-playbook ansible-files/test_apache_role.yml 
+#1783411545
+ansible-doc list
+#1783411549
+ansible-doc ls
+#1783411553
+ansible-doc --list
+#1783411576
+ansible-doc --list | rg 'openrc'
+#1783411588
+ansible-doc --list | rg 'rc_service'
+#1783411598
+ansible-doc service
+#1783411630
+ansible-doc --list | fzf
+#1783412072
+ansible-playbook ansible-files/deploy_index_html.yml
+#1783412119
+ansible-playbook ansible-files/deploy_index_html.yml
+#1783412128
+cd ansible-files/
+#1783412130
+ansible-playbook ansible-files/deploy_index_html.yml
+#1783412140
+ansible-playbook deploy_index_html.yml
+#1783412151
+ls
+#1783412156
+..
+#1783412166
+ansible-playbook ansible-files/test_apache_role.yml
+#1783412296
+ansible-playbook ansible-files/test_apache_role.yml
+#1783412328
+curl -s http://0.0.0.0:8080
+#1783412341
+curl -s http://node2:8080
+#1783412365
+curl -s http://0.0.0.0:2202
+#1783412423
+curl -s http://vhosts:2202
+#1783412429
+curl -s http://node2:2202
+#1783412454
+curl -s http://172.20.0.21:8080
+#1783412509
+curl -s http://172.20.0.21:22.02
+#1783412511
+curl -s http://172.20.0.21:2202
+#1783412517
+curl -s http://0.0.0.0:2202
+#1783412522
+curl -s http://node2:2202
+#1783412636
+ansible node2 -m uri -a 'url=http://0.0.0.0:8080'
+#1783412658
+ansible node2 -m uri -a 'url=http://172.20.0.21'
+#1783419527
+exit
+#1783420690
+ouch compress caveman-1.9.1/ caveman-1.9.1.zip
+#1783420692
+ls
+#1783420709
+y
+#1783420717
+..
+#1783420816
+tldr fd
+#1783420884
+ouch compress caveman-1.9.1/ caveman-1.9.1.zip
+#1783420899
+y
+#1783420924
+ouch compress caveman-1.9.1/ caveman-1.9.1.zip
+#1783407041
+cd Projects/Code/Ansible/
+#1783407042
+ls
+#1783407044
+cd test/
+#1783407044
+ls
+#1783407052
+tldr ansible-galaxy 
+#1783407120
+docker container start container{1..3}
+#1783407238
+bat inventory.yml 
+#1783407425
+y
+#1783408146
+docker ps
+#1783408186
+ssh user@0.0.0.0 -p 2201
+#1783410300
+nvim test_apache_role.yml 
+#1783410325
+ls
+#1783410326
+..
+#1783410326
+ls
+#1783410333
+mv -v roles/ ansible-files/
+#1783410357
+cd ansible-files/roles/
+#1783410359
+lt3
+#1783410365
+ls
+#1783410368
+rm -rvf webserver/
+#1783410369
+ls
+#1783410371
+cd apache_vhost/
+#1783410371
+ls
+#1783410379
+nvim tasks/main.yml 
+#1783410433
+ls
+#1783410444
+y
+#1783410566
+nvim tasks/main.yml 
+#1783410572
+y
+#1783411802
+ssh user@0.0.0.0 -p 2201
+#1783411809
+ssh user@0.0.0.0 -p 2202
+#1783412093
+docker ps 
+#1783412104
+y
+#1783412199
+ssh user@0.0.0.0 -p 2202
+#1783419528
+....
+#1783419537
+docker container stop container{1..3}
+#1783420452
+cd 
+#1783420456
+cd Downloads/ABDM/Compressed/
+#1783420457
+y
+#1783420599
+lt3
+#1783420607
+ls
+#1783420608
+y
+#1783420639
+ls
+#1783420640
+..
+#1783420641
+ls
+#1783420643
+y
+#1783420655
+ls
+#1783420663
+tldr ouch
+#1783420719
+y
+#1783420781
+...
+#1783420798
+fd `SKILL\.md` caveman-1.9.1/
+#1783420825
+fd `SKILL\.md` caveman-1.9.1/ --full-path
+#1783420836
+fd `SKILL\.md` caveman-1.9.1/
+#1783420839
+fd `SKILL\.md` caveman-1.9.1/*
+#1783420844
+fd `SKILL\.md` caveman-1.9.1/
+#1783420871
+fd `SKILL\.md` . caveman-1.9.1/
+#1783420905
+y
+#1783420991
+ls
+#1783420991
+y
+#1783421006
+ls
+#1783421008
+y
+#1783486530
+tldr set
+#1783486636
+tldr while
+#1783486655
+while --help
+#1783486893
+./server_status.sh server_input.txt 
+#1783486947
+./server_status.sh server_input.txt 
+#1783487694
+./server_status.sh server_input.txt 
+#1783487925
+./server_status.sh server_input.txt 
+#1783487935
+./server_status.sh server_input.txt 
+#1783487944
+./server_status.sh server_input.txt 
+#1783488055
+man set
+#1783488060
+man test
+#1783488204
+./server_status.sh server_input.txt 
+#1783488220
+./server_status.sh server_input.txt 
+#1783488237
+./server_status.sh server_input.txt 
+#1783488289
+./server_status.sh server_input.txt 
+#1783489266
+tldr tr
+#1783489299
+exit
+#1783490782
+ls
+#1783490800
+chmod u+x count_names.sh && ./count_names.sh names_input.txt
+#1783486450
+ls
+#1783486455
+cd Projects/
+#1783486455
+ls
+#1783486457
+cd Code/
+#1783486457
+ls
+#1783486462
+cd Shell/
+#1783486462
+ls
+#1783486466
+..
+#1783486469
+cd Quera/
+#1783486469
+ls
+#1783486488
+nvim bash_scripting.sh
+#1783486804
+mv -v bash_scripting.sh server_status.sh
+#1783486805
+ls
+#1783486811
+chmod u+x ./server_status.sh 
+#1783486816
+nvim server_status.sh 
+#1783486819
+ls
+#1783486828
+cat > server_input.txt
+#1783486838
+./server_status.sh server_input.txt 
+#1783486852
+nvim server_status.sh 
+#1783489204
+ls
+#1783489236
+cat > names_input.txt
+#1783489315
+cat names_input.txt | tr '[:special:]' ' '
+#1783489557
+cat names_input.txt | tr --complement '[:alpha:]'
+#1783489560
+cat names_input.txt | tr --complement '[[:alpha:]]'
+#1783489644
+cat names_input.txt | sed 's/[:punct:]/ /'
+#1783489659
+cat names_input.txt | sed 's/[[:punct:]]/ /'
+#1783489776
+cat names_input.txt | sed 's/\t\s,|!$\n\/ /'
+#1783489788
+cat names_input.txt | sed 's/\t[[:space:]],|!$\n\/ /'
+#1783489809
+cat names_input.txt | sed 's/\t[[:space:]],\|\!\$\n\\/ /'
+#1783489817
+cat names_input.txt | sed 's/\t[[:space:]]\,\|\!\$\n\\/ /'
+#1783489907
+cat names_input.txt | sed 's/?(\t[[:space:]]\,\|\!\$\n\\)/ /'
+#1783490030
+sed -e 's/\,/ /g' names_input.txt 
+#1783490050
+sed -e 's/\,/ /g' -e 's/\!/ /g' names_input.txt 
+#1783490069
+sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/\|/ /g' names_input.txt 
+#1783490080
+sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's// /g' names_input.txt 
+#1783490086
+sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' names_input.txt 
+#1783490105
+sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' names_input.txt 
+#1783490158
+sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' -e 's/\n/ /' names_input.txt 
+#1783490164
+sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' -e 's/\n/ /' names_input.txt 
+#1783490174
+sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' -e 's/\t/ /' names_input.txt 
+#1783490193
+cat names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' -e 's/\t/ /'
+#1783490212
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' -e 's/\t/ /'
+#1783490278
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' -e 's/\t/ /' -e 's/\$/ /'
+#1783490288
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /'
+#1783490320
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr '$' ' '
+#1783490326
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr '$' '\n'
+#1783490331
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr '$' ''
+#1783490335
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr '$' ' ' 
+#1783490340
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /'
+#1783490377
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' -e 's/[[:space]]/ /'
+#1783490389
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' -e 's/[[:space:]]/ /'
+#1783490426
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr --squeeze-repeats 
+#1783490435
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr --squeeze-repeats ' '
+#1783490493
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr --squeeze-repeats ' ' | tr ' ' '\n'
+#1783490506
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr --squeeze-repeats ' ' | tr ' ' '\n' | tr '$' ''
+#1783490508
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr --squeeze-repeats ' ' | tr ' ' '\n' | tr '$' ' '
+#1783490516
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr --squeeze-repeats ' ' | tr ' ' '\n' | tr '$' ' ' | wc -l
+#1783490572
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr --squeeze-repeats ' ' | tr ' ' '\n' | tr '$' ' ' | wc -l | sed '/^[[:space:]]*$/d'
+#1783490580
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr --squeeze-repeats ' ' | tr ' ' '\n' | sed '/^[[:space:]]*$/d'
+#1783490585
+cat --show-all names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr --squeeze-repeats ' ' | tr ' ' '\n' | sed '/^[[:space:]]*$/d'
+#1783490604
+cat names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr --squeeze-repeats ' ' | tr ' ' '\n' | sed '/^[[:space:]]*$/d'
+#1783490611
+cat names_input.txt | sed -e 's/\,/ /g' -e 's/\!/ /g' -e 's/|/ /g' -e 's/\\/ /' | tr --squeeze-repeats ' ' | tr ' ' '\n' | sed '/^[[:space:]]*$/d' | wc -l
+#1783490812
+exit
+#1783496168
+cd
+#1783496179
+ls /etc/docker/
+#1783496190
+fd 'docker' /
+#1783496416
+cat .docker/config.json 
+#1783497106
+cd Downloads/
+#1783497109
+cd ABDM/
+#1783497110
+lt3
+#1783497126
+ls
+#1783497139
+ls -l
+#1783497149
+chmod u+x ./docker-credential-pass-v0.9.8.linux-amd64 
+#1783497150
+ls
+#1783497161
+mv -v docker-credential-pass-v0.9.8.linux-amd64 docker-credential-pass
+#1783497474
+which docker-credential-secretservice 
+#1783497485
+mv -v docker-credential-pass /usr/bin/
+#1783497490
+sudo mv -v docker-credential-pass /usr/bin/
+#1783497555
+fastfetch 
+#1783497639
+tldr pass
+#1783497697
+gpg --generate-key 
+#1783497764
+pass init 95B78987A2CA42AD998359D33E23713C5F8A385D
+#1783497776
+pass insert docker-credential-helpers/docker-pass-initialized-check
+#1783497787
+ls
+#1783497801
+pass show docker-credential-helpers/docker-pass-initialized-check
+#1783497814
+docker-credential-pass list
+#1783497832
+nvim ~/.docker/config.json 
+#1783497854
+docker-credential-pass --help
+#1783497857
+docker-credential-pass list
+#1783497863
+docker-credential-pass version
+#1783498040
+cd
+#1783498053
+sudoedit /etc/docker/daemon.json 
+#1783498068
+ls
+#1783498106
+sudo systemctl restart docker.service 
+#1783498253
+exit
+#1783498472
+ansible-doc mysql
+#1783498479
+ansible-doc --list | bat
+#1783498931
+y
+#1783499319
+y
+#1783499656
+ls
+#1783499663
+cat grants.yml | wl-copy 
+#1783499821
+exit
+#1783508088
+docker ps
+#1783508090
+exit
+#1783509593
+cd
+#1783509602
+nvim .config/uv/uv.toml 
+#1783509608
+exit
+#1783498526
+ansible-doc community.mysql.mysql_user
+#1783498828
+ansible-doc community.mysql.mysql_role
+#1783498847
+ansible-doc community.mysql.mysql_df
+#1783498849
+ansible-doc community.mysql.mysql_db
+#1783498857
+ansible-doc community.mysql.mysql_info
+#1783498866
+ansible-doc community.mysql.mysql_variables
+#1783498878
+ansible-doc community.mysql.mysql_user
+#1783498979
+ansible-doc community.mysql.mysql_user
+#1783499230
+ansible-doc community.mysql.mysql_user
+#1783499821
+y
+#1783508905
+y
+#1783509415
+python3 --version
+#1783509423
+....
+#1783509424
+ls
+#1783509438
+cd inventory/
+#1783509439
+ls
+#1783509441
+cd sample/
+#1783509441
+ls
+#1783509444
+nvim hosts.yml 
+#1783509587
+uv tool --help
+#1783509629
+uv tool install mysqlclient
+#1783509760
+uv tool install pymysql
+#1783509780
+uv tool list
+#1783509928
+apt info pymysql
+#1783509936
+apt search PyMySQL
+#1783509975
+sudo apt install python3-pymysql
+#1783510058
+docker ps
+#1783510095
+sudo apt purge python3-pymysql
+#1783511537
+docker ps
+#1783511561
+ssh 0.0.0.0 -p 3306
+#1783511601
+docker exec -it grants-env-mysql-1 sh
+#1783511911
+docker container inspect grants-env-mysql-1 
+#1783515471
+apt search mysqlclient
+#1783515497
+uv tool install pymysql
+#1783515519
+uv tool install mysqlclient
+#1783515612
+exit
+#1783515869
+ssh root@172.18.0.1 -p 3306
+#1783515897
+ping -c 5 172.18.0.1
+#1783515904
+docker ps
+#1783515921
+docker exec -it grants-env-mysql-1 sh
+#1783515976
+docker inspect grants.yml 
+#1783515984
+docker container inspect grants-env-mysql-1 
+#1783516000
+ping -c 5 172.18.0.2
+#1783516008
+ssh root@172.18.0.2 -p 3306
+#1783516045
+tldr docker port
+#1783516052
+docker port --help
+#1783516057
+docker port grants-env-mysql-1 
+#1783516305
+docker exec -it grants-env-mysql-1 sh
+#1783516510
+exit
+#1783517107
+y
+#1783517405
+exit
+#1783515575
+apt search py3-pymysql
+#1783515583
+apt search pymysql
+#1783515619
+sudo apt install python3-pymysql
+#1783515694
+y
+#1783516532
+y
+#1783516540
+lt3 grants-env/
+#1783516551
+cd grants-env/
+#1783516556
+lt3
+#1783516559
+lt3 .
+#1783516569
+lt3 roles/
+#1783516582
+..
+#1783516582
+ls
+#1783516601
+ls
+#1783516610
+cd grants-env/
+#1783516627
+ouch compress * ansible_mysql.zip
+#1783516629
+ls
+#1783516630
+y
+#1783516883
+docker ps
+#1783516889
+tldr docker compose
+#1783516895
+docker compose stop 
+#1783516900
+docker ps -a
+#1783516906
+docker image ls
+#1783516919
+docker volume list
+#1783517009
+ansible-doc mysql_user
+#1783517873
+docker ps
+#1783517880
+docker exec -it grants-env-mysql-1 sh
+#1783520712
+docker container exec -it grants-env-mysql-1 sh
+#1783521122
+exit
+#1783486920
+cd
+#1783486935
+head Projects/myscripts/backup/mybackup_cron.sh 
+#1783487133
+read --help
+#1783487402
+items="amirali toori hossein"; arr('echo $item')
+#1783487409
+items="amirali toori hossein"; arr=('echo $item')
+#1783487414
+items="amirali toori hossein"; arr=('echo $items')
+#1783487422
+items="amirali toori hossein"; arr=(`echo $items`)
+#1783487478
+items="amirali toori hossein"; arr=(`echo $items`); for item in ${items[@]} do; printf "$item\n"; done
+#1783487490
+items="amirali toori hossein"; arr=(`echo $items`); for item in ${items[@]} do; printf "$item\n" done;
+#1783487502
+items="amirali toori hossein"; arr=(`echo $items`); for item in ${items[@]}; do printf "$item\n" done;
+#1783487509
+items="amirali toori hossein"; arr=(`echo $items`); for item in ${items[@]}; do printf "$item\n"; done
+#1783488068
+man test
+#1783489477
+tldr tr
+#1783489482
+tldr --help
+#1783498545
+ls
+#1783498549
+cd Projects/
+#1783498549
+y
+#1783498901
+y
+#1783521322
+exit
+#1783489830
+tldr grep
+#1783490198
+tldr cat
+#1783490241
+tldr sed
+#1783490410
+tldr tr
+#1783490622
+ls
+#1783490661
+nvim count_names.sh
+#1783490813
+ls
+#1783490850
+mkdir Bash\ Scripting
+#1783490851
+ls
+#1783490863
+mv -v count_names.sh server_* names_input.txt Bash\ Scripting/
+#1783490873
+lt2 Bash\ Scripting/
+#1783490887
+cd Bash\ Scripting/
+#1783490887
+ls
+#1783490950
+ls
+#1783490952
+y
+#1783491049
+ouch compress count_names.sh server_input.txt names_input.txt server_status.sh bash_script.zip
+#1783491051
+y
+#1783491346
+ls
+#1783491347
+y
+#1783491359
+ls
+#1783491371
+./server_status.sh server_input.txt 
+#1783491379
+nvim server_status.sh 
+#1783491463
+ouch compress count_names.sh server_input.txt names_input.txt server_status.sh bash_script.zip
+#1783491740
+nvim server_status.sh 
+#1783491748
+y
+#1783491752
+ouch compress count_names.sh server_input.txt names_input.txt server_status.sh bash_script.zip
+#1783491858
+ls
+#1783491860
+y
+#1783491878
+./count_names.sh names_input.txt 
+#1783491889
+ouch compress count_names.sh server_input.txt names_input.txt server_status.sh bash_script.zip
+#1783491966
+y
+#1783492015
+ls
+#1783492018
+y
+#1783492035
+y
+#1783492037
+ls
+#1783492039
+ls
+#1783492040
+ls -a
+#1783492071
+dysk
+#1783492073
+y
+#1783492095
+ls
+#1783492103
+./count_names.sh names_input_1.txt 
+#1783492115
+rm names_input_1.txt 
+#1783492117
+ls
+#1783492148
+ls
+#1783492149
+y
+#1783492198
+mkdir -p DigiKalaCup\ DevOps
+#1783492199
+y
+#1783495416
+ls
+#1783495428
+mkdir Ansible\ &\ MySQL
+#1783495430
+ls
+#1783495437
+jobs
+#1783495455
+mv -v Ansible\ / Ansible\ /\&\ MySQL
+#1783495467
+mv -v Ansible\ / Ansible\ \&\ MySQL
+#1783495469
+ls
+#1783495472
+cd Ansible\ \&\ MySQL/
+#1783495473
+ls
+#1783495553
+ls
+#1783495555
+ls
+#1783495575
+ls
+#1783495577
+ls -a
+#1783495631
+ls
+#1783495633
+y
+#1783495773
+ls
+#1783495779
+tldr docker compose
+#1783495799
+docker compose up -d
+#1783495832
+nvim docker-compose.yml 
+#1783495890
+docker compose up -d
+#1783495894
+nvim docker-compose.yml 
+#1783495906
+docker ps
+#1783495909
+docker image ls
+#1783495944
+docker login --help
+#1783495956
+docker login
+#1783496218
+systemctl status docker.service 
+#1783496306
+sudo apt install gnupg2 pass
+#1783496320
+sudo apt install pass
+#1783496335
+tldr docker-credential-secretservice 
+#1783496344
+docker-credential-secretservice  --help
+#1783496348
+docker-credential-secretservice version
+#1783496353
+docker-credential-secretservice list
+#1783496367
+
+#1783497871
+docker login
+#1783497922
+ls
+#1783497928
+docker compose up -d
+#1783497965
+ls
+#1783497967
+nvim docker-compose.yml 
+#1783498001
+docker compose up -d
+#1783498015
+proxychains4 -q docker compose up -d
+#1783498115
+docker compose up -d
+#1783498255
+docker ps
+#1783498337
+ansible-playbook site.yml 
+#1783498363
+y
+#1783498392
+ansible-playbook site.yml -i inventory/sample/hosts.yml
+#1783498399
+y
+#1783499296
+ansible-playbook site.yml -i inventory/sample/hosts.yml
+#1783499402
+ansible-playbook site.yml -i inventory/sample/hosts.yml
+#1783499601
+ansible-playbook site.yml -i inventory/sample/hosts.yml
+#1783499642
+ansible-playbook site.yml -i inventory/sample/hosts.yml
+#1783499813
+ls
+#1783499816
+y
+#1783507667
+y
+#1783508880
+ansible-playbook site.yml -i inventory/sample/hosts.yml
+#1783508886
+...
+#1783508889
+ansible-playbook site.yml -i inventory/sample/hosts.yml 
+#1783508950
+ansible-playbook site.yml -i inventory/sample/hosts.yml 
+#1783509053
+cat roles/grants/tasks/grants.yml 
+#1783509075
+cat group_vars/all/mysql.yml 
+#1783509082
+cat group_vars/all/mysql.yml | xsel -b
+#1783509089
+cat group_vars/all/mysql.yml | wl-copy 
+#1783509092
+tldr xsel
+#1783509103
+sudo apt purge xsel
+#1783509114
+which xsel
+#1783509124
+rm -vf /usr/local/bin/xsel 
+#1783509127
+sudo rm -vf /usr/local/bin/xsel 
+#1783509136
+fd 'xsel' /
+#1783509271
+ansible-doc mysql_user
+#1783509337
+ansible-playbook site.yml -i inventory/sample/hosts.yml 
+#1783509549
+ansible-playbook site.yml -i inventory/sample/hosts.yml 
+#1783510027
+ansible-playbook site.yml -i inventory/sample/hosts.yml 
+#1783511715
+tldr mysql
+#1783511754
+ansible-playbook site.yml -i inventory/sample/hosts.yml 
+#1783511939
+y
+#1783514624
+y
+#1783514643
+ansible-playbook site.yml
+#1783514733
+ls
+#1783514734
+
+#1783515641
+ansible-playbook site.yml
+#1783515820
+ansible-playbook site.yml
+#1783516163
+docker logs grants-env-mysql-1 
+#1783516226
+ls
+#1783516228
+y
+#1783516277
+ansible-playbook site.yml
+#1783516393
+y
+#1783516447
+....
+#1783516450
+ansible-playbook site.yml
+#1783517024
+y
+#1783517286
+....
+#1783517287
+ls
+#1783517291
+docker compose up -d
+#1783517300
+ansible-playbook site.yml
+#1783517377
+ls
+#1783517380
+y
+#1783517423
+lt3
+#1783517434
+ouch compress * ansible_mysql.zip
+#1783517436
+y
+#1783517905
+y
+#1783518349
+docker compose stop
+#1783520599
+...
+#1783520606
+tldr docker compose
+#1783520635
+docker compose down --help
+#1783520661
+docker compose down --dry-run
+#1783520667
+docker compose down
+#1783520672
+docker compose up -d
+#1783520678
+docker ps
+#1783520686
+ls
+#1783520694
+ansible-playbook site.yml
+#1783521074
+y
+#1783521125
+y
+#1783521131
+ouch compress * ansible_mysql.zip
+#1783521286
+docker compose down
+#1783521291
+ls
+#1783521293
+y
+#1783521735
+docker ps -a
+#1783521745
+docker container start container1
+#1783521747
+docker ps
+#1783521760
+docker exec -it -u user container1 sh
+#1783523512
+docker ps
+#1783523518
+docker container stop container1 
+#1783529040
+docker ps
+#1783529045
+docker ps -a
+#1783529053
+exit
+#1783575443
+echo $HOME
+#1783575453
+:q
+#1783575455
+exit
+#1783576243
+echo $
+#1783579988
+tldr grep
+#1783580089
+exit
+#1783575297
+ls
+#1783575321
+bat /etc/anacrontab
+#1783575330
+bat /tmp/anacron.log 
+#1783575414
+nvim Projects/myscripts/backup/mybackup_cron.sh 
+#1783575467
+sudoedit /etc/anacrontab
+#1783575553
+tldr env
+#1783575565
+env GEMINI_API
+#1783575597
+env | grep -E -i '^GEMINI'
+#1783575613
+cd Projects/Code/
+#1783575613
+ls
+#1783575617
+cd Quera/
+#1783575617
+ls
+#1783575623
+cd DevOps/
+#1783575627
+..
+#1783575630
+cd CodeStarDevOps2025/
+#1783575630
+ls
+#1783575633
+y
+#1783576310
+./solution.sh 
+#1783576311
+y
+#1783576338
+./solution.sh 
+#1783576339
+y
+#1783576405
+./solution.sh 
+#1783576406
+y
+#1783576425
+./solution.sh 
+#1783576426
+y
+#1783584042
+exit
+#1783595143
+nvim
+#1783595367
+ls
+#1783595370
+exit
+#1783578275
+y
+#1783578280
+ls
+#1783578294
+tldr diff
+#1783578311
+diff front.csv software.csv 
+#1783578349
+tldr join
+#1783578394
+join -t ',' front.csv software.csv 
+#1783578424
+sort -t, -k 2 front.csv 
+#1783578434
+sort -t, -k 2 front.csv software.csv 
+#1783578647
+ls
+#1783578648
+./solution.sh 
+#1783578688
+./solution.sh 
+#1783578786
+./solution.sh 
+#1783578820
+tldr uniq
+#1783578922
+ls
+#1783578924
+y
+#1783579003
+tldr csv2
+#1783579006
+tldr csv2po
+#1783579010
+tldr csv2tbx
+#1783579690
+grep '*\,' -o front.csv 
+#1783579696
+grep '*.\,' -o front.csv 
+#1783579701
+grep '*.\,*' -o front.csv 
+#1783579719
+cat front.csv | wl-copy 
+#1783579789
+grep '.*\,' front.csv 
+#1783579793
+grep '.*\,' -o front.csv 
+#1783579800
+grep '(.*)\,' -o front.csv 
+#1783579804
+grep '.*\,' -o front.csv 
+#1783579933
+grep -E '.*(?=,)' -o front.csv 
+#1783579941
+grep '.*(?=,)' -o front.csv 
+#1783579969
+grep -E '.*(?=,)' front.csv 
+#1783579973
+grep -E '.*(\?=,)' front.csv 
+#1783579976
+grep -E '.*(?=,)' front.csv 
+#1783579980
+grep '.*(?=,)' front.csv 
+#1783580025
+grep -E '.*(?=,)' front.csv 
+#1783580078
+grep -P '.*(?=,)' front.csv 
+#1783580084
+grep -Po '.*(?=,)' front.csv 
+#1783580529
+ls
+#1783580531
+./solution.sh 
+#1783580554
+./solution.sh 
+#1783580592
+./solution.sh 
+#1783580703
+./solution.sh 
+#1783580720
+./solution.sh 
+#1783581254
+grep -c 'Ali Pishgrad' front.csv 
+#1783581265
+grep -c 'Zahra Ahmadi' front.csv 
+#1783581695
+tldr grep
+#1783581711
+tldr regex
+#1783581727
+grep --help
+#1783581811
+tldr sed
+#1783582192
+ls
+#1783582194
+./solution.sh 
+#1783582219
+./solution.sh 
+#1783582256
+y
+#1783582314
+./solution.sh 
+#1783582568
+./solution.sh 
+#1783582655
+./solution.sh 
+#1783582857
+./solution.sh 
+#1783582892
+./solution.sh 
+#1783582915
+./solution.sh 
+#1783583992
+sort -t, -k -u 2 front.csv
+#1783583998
+sort -t, -k 2 -u front.csv
+#1783584005
+sort -t, -k 2 front.csv
+#1783584017
+sort -t, -k 2 front.csv | sort -t, -k 1
+#1783584022
+sort -t, -k 2 front.csv | sort -t, -k 1 -u
+#1783584034
+sort -t, -k 2 front.csv | uniq
+#1783584081
+sort -t, -k2 front.csv | uniq -u -t, -k1
+#1783584084
+sort -t, -k2 front.csv | sort -u -t, -k1
+#1783584109
+sort -t, -k2 front.csv | sort -u -t, -k1
+#1783584114
+sort -t, -k2 front.csv | sort -u -t, -k2
+#1783584116
+sort -t, -k2 front.csv | sort -u -t, -k1
+#1783584158
+sort -u -t, -k1 front.csv 
+#1783597314
+exit
+#1783597318
+ls
+#1783597323
+chmod u+x task.sh 
+#1783597326
+clear
+#1783597326
+ls
+#1783597347
+./task.sh "Amirali Toori (important)"
+#1783597415
+./task.sh "Amirali Toori (important)"
+#1783597429
+./task.sh "Amirali Toori (important)"
+#1783597433
+./task.sh "Amirali Toori (very important)"
+#1783597495
+./task.sh Amirali Toori (very important)
+#1783597501
+./task.sh Amirali Toori \(very important\)
+#1783597518
+./task.sh Amirali Toori \(very important\)
+#1783597573
+./task.sh Amirali Toori \(very important\)
+#1783597580
+./task.sh Amirali Toori (very important)
+#1783597617
+./task.sh Amirali Toori "(very important)"
+#1783597621
+./task.sh Amirali Toori "(important)"
+#1783597628
+
+#1783598903
+./task.sh Amirali Toori "(important)"
+#1783598925
+./task.sh Amirali Toori "(important)"
+#1783598966
+./task.sh Amirali Toori "(important)"
+#1783598969
+./task.sh Amirali Toori "(important)"
+#1783599286
+ls
+#1783599288
+./task.sh Amirali Toori "(important)"
+#1783599292
+ls
+#1783599296
+cat tasks.txt 
+#1783599396
+ls
+#1783599399
+cat task
+#1783599401
+cat tasks.txt 
+#1783599427
+ls
+#1783599431
+rm -v tasks.txt 
+#1783599437
+./task.sh Amirali Toori "(important)"
+#1783599439
+./task.sh Amirali Toori "(important)"
+#1783599440
+ls
+#1783599443
+cat tasks.txt 
+#1783599749
+./task.sh Amirali Toori "(important)"
+#1783599760
+cat tasks.txt 
+#1783599800
+cat tasks.txt 
+#1783599802
+./task.sh Amirali Toori "(important)"
+#1783599834
+./task.sh Amirali Toori "(important)"
+#1783599845
+cat tasks.txt 
+#1783599933
+./task.sh Amirali Toori "(important)"
+#1783599935
+ls
+#1783599938
+cat tasks.txt 
+#1783600094
+./task.sh Amirali Toori "(important)"
+#1783600206
+cat tasks.txt 
+#1783600208
+./task.sh Amirali Toori "(important)"
+#1783600247
+./task.sh Amirali Toori "(important)"
+#1783600249
+ls
+#1783600253
+cat tasks.txt 
+#1783600281
+./task.sh Amirali Toori "(important)"
+#1783600309
+grep 'COUNT=[0-9]+'
+#1783600315
+grep 'COUNT=[0-9]+' tasks.txt 
+#1783600321
+grep '^COUNT=[0-9]+' tasks.txt 
+#1783600429
+grep -E '^COUNT=[0-9]+' tasks.txt 
+#1783600435
+./task.sh Amirali Toori "(important)"
+#1783600496
+cat tasks.txt 
+#1783600498
+./task.sh Amirali Toori "(important)"
+#1783600502
+cat tasks.txt 
+#1783600505
+./task.sh Amirali Toori "(important)"
+#1783600508
+ls
+#1783600515
+cat tasks.txt 
+#1783601206
+ls
+#1783601216
+rm -v tasks.txt 
+#1783601218
+clear
+#1783601223
+./task.sh Amirali Toori "(important)"
+#1783601238
+ls
+#1783601240
+y
+#1783601282
+./task.sh Amirali Toori "(important)"
+#1783601285
+ls
+#1783601288
+cat counter.txt 
+#1783601292
+rm -v counter.txt 
+#1783601491
+./task.sh Amirali Toori "(important)"
+#1783601553
+./task.sh add Amirali Toori "(important)"
+#1783601565
+ls
+#1783601566
+y
+#1783601596
+./task.sh add Amirali Toori "(important)"
+#1783601602
+./task.sh add Amirali Toori "(very important)"
+#1783601605
+./task.sh add Amirali Toori
+#1783601609
+y
+#1783601625
+y
+#1783601632
+./task.sh add Amirali Toori "(important)"
+#1783601637
+./task.sh add Amirali Toori "(very important)"
+#1783601643
+./task.sh add Amirali Toori
+#1783601645
+y
+#1783602336
+./task.sh add Ali Toori
+#1783602387
+wc -l tasks.txt 
+#1783602526
+y
+#1783602560
+./task.sh add Zahra Toori (important)
+#1783602567
+./task.sh add Zahra Toori "(important)"
+#1783602758
+./task.sh list
+#1783602775
+./task.sh list
+#1783602894
+./task.sh list
+#1783602992
+./task.sh list
+#1783604181
+./task.sh done 2
+#1783604186
+./task.sh list
+#1783604540
+./task.sh list
+#1783604550
+./task.sh list
+#1783604553
+./task.sh add
+#1783604557
+./task.sh done
+#1783604573
+./task.sh help
+#1783604699
+./task.sh done
+#1783604701
+./task.sh help
+#1783604705
+./task.sh add
+#1783604726
+./task.sh add Mohammad Hosseini "(important)"
+#1783604732
+./task.sh list
+#1783604769
+y
+#1783605035
+./task.sh list
+#1783605068
+./task.sh list
+#1783605084
+./task.sh list
+#1783605962
+./task.sh add Zahra Toori "(very important)"
+#1783605970
+./task.sh add Zahra Ghoori "(very important)"
+#1783605972
+./task.sh list
+#1783598630
+man test
+#1783599635
+tldr sed
+#1783600480
+sed --help
+#1783602396
+tldr wc
+#1783602417
+wc -l tasks.txt | column 1
+#1783602422
+tldr column
+#1783602478
+tldr cut
+#1783602492
+wc -l tasks.txt | cut -d' ' -f1
+#1783602652
+nl tasks.txt 
+#1783603166
+awk 'NR==3' ./tasks.txt 
+#1783603513
+y
+#1783603530
+tldr cut
+#1783603550
+cut -d' ' -f2, tasks.txt 
+#1783603561
+cut -d" " -f2, tasks.txt 
+#1783603567
+cut -d" " -f 2, tasks.txt 
+#1783603573
+cut -d " " -f 2, tasks.txt 
+#1783603580
+cut -d " " -f 2 tasks.txt 
+#1783603598
+man cut
+#1783603617
+cut -d " " -f 2- tasks.txt 
+#1783603634
+cut -d " " -f 2- tasks.txt 
+#1783603646
+cut -d' ' -f2- tasks.txt 
+#1783604132
+./task.sh list
+#1783604141
+sed '2d' tasks.txt 
+#1783604363
+man test
+#1783604799
+tldr sed
+#1783604819
+man sed
+#1783605013
+y
+#1783605987
+exit
+#1783609012
+echo "Hello" | tac
+#1783609020
+echo '!!!esreveR si sihT' | grep -o . | tac | tr -d '\n' ; echo
+#1783609085
+ls
+#1783609096
+./hello.sh 6puCedoC
+#1783609120
+echo "6puCedoC" | grep -o .
+#1783609132
+echo "6puCedoC" | grep -o . | tac
+#1783609139
+echo "6puCedoC" | grep -o . | tac | tr -d '\n'
+#1783584047
+tldr uniq
+#1783584168
+tldr sort
+#1783596104
+ls
+#1783596107
+...
+#1783596107
+ls
+#1783596132
+mkdir list_tasks
+#1783596133
+ls
+#1783596135
+cd list_tasks/
+#1783596135
+ls
+#1783596144
+nvim task.sh
+#1783604258
+nvim task.sh
+#1783605989
+ls
+#1783605990
+y
+#1783607610
+y
+#1783607629
+y
+#1783607678
+./task.sh done 1
+#1783607736
+ls
+#1783607741
+bash task.sh list
+#1783607757
+bash task.sh add Amirali Toori 
+#1783607760
+bash task.sh list
+#1783608188
+ls
+#1783608197
+ouch compress task.sh task.zip
+#1783608198
+ls
+#1783608709
+..
+#1783608709
+ls
+#1783608741
+mkdir Hello\ Codecup
+#1783608742
+ls
+#1783608746
+cd Hello\ Codecup/
+#1783608747
+ls
+#1783608763
+y
+#1783608833
+y
+#1783608837
+y
+#1783608840
+lt3
+#1783608844
+y
+#1783608869
+ls
+#1783608874
+chmod u+x hello.sh 
+#1783608875
+ls
+#1783608879
+nvim hello.sh 
+#1783609165
+python3 -m unittest
+#1783609390
+...
+#1783609391
+ls
+#1783609401
+mv -v Hello\ Codecup/ CodeCup-Linux
+#1783609402
+ls
+#1783609414
+exot
+#1783609416
+exit
+#1783665348
+exit
+#1783665353
+tldr useradd
+#1783665382
+useradd --help
+#1783665566
+tldr passwd
+#1783666137
+bat /etc/login.defs
+#1783666280
+tldr useradd
+#1783666543
+tldr chown
+#1783666622
+tldr chmod
+#1783666739
+tldr userdel
+#1783667049
+y
+#1783667082
+ls
+#1783667088
+chmod u+x ./solution.sh 
+#1783667102
+ls
+#1783667110
+sudo ./solution.sh 
+#1783667137
+tldr groupadd 
+#1783667165
+sudo ./solution.sh 
+#1783667252
+sudo ./solution.sh 
+#1783667356
+tldr groupadd 
+#1783667404
+ls /home/
+#1783667490
+cat /etc/groups
+#1783667496
+cat /etc/group
+#1783667538
+cat /etc/group | grep 'shared'
+#1783667561
+tldr set
+#1783667575
+set --help
+#1783667760
+ls
+#1783667764
+sudo ./solution.sh 
+#1783667778
+ls /
+#1783668533
+useradd --help
+#1783668601
+y
+#1783676251
+wc --help | grep '-w'
+#1783676255
+wc --help | grep '\-w'
+#1783676286
+exit
+#1783692357
+man df
+#1783692513
+bat /proc/diskstats 
+#1783692535
+ls /sys/block/
+#1783692542
+ls /sys/block/sda/
+#1783692596
+tldr cut
+#1783692611
+ls
+#1783692679
+tldr awk
+#1783692695
+awk --help
+#1783692720
+awk --help | fzf
+#1783692989
+tldr column
+#1783693025
+man df
+#1783693076
+df -h
+#1783693167
+df -h /
+#1783693541
+df -h / | awk '{print $2, $3, $5}'
+#1783693685
+df -h / | awk '{print $2, $3, $5}' | cut -d ' ' -f1
+#1783693696
+df -h / | awk 'NR==2 {print $2, $3, $5}' | cut -d ' ' -f1
+#1783693736
+df -h / | awk 'NR==2 {print $2, $3, $5}' | cut -d ' ' -f2
+#1783693752
+df -h / | awk 'NR==2 {print $2, $3, $5}' | cut -d ' ' -f3
+#1783693820
+df -h / | awk 'NR==2 {print $2, $3, $5}' | cut -d ' ' -f3
+#1783693823
+df -h / | awk 'NR==2 {print $2, $3, $5}'
+#1783693827
+df -h / | awk '{print $2, $3, $5}'
+#1783693832
+df -h / | awk '{print $2, $3, $4, $5}'
+#1783693851
+df -h / | awk 'NR==2 {print $2, $4, $5}' | cut -d ' ' -f3
+#1783693853
+df -h / | awk 'NR==2 {print $2, $4, $5}' | cut -d ' ' -f2
+#1783693856
+df -h / | awk 'NR==2 {print $2, $4, $5}' | cut -d ' ' -f1
+#1783693864
+df -h / | awk 'NR==2 {print $2, $4, $5}' | cut -d ' ' -f2
+#1783693902
+y
+#1783693913
+ls
+#1783693918
+chmod u+x ./disk_analyzer.sh 
+#1783693919
+ls
+#1783693921
+./disk_analyzer.sh 
+#1783693941
+./disk_analyzer.sh 
+#1783693989
+./disk_analyzer.sh 
+#1783694012
+./disk_analyzer.sh 
+#1783694022
+./disk_analyzer.sh 
+#1783665188
+tldr adduser
+#1783665199
+tldr useradd
+#1783665278
+cd Projects/Code/Quera/
+#1783665278
+ls
+#1783665286
+cd CodeCup-Linux/
+#1783665286
+ls
+#1783665299
+mkdir Who\ Where?
+#1783665300
+ls
+#1783665302
+cd Who\ Where\?/
+#1783665302
+ls
+#1783665312
+nvim script.sh
+#1783667727
+ls
+#1783667730
+y
+#1783667751
+ls
+#1783667757
+chmod u+x ./solution.sh 
+#1783668561
+ls /home/
+#1783668702
+grep 'USERGROUPS_ENAB' /etc/login.defs
+#1783668838
+tldr chown
+#1783668892
+sudo ./solution.sh 
+#1783668911
+tldr groupdel
+#1783668930
+tldr groupdel
+#1783668939
+sudo groupdel shared
+#1783668942
+sudo ./solution.sh 
+#1783670204
+ls
+#1783670207
+..
+#1783670207
+ls
+#1783670211
+cat > solution.sh
+#1783670215
+ls
+#1783670251
+ls
+#1783673071
+ls
+#1783673094
+ls
+#1783674535
+ls
+#1783674682
+ls
+#1783676287
+ls
+#1783676292
+rm -v solution.sh 
+#1783676293
+ls
+#1783676295
+..
+#1783676296
+ls
+#1783676297
+y
+#1783676325
+ls
+#1783676334
+mkdir -p gemini-answer
+#1783676335
+ls
+#1783676354
+cp -v names_input.txt server_input.txt gemini-answer/
+#1783676355
+ls
+#1783676358
+cd gemini-answer/
+#1783676360
+ls
+#1783676397
+ls
+#1783676407
+chmod u+x ./count_names.sh ./server_status.sh 
+#1783676408
+ls
+#1783676412
+./count_names.sh names_input.txt 
+#1783676419
+./server_status.sh server_input.txt 
+#1783676423
+ls
+#1783676450
+ouch compress * answer.zip
+#1783676451
+ls
+#1783677108
+ls
+#1783677111
+y
+#1783677140
+mkdir gemini-answer
+#1783677141
+ls
+#1783677147
+./solution.sh 
+#1783677151
+./solution.sh quera.md 
+#1783677153
+y
+#1783677232
+ls
+#1783677237
+cp -v ../quera.md .
+#1783677237
+ls
+#1783677243
+chmod u+x ./solution.sh 
+#1783677244
+ls
+#1783677273
+ls
+#1783677275
+./solution.sh 
+#1783679311
+ls
+#1783679314
+..
+#1783679314
+y
+#1783679321
+y
+#1783679370
+ls
+#1783679374
+chmod u+x ./solution.sh 
+#1783679376
+./solution.sh 
+#1783679381
+ls
+#1783679384
+ls
+#1783679386
+ls -a
+#1783679388
+y
+#1783679417
+./solution.sh 
+#1783679418
+y
+#1783679536
+y
+#1783680016
+y
+#1783680026
+ls
+#1783680034
+chmod u+x ./task.sh 
+#1783680035
+ls
+#1783680043
+head task.sh 
+#1783680048
+./task.sh list
+#1783680055
+./task.sh add Amirali
+#1783680062
+./task.sh add Amirali "(important)"
+#1783680070
+./task.sh add Amirali "(very important)"
+#1783680078
+./task.sh list
+#1783680084
+./task.sh done 2
+#1783680087
+./task.sh list
+#1783680089
+l
+#1783680091
+y
+#1783680111
+ouch compress task.sh task.zip
+#1783680202
+./task.sh list
+#1783680386
+ls
+#1783680394
+cat > task.sh 
+#1783680399
+ls
+#1783680401
+./task.sh list
+#1783680415
+cat > task.sh 
+#1783680417
+ls
+#1783680420
+./task.sh list
+#1783680435
+./task.sh add Toori "(important)"
+#1783680438
+./task.sh list
+#1783680450
+y
+#1783680454
+ls
+#1783680472
+ouch compress ./task.sh task.zip
+#1783681201
+y
+#1783681379
+ls
+#1783681382
+cat > grants.yml 
+#1783681386
+ls
+#1783681392
+....
+#1783681392
+ls
+#1783681494
+ouch compress * ansible.zip
+#1783681495
+ls
+#1783681500
+y
+#1783681951
+ls
+#1783681955
+chmod u+x ./solution.sh 
+#1783681958
+ls
+#1783681959
+./solution.sh 
+#1783682114
+ls
+#1783682116
+y
+#1783682134
+du -sh *
+#1783682277
+y
+#1783686545
+df
+#1783686549
+tldr df
+#1783686551
+df -h
+#1783686660
+tldr free
+#1783686671
+man df
+#1783692307
+bat /proc/partitions 
+#1783692351
+df -h
+#1783692423
+df
+#1783692436
+dysk
+#1783692494
+df
+#1783692584
+df | cut -d' ' -k3-5 
+#1783692587
+df | cut -d' ' -k 3-5 
+#1783692591
+df | cut -d' ' -k 3,4,5 
+#1783692607
+df | cut -d ' ' -f 3-5
+#1783692613
+df
+#1783692623
+df | cut -d '\t' -f 3-5
+#1783692629
+df | cut -d '' -f 3-5
+#1783692633
+df | cut -f 3-5
+#1783692669
+df | awk '{print $3 $4 $5}'
+#1783692748
+df | awk -F' ' '{print $3 $4 $5}'
+#1783692756
+df | awk -F' ' '{print $3}'
+#1783692760
+df
+#1783692776
+df | awk -F' ' '{print $3 $4}'
+#1783692792
+df | awk -F' ' '{print $3 \t $4}'
+#1783692796
+df | awk -F' ' '{print $3 \\t $4}'
+#1783692847
+df | awk -F' ' '{print $3, $4}'
+#1783692872
+df | awk -F'\t' '{print $3, $4}'
+#1783692878
+df | awk -F' ' '{print $3, $4}'
+#1783692972
+df | awk -F' ' 'BEGIN {OFS=" | "}{print $3, $4}'
+#1783692999
+df | awk -F' ' 'BEGIN {OFS=" | "}{print $3, $4}' | column --table
+#1783693010
+df | awk -F' ' 'BEGIN {OFS=" | "}{print $3, $4, $5}' | column --table
+#1783693069
+df -h
+#1783693074
+df | awk -F' ' 'BEGIN {OFS=" | "}{print $3, $4, $5}' | column --table
+#1783693081
+df -h | awk -F' ' 'BEGIN {OFS=" | "}{print $3, $4, $5}' | column --table
+#1783693193
+df -h / | awk -F' ' 'BEGIN {OFS=" | "}{print $3, $4, $5}' | column --table
+#1783693215
+df -h / | awk -F' ' 'BEGIN {OFS=" | "}{print $3, $4, $5} NR==2' | column --table
+#1783693219
+df -h / | awk -F' ' 'BEGIN {OFS=" | "}{print $3, $4, $5} NR==1' | column --table
+#1783693266
+df -h / | awk -F' ' 'BEGIN {OFS=" | "} NR==2 {print $3, $4, $5}' | column --table
+#1783693278
+df -h / | awk -F' ' 'BEGIN {OFS="\t"} NR==2 {print $3, $4, $5}' | column --table
+#1783693382
+df -h / | awk -F' ' 'BEGIN {OFS="\t"} NR==2 {print $2, $3, $4, $5}' | column --table
+#1783693387
+df -h / | awk -F' ' 'BEGIN {OFS="\t"}{print $2, $3, $4, $5}' | column --table
+#1783693580
+ls
+#1783693587
+ls
+#1783693593
+ls
+#1783693594
+y
+#1783693608
+mkdir disk_analyzer
+#1783693611
+cd disk_analyzer/
+#1783693616
+nvim disk_analyzer.sh
+#1783694111
+ls
+#1783701807
+lt3
+#1783701945
+ls
+#1783701948
+./generator.sh 
+#1783701968
+./generator.sh 
+#1783701972
+ls
+#1783701976
+ls -l generator.sh 
+#1783701983
+ls -l in/
+#1783702036
+./generator.sh 
+#1783703486
+./generator.sh 2
+#1783703489
+./generator.sh 3
+#1783703493
+./generator.sh -1
+#1783703512
+./generator.sh -1
+#1783703514
+./generator.sh -2
+#1783703516
+./generator.sh dsd
+#1783703521
+./generator.sh 2!
+#1783703526
+./generator.sh 2ds
+#1783703596
+./generator.sh 2ds
+#1783703608
+./generator.sh 2ds
+#1783703611
+./generator.sh 2ad
+#1783703612
+ds2
+#1783703617
+./generator.sh 32s
+#1783703620
+./generator.sh dsd23124
+#1783703622
+./generator.sh dsd23124dasd
+#1783703624
+./generator.sh
+#1783703629
+./generator.sh -20
+#1783703631
+./generator.sh -20dsda
+#1783703654
+exit
+#1783703683
+./generator.sh      
+#1783703694
+./generator.sh "     "
+#1783704230
+ls
+#1783704232
+bat main.py 
+#1783704431
+exit
+#1783704071
+man test
+#1783704087
+man test
+#1783705855
+exit
+#1783701619
+cd Projects/Code/
+#1783701620
+ls
+#1783701623
+cd Quera/
+#1783701624
+ls
+#1783701675
+ls
+#1783701705
+ls
+#1783701707
+y
+#1783704163
+python3 main.py 
+#1783704255
+ls
+#1783704259
+python3 main.py 
+#1783704293
+ls
+#1783704296
+./generator.sh 3
+#1783704404
+y
+#1783704416
+./generator.sh 3
+#1783704418
+ls
+#1783704419
+y
+#1783704432
+ls
+#1783704445
+python3 main.py 
+#1783704449
+y
+#1783705857
+exit
+#1783747180
+ls
+#1783747204
+./generator.sh 3
+#1783747206
+ls
+#1783747208
+y
+#1783747478
+tldr groupadd
+#1783747517
+tldr useradd
+#1783747631
+id root
+#1783747639
+man test
+#1783748054
+ls
+#1783748060
+chmod u+x ./solution.sh 
+#1783748063
+./solution.sh 
+#1783748066
+sudo ./solution.sh 
+#1783748082
+tldr chown
+#1783748280
+id user2
+#1783748282
+id user3
+#1783748305
+grep 'user3' /etc/passwd
+#1783748414
+./solution.sh 
+#1783748421
+sudo ./solution.sh 
+#1783748439
+sudo ./solution.sh 
+#1783748444
+ls /
+#1783748464
+sudo rm -vi /zookeeper_server.pid 
+#1783748473
+ls /
+#1783748484
+bat /install-script.sh 
+#1783748517
+rm -vi /install-script.sh 
+#1783748523
+sudo rm -vi /install-script.sh 
+#1783748528
+ls /
+#1783748535
+lt3 /bootcamp/
+#1783748564
+tldr chown
+#1783748588
+sudo ./solution.sh 
+#1783748594
+lt3 /bootcamp/
+#1783748629
+tldr groupdel 
+#1783748644
+tldr userdel
+#1783748710
+sudo ./solution.sh 
+#1783748714
+ls /home/
+#1783748739
+sudo ./solution.sh 
+#1783748747
+ls /home/
+#1783748781
+sudo ./solution.sh 
+#1783748794
+fzf /etc/group
+#1783748803
+cat /etc/group | fzf
+#1783748820
+cat /etc/passwd | fzf
+#1783748828
+cat /etc/passwd | fzf
+#1783748982
+..
+#1783748997
+mkdir Employees\ Management
+#1783748998
+ls
+#1783749000
+y
+#1783749009
+cat > employee.csv
+#1783749204
+ls
+#1783749430
+grep -i 'tehran' employee.csv 
+#1783749746
+items="$(grep -i 'tehran' employee.csv)"; for i in "${items[@]}"; do echo "$i"; done
+#1783749774
+items="$(grep -i 'ALborz' employee.csv)"; for i in "${items[@]}"; do echo "$i"; done
+#1783750217
+grep -i 'alborz' employee.csv | cut -d ',' -f 2
+#1783750227
+grep -i 'alborz' employee.csv | cut -d ',' -f 3,4
+#1783750435
+ls
+#1783750439
+chmod u+x ./manager.sh 
+#1783750442
+./manager.sh 
+#1783750446
+./manager.sh amir
+#1783750460
+ls
+#1783750491
+./manager.sh amir
+#1783750506
+./manager.sh amir
+#1783750513
+./manager.sh city tehran
+#1783750531
+./manager.sh city tehran
+#1783750613
+./manager.sh city tehran
+#1783750646
+./manager.sh city tehran
+#1783750698
+./manager.sh city tehran
+#1783750760
+./manager.sh city tehran
+#1783750785
+./manager.sh city tehran
+#1783750854
+./manager.sh city tehran
+#1783750894
+items="$(grep -i 'tehran' employee.csv)"; for i in "${items[@]}"; do echo "$i"; done
+#1783750907
+items="$(grep -i 'tehran' employee.csv)"; for i in "${items[@]}"; do echo "$i\n"; done
+#1783750941
+items="$(grep -i 'tehran' employee.csv)"; IFS= for i in "${items[@]}"; do echo "$i\n"; done
+#1783750951
+items="$(grep -i 'tehran' employee.csv)"; IFS='\n'; for i in "${items[@]}"; do echo "$i\n"; done
+#1783751159
+./manager.sh city tehran
+#1783751167
+y
+#1783751336
+read --help
+#1783751692
+tldr getent 
+#1783751803
+getent services 
+#1783751923
+y
+#1783752015
+grep '10012' employee.csv 
+#1783752023
+grep '12121' employee.csv 
+#1783752032
+grep '10012' employee.csv 
+#1783752036
+grep '^10012' employee.csv 
+#1783752360
+tldr bc
+#1783752481
+./manager.sh bonus 10012
+#1783752820
+sed 's/4000/4200/' employee.csv 
+#1783752842
+sed 's/^10012(4000)/4200/' employee.csv 
+#1783753561
+./manager.sh bonus 10012
+#1783753590
+tldr bc
+#1783753625
+./manager.sh bonus 10012
+#1783753700
+./manager.sh bonus 10012
+#1783753988
+tldr regex
+#1783754106
+./manager.sh bonus 1001
+#1783754130
+./manager.sh bonus 1001
+#1783754146
+./manager.sh bonus 1001
+#1783754172
+./manager.sh city dsfsa
+#1783754199
+./manager.sh city 312
+#1783754202
+./manager.sh city 31ds2
+#1783754208
+./manager.sh city 31ds\dsad2
+#1783754213
+./manager.sh city "   "
+#1783754217
+./manager.sh city alborz
+#1783754221
+./manager.sh city Tehran
+#1783754232
+./manager.sh city semnan
+#1783754253
+./manager.sh bonus dasdsa
+#1783754257
+./manager.sh bonus 414321
+#1783754263
+./manager.sh bonus 10012
+#1783754382
+./manager.sh bonus 1dadsad
+#1783754386
+./manager.sh bonus fdsafds
+#1783754391
+./manager.sh bonus 1001
+#1783754424
+./manager.sh bonus 1001
+#1783754497
+./manager.sh bonus 1001
+#1783754500
+./manager.sh bonus 100
+#1783754501
+./manager.sh bonus 10
+#1783754514
+./manager.sh bonus 40521
+#1783754560
+./manager.sh bonus 40521
+#1783754567
+./manager.sh bonus 40521
+#1783754576
+./manager.sh bonus 10012
+#1783754611
+./manager.sh bonus 10012
+#1783754614
+./manager.sh bonus 1001
+#1783754616
+./manager.sh bonus 100
+#1783754686
+./manager.sh bonus 10012
+#1783754690
+./manager.sh bonus 20221
+#1783754694
+./manager.sh bonus 40521
+#1783754699
+./manager.sh bonus 12140
+#1783754701
+./manager.sh bonus 121400
+#1783754703
+./manager.sh bonus 12
+#1783754705
+./manager.sh bonus dsad
+#1783754710
+./manager.sh bonus 1001
+#1783754717
+exit
+#1783767863
+ls
+#1783767868
+cat storage.txt 
+#1783767927
+cat storage.txt 
+#1783768100
+y
+#1783774183
+man test
+#1783774199
+ls
+#1783774202
+y
+#1783774350
+man test
+#1783774373
+y
+#1783774913
+y
+#1783776453
+y
+#1783776498
+exit
+#1783759827
+ls
+#1783759870
+..
+#1783759871
+y
+#1783759883
+ls
+#1783759885
+y
+#1783759918
+ls
+#1783759955
+cat > cases.csv
+#1783759958
+y
+#1783760212
+tldr tai;
+#1783760213
+tldr tail
+#1783760245
+ls
+#1783760247
+./solution.sh 
+#1783760273
+./solution.sh 
+#1783760280
+cat cases
+#1783760281
+cat cases.csv 
+#1783760403
+tldr cut
+#1783760407
+cat cases.csv 
+#1783760522
+./solution.sh 
+#1783760533
+./solution.sh 
+#1783760881
+tldr test
+#1783760886
+man test
+#1783761024
+tldr chmod
+#1783761359
+ls
+#1783761361
+y
+#1783761367
+ls
+#1783761368
+./solution.sh 
+#1783761371
+y
+#1783761395
+lt3 Cases/
+#1783761484
+man chown
+#1783761503
+man -k chown
+#1783761511
+man 2 chown
+#1783761538
+man -k ownership
+#1783761557
+wikiman 
+#1783761577
+ls
+#1783761583
+apt search wikiman
+#1783761594
+sudo apt purge wikiman
+#1783761625
+fzf --help
+#1783761629
+which fzf
+#1783761635
+fzf
+#1783761639
+fzf
+#1783761655
+lt3 cases/
+#1783761662
+lt3 Cases/
+#1783761733
+y
+#1783761790
+tldr chmod
+#1783762340
+y
+#1783763063
+y
+#1783763126
+ls
+#1783763131
+chmod u+x ./checker.sh 
+#1783763132
+ls
+#1783763135
+nvim checker.sh 
+#1783763150
+ls -l
+#1783763158
+nvim checker.sh 
+#1783767106
+ls
+#1783767849
+ls
+#1783767851
+./checker.sh 
+#1783768046
+./checker.sh 
+#1783768083
+./checker.sh 
+#1783774206
+./checker.sh 
+#1783774300
+./checker.sh 
+#1783774897
+./checker.sh 
+#1783775326
+./checker.sh 
+#1783775372
+./checker.sh 
+#1783776447
+./checker.sh 
+#1783776502
+exit
+#1783776664
+y
+#1783777057
+exit
+#1783747127
+ls
+#1783747135
+cd Projects/
+#1783747136
+ls
+#1783747137
+y
+#1783747399
+..
+#1783747400
+ls
+#1783747427
+mkdir Permissible\ Accessbility
+#1783747428
+ls
+#1783747431
+y
+#1783747444
+nvim solution.sh
+#1783749073
+cd ../Employees\ Management/
+#1783749077
+nvim manager.sh
+#1783754965
+y
+#1783755104
+y
+#1783759635
+mkdir Unsorted\ Cases
+#1783759636
+y
+#1783759693
+nvim solution.sh
+#1783759902
+ls
+#1783759903
+ls
+#1783759905
+..
+#1783759906
+ls
+#1783759912
+ls -l CaseSort/
+#1783759915
+cd CaseSort/
+#1783759925
+chmod u+x ./solution.sh 
+#1783759932
+nvim solution.sh 
+#1783761885
+./solution.sh 
+#1783761889
+y
+#1783761893
+./solution.sh 
+#1783761900
+lt3 Cases/
+#1783761919
+y
+#1783762045
+ls
+#1783762048
+./solution.sh 
+#1783762052
+lt3 Cases
+#1783762064
+y
+#1783762213
+./solution.sh 
+#1783762217
+lt3 Cases
+#1783762229
+y
+#1783762234
+y
+#1783762307
+./solution.sh 
+#1783762309
+y
+#1783762314
+lt3 Cases/
+#1783762332
+y
+#1783763394
+ls
+#1783763396
+y
+#1783763404
+./checker.sh add 10 15
+#1783763490
+ls
+#1783763492
+y
+#1783763499
+y
+#1783763949
+tldr read
+#1783763989
+tldr input
+#1783763999
+tldr read
+#1783764608
+nvidia-smi 
+#1783764625
+fastfetch
+#1783765636
+tldr man
+#1783765641
+man test
+#1783766043
+ls
+#1783766045
+./checker.sh 
+#1783766064
+./checker.sh 
+#1783766078
+./checker.sh 
+#1783766088
+./checker.sh 
+#1783766127
+./checker.sh 
+#1783766171
+./checker.sh 
+#1783766208
+./checker.sh 
+#1783767070
+ls
+#1783767072
+cd test/
+#1783767080
+pyhton3 -m unittest
+#1783767085
+pytton3 -m unittest
+#1783767090
+python3 -m unittest
+#1783767104
+..
+#1783767115
+ls
+#1783767117
+nvim checker.sh 
+#1783776505
+y
+#1783776530
+./checker.sh 
+#1783776545
+ls
+#1783776546
+nvim checker.sh 
+#1783776592
+y
+#1783776597
+./checker.sh 
+#1783776625
+y
+#1783776630
+./checker.sh 
+#1783777058
+exit
+#1783782325
+..
+#1783782325
+y
+#1783782714
+y
+#1783782720
+y
+#1783782855
+docker image ls
+#1783782884
+docker image pull mirror2.chabokan.net/gitea:1.16.8
+#1783782892
+docker image pull gitea:1.16.8
+#1783782960
+docker image pull ghcr.io/qregistry/standard/gitea:1.16.8
+#1783783015
+cd
+#1783783024
+sudoedit /etc/docker/daemon.json 
+#1783783066
+sudo systemctl daemon-reload 
+#1783783082
+sudo systemctl restart docker.service 
+#1783784930
+exit
+#1783786382
+tldr docker volume
+#1783786388
+docker volume ls
+#1783786412
+docker volume inspect c5a88daeb55b2757f85068f1cfce9e43a5b232c687b2038455920c2941958a19 
+#1783786421
+docker volume inspect 2dcc3d03129bda8755bec180f8062ffa853018a0b8f4eace79676e7b56ffda0f 
+#1783786585
+exit
+#1783781833
+ls
+#1783781835
+ls
+#1783781842
+starship --version
+#1783781851
+cargo list
+#1783781859
+cargo install --list
+#1783782277
+cd Projects/Code/Quera/
+#1783782278
+ls
+#1783782280
+y
+#1783784928
+ls
+#1783784953
+docker-compose up --no-build -d
+#1783784980
+docker compose up --no-build -d
+#1783784988
+ls
+#1783784993
+nvim docker-compose.yml 
+#1783785059
+docker compose up --no-build -d
+#1783785146
+y
+#1783785168
+docker compose up --no-build -d
+#1783785175
+docker ps
+#1783785181
+docker ps
+#1783785613
+y
+#1783785664
+docker compose stop
+#1783785672
+docker image ls
+#1783786149
+y
+#1783787103
+docker ps
+#1783787123
+wc -l ~/.bash_history 
+#1783787134
+echo $HISTSIZE 
+#1783787151
+du -sh ~/.bash_history 
+#1783787174
+docker compose up --no-build -d
+#1783787182
+docker pos
+#1783787184
+docker ps
+#1783787217
+docker compose stop
+#1783787220
+y
+#1783787265
+docker compose up --no-build -d
+#1783787270
+docker ps
+#1783787278
+docker ps
+#1783787297
+docker ps
+#1783787305
+y
+#1783787323
+docker compose stop
+#1783787441
+exit
+#1783830982
+cargo binstall eza
+#1783831045
+ls
+#1783831047
+ls -l
+#1783831049
+ls -al
+#1783831089
+cargo binstall zoxide
+#1783831102
+z --version
+#1783831106
+zoxide --version
+#1783831110
+tldr zoxide
+#1783831257
+cargo binstall tealdeer
+#1783831271
+tldr cargo
+#1783831344
+fd --help
+#1783831349
+tldr fd
+#1783831449
+ls
+#1783831453
+cd Downloads/Programs/
+#1783831453
+ls
+#1783831455
+..
+#1783831457
+..
+#1783831459
+cd Programs/
+#1783831460
+ls
+#1783831486
+sudo mv -v completions_bash /etc/bash_completion.d/tealdeer_bash_completion
+#1783831519
+bat ~/.profile 
+#1783831535
+bat ~/.bashrc
+#1783831610
+cargo binstall dysk
+#1783831634
+dysk --version
+#1783831635
+dysk
+#1783831645
+tldr dysk
+#1783831700
+gemini --version
+#1783831761
+yazi --version
+#1783831977
+starship --version
+#1783831981
+tldr starship --version
+#1783831984
+tldr starship
+#1783832008
+starship module --list
+#1783832077
+bat /tmp/anacron.log 
+#1783832092
+which cmd-wrapped 
+#1783835254
+cd games
+#1783835255
+ls
+#1783835255
+y
+#1783835282
+umu --version
+#1783835286
+umu
+#1783835456
+cd
+#1783835458
+cd Pictures/
+#1783835458
+y
+#1783835482
+dysk
+#1783835484
+ls
+#1783835491
+dysk --help
+#1783835497
+dysk -a
+#1783835524
+dysk /
+#1783839687
+sudo apt search flameshot
+#1783839700
+sudo apt install flameshot
+#1783839717
+which fzf
+#1783839725
+apt info fzf
+#1783839732
+fzf --version
+#1783839764
+apt search fzf
+#1783840152
+tldr ufw
+#1783840177
+sudo ufw status numbered
+#1783840282
+sudo ufw delete 14
+#1783840290
+sudo ufw delete 13
+#1783840311
+sudo ufw delete 9
+#1783840320
+sudo ufw delete 8
+#1783840331
+sudo ufw delete 7
+#1783840340
+sudo ufw delete 6
+#1783840353
+sudo ufw delete 9
+#1783840358
+sudo ufw delete 8
+#1783840365
+sudo ufw delete 5
+#1783840373
+sudo ufw delete 5
+#1783840378
+sudo ufw delete 6
+#1783840392
+sudo ufw delete 4
+#1783840446
+sudo ufw status numbered
+#1783840499
+sudo ufw delete 1
+#1783840503
+sudo ufw delete 2
+#1783840508
+sudo ufw status numbered
+#1783840529
+sudo ufw delete 1
+#1783840631
+sudo ufw allow OpenSSH
+#1783840635
+sudo ufw status numbered
+#1783840659
+sudo ufw version
+#1783842301
+ll
+#1783842304
+la
+#1783842315
+l1
+#1783843877
+cd Downloads/ABDM/Compressed/
+#1783843877
+ls
+#1783843900
+ls
+#1783843941
+tar -xvf GE-Proton11-1.tar.gz -C ~/.local/share/Steam/compatibilitytools.d/
+#1783844937
+cd
+#1783844939
+dysk
+#1783844942
+exit
+#1783830354
+ls
+#1783830357
+curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
+#1783830377
+cargo-binstall --help
+#1783830386
+cargo-binstall --version
+#1783830470
+cargo install cargo-update
+#1783830745
+cargo list --installed
+#1783830751
+cargo list --help
+#1783830755
+cargo --list
+#1783830760
+cargo install --list
+#1783830783
+cargo binstall ouch
+#1783830846
+cargo binstall starship
+#1783830872
+starship --version
+#1783830876
+ls
+#1783830887
+cargo install --list
+#1783831055
+cargo install --list
+#1783831122
+cargo install --list
+#1783831312
+which fd
+#1783831317
+fd --version
+#1783831364
+fd / 'completion.d' --type directory
+#1783831371
+fd / 'completion.d/' --type directory
+#1783831384
+fd / 'completion\.d\/' --type directory
+#1783831389
+fd / 'completion' --type directory
+#1783831407
+fd 'completion.d' / --type directory
+#1783831424
+ls /etc/bash_completion
+#1783831426
+ls /etc/bash_completion.d/
+#1783831444
+ls /etc/bash_completion.d/
+#1783831492
+ls /etc/bash_completion.d/
+#1783831574
+cargo install --list
+#1783840236
+tldr ufw
+#1783840298
+sudo ufw status numbered
+#1783840315
+sudo ufw status numbered
+#1783840324
+sudo ufw status numbered
+#1783840334
+sudo ufw status numbered
+#1783840361
+sudo ufw status numbered
+#1783840370
+sudo ufw status numbered
+#1783840382
+sudo ufw status numbered
+#1783840396
+sudo ufw status numbered
+#1783840404
+sudo netstat -tulpn
+#1783840468
+sudo netstat -tulpn | grep '\b1714\b'
+#1783840472
+sudo netstat -tulpn | grep '1714'
+#1783840522
+tldr ufw
+#1783840525
+sudo ufw status numbered
+#1783843883
+cd
+#1783843892
+cd .local/share/Steam/compatibilitytools.d/
+#1783843893
+ls
+#1783843917
+tldr tar
+#1783843962
+ls
+#1783843965
+ls -l
+#1783843968
+ls -al
+#1783843970
+du -sh *
+#1783844943
+exit
+#1783857023
+curl -sSfL https://github.com/HalFrgrd/flyline/releases/latest/download/install.sh | sh
+#1783857053
+flyline run-tutorial
+#1783857074
+which flyline 
+#1783857084
+bat .bashrc 
+#1783857118
+enable -f /home/glados/.local/lib/libflyline.so flyline
+#1783857128
+flyline run-tutorial 
+#1783857157
+flyline --version
+#1783857205
+RPS1='\t'
+#1783857281
+flyline create-prompt-widget mouse-mode --name MOUSE_MODE 'ON ' 'OFF' && RPS1=" MOUSE_MODE $RPS1"
+#1783857314
+flyline mouse --mode smart
+#1783857661
+ls foo/bar_abc/qwe.txt oiu.txt
+#1783857735
+flyline set-style --default-theme dark
+#1783857746
+flyline set-style --help
+#1783857820
+flyline set-cursor --help
+#1783857865
+flyline set-cursor --backend terminal
+#1783857896
+flyline set-cursor --interpolate-easing 
+#1783857910
+flyline key list
+#1783857947
+exit
+#1783858010
+ls
+#1783858014
+exit
+#1783858015
+exit
+#1783857949
+ls
+#1783857950
+ls
+#1783858051
+nvim .bashrc 
+#1783858100
+ls
+#1783858107
+source ~/.bashrc 
+#1783858114
+exit
+#1783858119
+ls
+#1783858131
+sudoedit /etc/hostname 
+#1783858781
+nm 
+#1783858790
+nmtui 
+#1783858829
+ls
+#1783858831
+ls
+#1783858835
+hostname
+#1783858848
+cat /etc/hostname 
+#1783858865
+echo "$PS1"
+#1783858959
+exit 
+#1783859967
+exit
+#1783859968
+exit
+#1783860124
+exit
+#1783861388
+echo "$NVM_DIR "
+#1783861395
+ls .nvm/
+#1783861464
+exit
+#1783861465
+exit
+#1783861769
+exit
+#1783861771
+exit
+#1783861775
+exit
+#1783861776
+exit
+#1783858984
+tldr usermod 
+#1783859057
+usermod --help 
+#1783859915
+PS1='\033[38;2;189;147;249m\u\033[0m@\033[38;2;141;233;263m\h\033[0m:\033[38;2;80;250;123m\w\033[0m\033[38;2;255;121;198m$\033[0m'
+#1783859916
+ls
+#1783859932
+cd Downloads/ABDM/Documents/
+#1783859955
+RPS1='\033[38;2;98;114;164m\D{%H:%M}\033[0m'
+#1783859957
+ls
+#1783859978
+nvim .bashrc
+#1783859984
+cd
+#1783859993
+nvim ~/.bashrc 
+#1783860067
+nvim .profile 
+#1783860111
+source ~/.profile 
+#1783860118
+ls
+#1783860132
+bat .profile 
+#1783860222
+bat .bashrc 
+#1783860260
+cat .bashrc | wl-copy 
+#1783860737
+tldr command 
+#1783860759
+command ls
+#1783860840
+zoxide init --help
+#1783861123
+nvim .bashrc 
+#1783861451
+cd Code
+#1783861453
+ls
+#1783861602
+cd
+#1783861607
+source ~/.bashrc 
+#1783861613
+cd Code
+#1783861619
+cd 
+#1783861642
+for i in {1..5}; do /usr/bin/time -p bash -i -c exit; done
+#1783861691
+time eval "$(tv init bash)"
+#1783861698
+time eval "$(zoxide init bash)"
+#1783861711
+time eval "$(zoxide init bash)"
+#1783861711
+time eval "$(tv init bash)"
+#1783861711
+time (ssh-add -l &>/dev/null)
+#1783861712
+time [ -f ~/.fzf.bash ] && time source ~/.fzf.bash
+#1783861712
+time ( [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" )
+#1783861713
+time ( [ -f /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion )
+#1783861734
+nvim .bashrc 
+#1783861760
+source ~/.bashrc 
+#1783861794
+time eval "$(zoxide init bash)"
+#1783861794
+time eval "$(tv init bash)"
+#1783861794
+time (ssh-add -l &>/dev/null)
+#1783861794
+time [ -f ~/.fzf.bash ] && time source ~/.fzf.bash
+#1783861794
+time ( [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" )
+#1783861795
+time ( [ -f /usr/share/bash-completion/bash_completion ] && . /usr/share/bash-completion/bash_completion )
+#1783861838
+ls
+#1783861883
+reboot
+#1783862475
+exit 
+#1783862432
+bat .profile 
+#1783862451
+bat .profile 
+#1783862701
+shopt login_shell
+#1783862986
+bat .profile 
+#1783863047
+nvim .profile 
+#1783863080
+exit
+#1783863101
+exit
+#1783863102
+exit
+#1783863790
+exit
+#1783863008
+echo "$GEMINI_API_KEY "
+#1783863064
+nvim .bashrc 
+#1783863094
+source ~/.bashrc 
+#1783863517
+ls 
+#1783863770
+# Add to ~/.bashrc
+#1783863770
+flyline set-style --default-theme dark
+#1783863770
+flyline set-style recognised-command="#50fa7b"
+#1783863770
+flyline set-style unrecognised-command="#ff5555"
+#1783863770
+flyline set-style bash-reserved="#bd93f9"
+#1783863770
+flyline set-style bash-builtin="#8be9fd"
+#1783863770
+flyline set-style inline-suggestion="dim #6272a4"
+#1783863770
+flyline set-style matching-char="bold #ffb86c"
+#1783863770
+flyline set-style secondary-text="dim #6272a4"
+#1783863770
+flyline set-style tutorial-hint="bold italic #f1fa8c"
+#1783863796
+exit 
+#1783866689
+cd
+#1783866703
+chezmoi re-add .profile .bashrc 
+#1783866735
+exit 
+#1783866661
+lt3
+#1783866664
+lt1
+#1783866667
+lt2
+#1783866715
+lt2
+#1783866723
+git status 
+#1783866796
+cd repo conf
+#1783866797
+ls
+#1783866801
+git status
+#1783866809
+lazygit
+#1783866846
+exit
+#1783867480
+git remote -v
+#1783867544
+ssh-add ~/.ssh/github 
+#1783867566
+tldr git remote
+#1783867588
+git remote add github git@github.com:itsamiralitoori/dotfiles.git
+#1783867592
+git remote -v
+#1783867602
+tldr git push
+#1783867616
+git push github main
+#1783867645
+git remove -v
+#1783867649
+git remote -v
+#1783867757
+exit
+#1783867801
+tldr git remote
+#1783868037
+git remote remove github 
+#1783868041
+git remote -v
+#1783868061
+git remote add github git@github.com:itsamiralitoori/backup.git
+#1783868062
+git remote -v
+#1783868085
+git push github main 
+#1783868464
+...
+#1783868474
+cd ../../
+#1783868483
+cd myscripts/backup/
+#1783868484
+y
+#1783868563
+cd Ob
+#1783868603
+git remote -v
+#1783868619
+git remote remove origin
+#1783868621
+git remote -v
+#1783868695
+git remote add github git@github.com:itsamiralitoori/Obsidian-Notes.git
+#1783868703
+git push 
+#1783868712
+git push github main 
+#1783868735
+cd project
+#1783868742
+cd myscripts/backup/
+#1783868745
+nvim note_obsidian_backup.sh 
+#1783868800
+..
+#1783868802
+cd ..
+#1783868806
+cd ..
+#1783868807
+ls
+#1783868812
+cd Repositories/
+#1783868813
+ls
+#1783868828
+cd tsk/
+#1783868829
+ls
+#1783868836
+git status
+#1783868856
+git remote -v
+#1783868872
+git remote remove old-origin
+#1783868876
+git remote -v
+#1783868895
+git remote rename origin chabokan-gitlab
+#1783868897
+git remote -v
+#1783868966
+git remote add github git@github.com:itsamiralitoori/tsk.git
+#1783868974
+git remote -v
+#1783868982
+git push github main
+#1783869013
+lazygit
+#1783869041
+exit
+#1783866658
+chezmoi cd
+#1783867058
+cd
+#1783867060
+cd Documents/
+#1783867061
+ls
+#1783867073
+sudo mv -v github-recovery-codes-itsamiralitoori.txt BackupCodes/
+#1783867080
+ls
+#1783867083
+ls BackupCodes/
+#1783867086
+sudo ls BackupCodes/
+#1783867179
+cd
+#1783867206
+cat ~/.ssh/id_empty.pub | wl-copy 
+#1783867257
+tldr ssh-keygen 
+#1783867312
+ssh-keygen -t ed25519 -a 32 -f ~/.ssh/github-empty
+#1783867324
+ssh-keygen -t ed25519 -a 32 -f ~/.ssh/github
+#1783867367
+cat ~/.ssh/github-empty.pub | wl-copy 
+#1783867408
+cat ~/.ssh/github.pub | wl-copy 
+#1783867475
+chezmoi cd 
+#1783867765
+cd repo conf
+#1783867765
+ls
+#1783867771
+git remote -v
+#1783869616
+exit 
+#1783865629
+ls
+#1783865641
+flyline --help 
+#1783865704
+flyline upgrade 
+#1783865717
+flyline --help | bat 
+#1783865733
+flyline suggestions --help 
+#1783865771
+flyline --help 
+#1783865806
+flyline editor --help 
+#1783865842
+flyline create-prompt-widget --help 
+#1783865883
+ls
+#1783865889
+whoami
+#1783865892
+hostname 
+#1783865895
+hostnamectl 
+#1783865934
+fastfetch 
+#1783866583
+ls
+#1783866606
+cd Projects/myscripts/automation/
+#1783866615
+nvim bootstrap.sh 
+#1783869617
+ls
+#1783869975
+tldr bash 
+#1783877802
+exit 
+#1783919545
+exit
+#1783918746
+cd Documents/AmirAli\ Toori/University/M.A\ Exam\ 1405/
+#1783918749
+y
+#1783922244
+y
+#1783922660
+btop 
+#1783924926
+cd
+#1783924929
+cd Pictures/y
+#1783924935
+cd Pictures
+#1783924937
+y
+#1783925276
+dolphin .
+#1783925380
+cd
+#1783925429
+cd Documents/AmirAli\ Toori/University/M.A\ Exam\ 1405/
+#1783925431
+y
+#1783925888
+cd
+#1783926066
+cd Pictures/Wallpapers/Gorgeous/
+#1783926067
+y
+#1783926076
+exit
+#1783945098
+echo "$GEMINI_API_KEY "
+#1783945103
+exit
+#1783945854
+ls
+#1783945859
+chmod u+x ./solution.sh 
+#1783945860
+ls
+#1783945864
+./solution.sh 
+#1783946414
+ls
+#1783946421
+chmod u+x ./solution2.sh 
+#1783946424
+./solution2.sh 
+#1783946449
+./solution2.sh 
+#1783946451
+./solution2.sh 
+#1783946462
+./solution2.sh 
+#1783946492
+./solution2.sh 
+#1783946503
+./solution2.sh 
+#1783946563
+./solution2.sh 
+#1783946630
+./solution2.sh 
+#1783946651
+wl -l file.txt 
+#1783946657
+wc -l file.txt 
+#1783946663
+wc -l file.txt | cut -d ' ' -f 1
+#1783946689
+./solution2.sh 
+#1783931018
+vulkaninfo 
+#1783931031
+vulkaninfo | bat 
+#1783931071
+vulkaninfo | bat 
+#1783931088
+nvidia-smi 
+#1783931408
+vulkaninfo | bat 
+#1783931766
+vulkaninfo | bat 
+#1783931914
+vulkaninfo | bat 
+#1783932305
+nvidia-smi 
+#1783932939
+vulkaninfo | grep "apiVersion"
+#1783932959
+vkvia
+#1783932978
+glxinfo | grep "Vulkan"
+#1783932983
+glxinfo
+#1783933009
+glxinfo | grep "vulkan"
+#1783933025
+vulkaninfo --summary
+#1783945040
+ls
+#1783945044
+cd Projects/
+#1783945045
+ls
+#1783945048
+cd Code/
+#1783945048
+ls
+#1783945055
+mkdir LeetCode
+#1783945057
+cd LeetCode
+#1783945062
+mkdir TenthLine
+#1783945064
+cd TenthLine/
+#1783945065
+ls
+#1783945067
+ls -a
+#1783945069
+ls -al
+#1783945138
+cat > file.txt
+#1783945158
+nl file.txt 
+#1783945185
+nl file.txt | grep -Po '^10 (?= )'
+#1783945189
+nl file.txt | grep -Po '^10'
+#1783945204
+nl file.txt | tr -d '\t' |grep -Po '^10 (?= )'
+#1783945208
+nl file.txt | tr -d '\t'
+#1783945242
+head +10 file.txt 
+#1783945256
+head -n +10 file.txt 
+#1783945260
+head -n 10 file.txt 
+#1783945264
+head -n -10 file.txt 
+#1783945270
+head +n 10 file.txt 
+#1783945278
+tail -1 file.txt 
+#1783945297
+wc -l file.txt 
+#1783945365
+man -k find line
+#1783945643
+count_line=1; while IFS= read -r line; do if [[ "$count_line" -eq 10 ]]; then printf "%s" "$line"; break; fi; (( count_line++ )); done;
+#1783945668
+count_line=1; while IFS= read -r line; do if [[ "$count_line" -eq 10 ]]; then printf "%s" "$line"; break; fi; (( count_line++ )); done <file.txt
+#1783945671
+count_line=1; while IFS= read -r line; do if [[ "$count_line" -eq 10 ]]; then printf "%s" "$line"; break; fi; (( count_line++ )); done <file.txt
+#1783945708
+count_line=0; while IFS= read -r line; do if [[ "$count_line" -eq 10 ]]; then printf "%s" "$line"; break; fi; (( count_line++ )); done <file.txt
+#1783945716
+count_line=0; while IFS= read -r line; do if [[ "$count_line" -eq 10 ]]; then printf "%s\n" "$line"; break; fi; (( count_line++ )); done <file.txt
+#1783945821
+nvim solution.sh
+#1783945898
+time $(./solution.sh )
+#1783945907
+time ./solution.sh 
+#1783945922
+awk 'NR==10 {print $0}' file.txt 
+#1783945926
+time awk 'NR==10 {print $0}' file.txt 
+#1783946102
+nvim solution.sh 
+#1783946150
+tldr head 
+#1783946164
+head -10 file.txt | tail -1
+#1783946300
+if ! [[ "$(wc -l file.txt)" -lt 10 ]]; then head -10 file.txt | tail -1; fi
+#1783946321
+if ! [[ "$(wc -l "file.txt")" -lt 10 ]]; then head -10 file.txt | tail -1; fi
+#1783946338
+if ! [[ "$(wc -l "file.txt")" -lt 10 ]]; then head -10 file.txt | tail -1; fi
+#1783946343
+nvim solution2.sh
+#1783946857
+sed --help
+#1783946944
+..
+#1783946956
+mkdir Valid\ Phone\ Numbers
+#1783946958
+cd Valid\ Phone\ Numbers/
+#1783946964
+cd ..
+#1783946964
+ls
+#1783946971
+mv -v Valid\ Phone\ Numbers/ ../
+#1783946973
+ls
+#1783946973
+..
+#1783946975
+cd ..
+#1783946976
+ls
+#1783946979
+cd Valid\ Phone\ Numbers/
+#1783946980
+ls
+#1783946996
+cat > file.txt
+#1783947099
+grep -Eo '([0-9]{3}\-[0-9]{3}\-[0-9]{4})|(\([0-9]{3}\) [0-9]{3}\-[0-9]{4})'
+#1783947105
+grep -Eo '([0-9]{3}\-[0-9]{3}\-[0-9]{4})|(\([0-9]{3}\) [0-9]{3}\-[0-9]{4})' file.txt 
+#1783947181
+grep -Eo '(^[0-9]{3}\-[0-9]{3}\-[0-9]{4})|(^\([0-9]{3}\) [0-9]{3}\-[0-9]{4})' file.txt 
+#1783947196
+grep -Eo '(^[0-9]{3}\-[0-9]{3}\-[0-9]{4}$)|(^\([0-9]{3}\) [0-9]{3}\-[0-9]{4}$)' file.txt 
+#1783947245
+nvim solution.sh
+#1783947255
+ls
+#1783947327
+grep -o '(^[0-9]{3}\-[0-9]{3}\-[0-9]{4}$)|(^\([0-9]{3}\) [0-9]{3}\-[0-9]{4}$)' file.txt 
+#1783947333
+grep -E '(^[0-9]{3}\-[0-9]{3}\-[0-9]{4}$)|(^\([0-9]{3}\) [0-9]{3}\-[0-9]{4}$)' file.txt 
+#1783947340
+time grep -E '(^[0-9]{3}\-[0-9]{3}\-[0-9]{4}$)|(^\([0-9]{3}\) [0-9]{3}\-[0-9]{4}$)' file.txt 
+#1783947345
+time grep -Eo '(^[0-9]{3}\-[0-9]{3}\-[0-9]{4}$)|(^\([0-9]{3}\) [0-9]{3}\-[0-9]{4}$)' file.txt 
+#1783947359
+time grep -Eo '(^[0-9]{3}\-[0-9]{3}\-[0-9]{4}$)|(^\([0-9]{3}\) [0-9]{3}\-[0-9]{4}$)' file.txt 
+#1783947534
+cd ..
+#1783947540
+mkdir Word\ Frequency
+#1783947540
+ls
+#1783947542
+cd Word\ Frequency/
+#1783947544
+ls
+#1783947558
+cat > words.txt
+#1783947564
+bat words.txt 
+#1783947578
+uniq words.txt 
+#1783947590
+sort -u words.txt 
+#1783947601
+sort -u -t ' ' words.txt 
+#1783947630
+cat words.txt | grep -o .
+#1783947644
+cat words.txt | grep -o . '\w'
+#1783947653
+cat words.txt | grep -o '\w'
+#1783947671
+cat words.txt | grep -o '\b\w\b'
+#1783947678
+cat words.txt | grep -o '\w' .
+#1783947690
+cat words.txt | grep -o '[\w]+'
+#1783947712
+cat words.txt | tr ' ' '\n'
+#1783947760
+cat words.txt | tr ' ' '\n' | sort -u
+#1783947894
+ls
+#1783947899
+chmod u+x ./solution.sh 
+#1783947901
+./solution.sh 
+#1783947922
+./solution.sh 
+#1783947930
+cat words.txt | tr ' ' '\n' | sort -u
+#1783947938
+cat words.txt 
+#1783947994
+./solution.sh 
+#1783948025
+./solution.sh 
+#1783948041
+grep -c 'the' words.txt 
+#1783948080
+./solution.sh 
+#1783948101
+./solution.sh 
+#1783948138
+./solution.sh 
+#1783948154
+./solution.sh 
+#1783948186
+./solution.sh 
+#1783948205
+./solution.sh 
+#1783948278
+./solution.sh 
+#1783948298
+grep -c 'sunny' words.txt 
+#1783948304
+grep -c 'the' words.txt 
+#1783948310
+tldr wc
+#1783948336
+wc --help 
+#1783948348
+grep -co 'the' words.txt 
+#1783948352
+grep -c -o 'the' words.txt 
+#1783948357
+grep --help | bat
+#1783948428
+grep -w -c 'the' words.txt 
+#1783948431
+bat words.txt 
+#1783948504
+grep -o 'the' words.txt 
+#1783948508
+grep -o 'the' words.txt | wc -l
+#1783948523
+./solution.sh 
+#1783948554
+./solution.sh 
+#1783948571
+./solution.sh 
+#1783948606
+tldr echo
+#1783948620
+./solution.sh 
+#1783948632
+tldr sort
+#1783948667
+./solution.sh 
+#1783948680
+./solution.sh 
+#1783948725
+./solution.sh 
+#1783948734
+tldr sort
+#1783948762
+./solution.sh 
+#1783948975
+ls
+#1783948979
+mv -v words.txt.bak
+#1783948987
+mv -v words.txt words.txt.bak
+#1783948993
+cat > words.txt
+#1783949001
+./solution.sh 
+#1783949018
+bash -x solution.sh 
+#1783949196
+tldr xargs
+#1783949231
+ls
+#1783949250
+echo words.txt.bak | xargs -n1 | sort -u | xargs 
+#1783949257
+cat  words.txt.bak | xargs -n1 | sort -u | xargs 
+#1783949265
+cat words.txt.bak | xargs -n1 | sort -u | xargs 
+#1783949610
+./solution.sh 
+#1783949622
+./solution.sh 
+#1783949626
+ls
+#1783949627
+y
+#1783949647
+./solution.sh 
+#1783949711
+./solution.sh 
+#1783949725
+./solution.sh 
+#1783949736
+./solution.sh 
+#1783949753
+./solution.sh 
+#1783949814
+./solution.sh 
+#1783949905
+./solution.sh 
+#1783949925
+./solution.sh 
+#1783949937
+./solution.sh 
+#1783950020
+./solution.sh 
+#1783950025
+./solution.sh 
+#1783950036
+./solution.sh 
+#1783950038
+./solution.sh 
+#1783950059
+./solution.sh 
+#1783950063
+ls
+#1783950075
+y
+#1783950084
+cat > words.txt
+#1783950090
+./solution.sh 
+#1783955868
+ls
+#1783955872
+nvim solution.sh 
+#1783955889
+y
+#1783955900
+cat > words.txt
+#1783956286
+./solution.sh 
+#1783956330
+nvim words.txt 
+#1783956344
+./solution.sh 
+#1783956420
+ls
+#1783956422
+nvim solution.sh 
+#1783956712
+ls
+#1783956718
+chmod u+x ./solution2.sh 
+#1783956720
+./solution2.sh 
+#1783956742
+ls
+#1783956773
+./solution2.sh 
+#1783956881
+ls
+#1783956886
+./solution2.sh 
+#1783956930
+./solution2.sh 
+#1783956941
+./solution.sh 
+#1783956966
+cat words.txt | xargs -n1 | sort -u
+#1783956997
+./solution2.sh 
+#1783957032
+bat solution.sh 
+#1783957052
+bat words.txt 
+#1783957091
+./solution2.sh 
+#1783957149
+./solution2.sh 
+#1783957169
+./solution2.sh 
+#1783957207
+./solution2.sh 
+#1783957220
+cat words.txt | tr '\n' ' '
+#1783957225
+cat words.txt | tr '\n' ' '
+#1783957227
+cat words.txt | tr '\n' ' '
+#1783957230
+cat words.txt | tr '\n' ' '
+#1783957232
+cat words.txt | tr '\n' ' '
+#1783957234
+cat words.txt | tr '\n' ' '
+#1783957236
+cat words.txt | tr '\n' ' '
+#1783957354
+for i in {1..100}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957360
+cat words.txt | tr '\n' ' '
+#1783957365
+cat words.txt | tr '\n' ' '
+#1783957372
+cat words.txt | tr '\n' ''
+#1783957373
+cat words.txt | tr '\n' ' '
+#1783957382
+for i in {1..10}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957387
+for i in {1..9}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957394
+for i in {1..8}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957470
+flyline version --copy 
+#1783957628
+flyline log set-level debug
+#1783957632
+for i in {1..10}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957635
+for i in {1..8}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957648
+for i in {1..9}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957652
+for i in {1..11}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957657
+for i in {1..12}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957661
+for i in {1..13}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957667
+for i in {1..14}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957672
+for i in {1..15}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957687
+flyline log copy --last 10s
+#1783957863
+starship init
+#1783957868
+starship init bash
+#1783957881
+tail ~/.bashrc 
+#1783957892
+starship --version
+#1783957907
+unset PS1
+#1783957911
+unset RPS1
+#1783957916
+starship init bash
+#1783957925
+for i in {1..15}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957933
+for i in {1..5}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957943
+set PS1
+#1783957946
+exit
+#1783958268
+exot
+#1783958269
+exit
+#1783957511
+ls
+#1783957514
+ls -a
+#1783957516
+ls -al
+#1783957531
+fastfetch 
+#1783957538
+y
+#1783957552
+ls
+#1783957570
+for i in {1..8}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957575
+for i in {1..9}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957580
+for i in {1..10}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957585
+for i in {1..11}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957591
+for i in {1..12}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783957598
+for i in {1..13}; do printf "dasdsadsadsadsadsadsadsadsadsa"; done
+#1783958278
+exit 
+#1783947772
+nvim solution.sh
+#1783948905
+nvim solution.sh
+#1783956426
+ls
+#1783956433
+nvim solution2.sh
+#1783965434
+exit
+#1783946388
+man test
+#1783947739
+tldr wc
+#1783955765
+man sort
+#1783955781
+man sort
+#1783955838
+echo "11 21 10 1 2 3 4 5" | grep -o 
+#1783955840
+echo "11 21 10 1 2 3 4 5" | grep -o .
+#1783955852
+echo "11 21 10 1 2 3 4 5" | xargs -n 1 
+#1783955856
+echo "11 21 10 1 2 3 4 5" | xargs -n 1 | sort 
+#1783955860
+echo "11 21 10 1 2 3 4 5" | xargs -n 1 | sort -h
+#1783956509
+tldr xargs
+#1783956563
+xargs --help
+#1783956595
+tldr xargs
+#1783956608
+xargs --help
+#1783965435
+exit
+#1783997024
+cd Documents/BackupCodes/
+#1783997024
+ls
+#1783997031
+sudo cd Documents/BackupCodes/
+#1783997040
+cd Documents/
+#1783997041
+ls
+#1783997043
+cd BackupCodes/
+#1783997065
+su -
+#1783997079
+su root
+#1783997093
+ls -l BackupCodes/
+#1783997098
+sudo ls -l BackupCodes/
+#1783997663
+ls
+#1783997680
+sudo mv -v nexus_recover_codes.txt BackupCodes/
+#1783997686
+ls -dl BackupCodes/
+#1783998132
+cat > ubisoft_recovery_codes.txt
+#1783998136
+ls
+#1783998143
+sudo mv -v ubisoft_recovery_codes.txt BackupCodes/
+#1783998422
+cat > ubisoft_recovery_codes.txt
+#1783998474
+sudo cp -v ubisoft_recovery_codes.txt BackupCodes/
+#1783998491
+sudo cat BackupCodes/ubisoft_recovery_codes.txt
+#1783998501
+ls
+#1783998506
+rm -v ubisoft_recovery_codes.txt 
+#1783999198
+ls
+#1783999205
+sudo ls BackupCodes/
+#1783999239
+sudo mv -v Epic\ Games\ Account\ Two-Factor\ backup\ codes.txt BackupCodes/
+#1783999708
+ls
+#1783999710
+cd
+#1783999713
+exit
+#1784002449
+tldr chown
+#1784002513
+tldr chmod
+#1784002670
+tldr chown
+#1784002829
+exit
+#1784002355
+su root 
+#1784002406
+ls
+#1784002430
+cd Documents/
+#1784002430
+ls
+#1784002437
+ls -d BackupCodes/
+#1784002440
+ls -ld BackupCodes/
+#1784002483
+sudo chown -R glados:glados BackupCodes/
+#1784002490
+ls -ld BackupCodes/
+#1784002498
+ls -l BackupCodes/
+#1784002542
+id glados
+#1784002557
+groups
+#1784002561
+groups glados 
+#1784002584
+ls -lg BackupCodes/
+#1784002640
+chmod -R u=rw BackupCodes/
+#1784002644
+sudo chmod -R u=rw BackupCodes/
+#1784002648
+ls -lg BackupCodes/
+#1784002678
+sudo chown -R glados: BackupCodes/
+#1784002681
+ls -lg BackupCodes/
+#1784002694
+ls -ld BackupCodes/
+#1784002720
+sudo chown -R glados: BackupCodes/
+#1784002729
+ls -lg BackupCodes/
+#1784002735
+sudo chown -R glados:glados BackupCodes/
+#1784002737
+ls -lg BackupCodes/
+#1784002776
+chmod -R 660 BackupCodes/
+#1784002780
+sudo chmod -R 660 BackupCodes/
+#1784002782
+ls -lg BackupCodes/
+#1784002807
+sudo chmod -R 660 BackupCodes/*
+#1784002809
+ls -lg BackupCodes/
+#1784002825
+sudo cat BackupCodes/Backup-codes-master.masterblocker.txt 
+#1784002827
+ls
+#1784002835
+ls -ld BackupCodes/
+#1784004927
+uptime -s
+#1784004932
+tldr uptime
+#1784004938
+uptime -p
+#1784004947
+fastfetch 
+#1784005138
+ls
+#1784005142
+y
+#1784005148
+nvim ~/.bashrc 
+#1784008711
+cd
+#1784008720
+bat .bashrc 
+#1784008777
+cd Projects/Code/LeetCode/
+#1784008778
+ls
+#1784008779
+y
+#1784008794
+ls
+#1784008797
+./solution2.sh 
+#1784008833
+ls
+#1784008837
+nvim solution2.sh 
+#1784011297
+exot
+#1784011299
+exit
+#1784008884
+cat words.txt | tr '\n' ' '
+#1784008887
+cat words.txt | tr '\n' ' ' | bat
+#1784008893
+bat words.txt 
+#1784008902
+wc -w words.txt 
+#1784008907
+cat words.txt | tr '\n' ' ' | wc -w
+#1784008979
+./solution2.sh 
+#1784009002
+grep -c '\bcan\b' words.txt 
+#1784009007
+bat words.txt 
+#1784009054
+grep -c '\bcan\b' <(cat words.txt | tr '\n' ' ')
+#1784009074
+grep -c '\bcan\b' <(cat words.txt | tr '\n' ' ')
+#1784009084
+cat words.txt | tr '\n' ' '
+#1784009104
+cat words.txt | tr '\n' ' ' | grep -c '\bcan\b'
+#1784009117
+cat words.txt | tr '\n' ' ' | grep -co '\bcan\b'
+#1784009120
+cat words.txt | tr '\n' ' ' | grep -o '\bcan\b'
+#1784009129
+cat words.txt | tr '\n' ' '
+#1784009133
+cat words.txt | tr '\n' ' ' | bat
+#1784009138
+cat words.txt | tr '\n' ' ' | cat -A
+#1784009140
+cat words.txt | tr '\n' ' ' | cat -A
+#1784009143
+cat words.txt | tr '\n' ' ' | cat -A | bat
+#1784009780
+./solution2.sh 
+#1784009922
+cat words.txt | grep -o .
+#1784009935
+cat words.txt | tr ' ' '\n'
+#1784009952
+./solution2.sh 
+#1784010021
+./solution2.sh 
+#1784010036
+./solution2.sh 
+#1784010079
+./solution2.sh 
+#1784010227
+./solution2.sh 
+#1784010334
+./solution2.sh 
+#1784010385
+./solution2.sh 
+#1784010389
+./solution2.sh | bat
+#1784010421
+./solution2.sh | bat
+#1784010456
+./solution2.sh | bat
+#1784010475
+./solution2.sh | bat
+#1784010601
+./solution2.sh | bat
+#1784010738
+./solution2.sh | bat
+#1784010774
+./solution2.sh | bat
+#1784010795
+./solution2.sh | bat
+#1784010897
+tldr grep
+#1784010914
+grep --help
+#1784011039
+./solution2.sh 
+#1784011059
+./solution2.sh 
+#1784011232
+./solution2.sh 
+#1784011255
+./solution2.sh 
+#1784011265
+./solution2.sh 
+#1784011300
+exit
+#1784012667
+nvim .bashrc 
+#1784012728
+nvim .flyline_theme.sh 
+#1784012811
+mv -v .flyline_theme.sh flyline.sh
+#1784012820
+nvim .bashrc 
+#1784012854
+mv -v flyline.sh .flyline.sh
+#1784012859
+nvim .bashrc 
+#1784012866
+nvim .flyline.sh 
+#1784012902
+source ~/.bashrc 
+#1784012911
+flyline --help
+#1784012954
+flyline suggestions --help
+#1784013074
+flyline create-prompt-widget --help 
+#1784013102
+exit
+#1784011808
+flyline set-style --help
+#1784011824
+flyline set-style --help | wl-copy 
+#1784011973
+cat > .flyline_theme.sh
+#1784011976
+ls
+#1784011983
+nvim .bashrc 
+#1784012036
+source ~/.bashrc 
+#1784012587
+flyline create-prompt-widget --help 
+#1784012625
+flyline mouse --help
+#1784012638
+flyline mouse --mode disabled 
+#1784012708
+echo $HOME 
+#1784012990
+flyline suggestions set-fuzzy-mode 
+#1784013001
+flyline suggestions set-fuzzy-mode all
+#1784013021
+flyline suggestions set-fuzzy-mode none
+#1784013039
+flyline suggestions set-fuzzy-mode all
+#1784013125
+cd Projects/Code/LeetCode/
+#1784013126
+ls
+#1784013137
+mkdir Transpose\ File
+#1784013141
+cd Transpose\ File/
+#1784013141
+ls
+#1784013150
+cat > file.txt
+#1784013156
+bat file.txt 
+#1784013166
+nvim solution.sh
+#1784013354
+column file.txt 
+#1784013385
+column --table  file.txt 
+#1784013394
+column --table file.txt 
+#1784013403
+column --table file.txt | wc -l
+#1784013411
+column --table file.txt | wc -w
+#1784013545
+nvim solution.sh 
+#1784014195
+nvim solution.sh 
+#1784014319
+cut -d' ' file.txt 
+#1784014326
+cut -d' ' -f 1 file.txt 
+#1784014342
+cd '/home/glados/Projects/Code/LeetCode/Transpose File'
+#1784014348
+cd '/home/glados/Projects/Code'
+#1784014352
+cd '/home/glados/Projects/Code/LeetCode/Transpose File'
+#1784015163
+exit
+#1784013177
+ls
+#1784013184
+bat file.txt 
+#1784013368
+tldr column 
+#1784013416
+tldr wc
+#1784013473
+awk '{print NF}' file.txt 
+#1784013515
+awk '{print NF}' file.txt | head -n 1
+#1784013639
+bat file.txt 
+#1784013650
+cut -d ' ' -k 1 
+#1784013660
+cut -d ' ' -k1 
+#1784013663
+cut -d ' ' -f 1
+#1784013669
+cut -d ' ' -k 1 file.txt 
+#1784013672
+cut -d ' ' -f 1 file.txt 
+#1784013691
+cut -d ' ' -f 1 file.txt | grep -o
+#1784013693
+cut -d ' ' -f 1 file.txt | grep -o .
+#1784013713
+cut -d ' ' -f 1 file.txt | grep -o '\b[a-zA-Z]+\b'
+#1784013729
+cut -d ' ' -f 1 file.txt | tr '\n' ' '
+#1784013730
+cut -d ' ' -f 1 file.txt | tr '\n' ' '
+#1784013732
+cut -d ' ' -f 1 file.txt | tr '\n' ' ' | bat
+#1784013755
+cut -d ' ' -f 1 file.txt | tr '\n' ' ' | echo
+#1784013767
+cut -d ' ' -f 1 file.txt | tr '\n' ' ' | printf "\n"
+#1784013773
+cut -d ' ' -f 1 file.txt | tr '\n' ' ' | printf "\n" | bat
+#1784013782
+cut -d ' ' -f 1 file.txt | tr '\n' ' ' | echo | bat
+#1784013786
+cut -d ' ' -f 1 file.txt | tr '\n' ' ' | bat
+#1784013804
+ls
+#1784013810
+chmod u+x ./solution.sh 
+#1784013812
+./solution.sh 
+#1784013852
+for count in {1..3}; do printf "%d" "$count"; done
+#1784013855
+for count in {1..3}; do printf "%d" "$count"; done | bat
+#1784013868
+for count in {1..2}; do printf "%d" "$count"; done | bat
+#1784013881
+./solution.sh 
+#1784013954
+./solution.sh 
+#1784014102
+./solution.sh 
+#1784014115
+./solution.sh 
+#1784014134
+./solution.sh 
+#1784014137
+./solution.sh | bat
+#1784014160
+./solution.sh | bat
+#1784014172
+./solution.sh | bat
+#1784014198
+bat file.txt 
+#1784015164
+exit
+#1784034993
+tldr ufw
+#1784035431
+ping 10.116.69.101
+#1784035454
+ps aux | grep kdeconnectd
+#1784035476
+sudo ufw status
+#1784035538
+hostname -I
+#1784035602
+nc -zv 192.168.122.1 1716
+#1784035609
+nc --help
+#1784035725
+ping 10.116.69.101
+#1784035749
+tldr ufw
+#1784035762
+sudo ufw delete 2
+#1784035769
+sudo ufw delete 2
+#1784035860
+ping 10.116.69.101
+#1784036135
+exit
