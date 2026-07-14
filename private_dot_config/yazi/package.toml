@@ -1,57 +1,34 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "d7588f6"
-hash = "3996fc74044bc44144b323686f887e1"
+rev = "bb758e2"
+hash = "7b625412411be411153886894d9acaf"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "d7588f6"
-hash = "d6f60c24d8c0cf57a855bf46115b2502"
+rev = "bb758e2"
+hash = "15e5b67a241172cbb86b8fbf9e63692"
 
 [[plugin.deps]]
 use = "boydaihungst/mediainfo"
-rev = "2093ab7"
-hash = "16a10359fc2a3cd8cc8bcfbe00f744d3"
-
-[[plugin.deps]]
-use = "wylie102/duckdb"
-rev = "3f8c863"
-hash = "87b9233a74325e95011670ed20bbd0d4"
+rev = "e079a00"
+hash = "4284b3b610838056bf7738c5c84c19ad"
 
 [[plugin.deps]]
 use = "ndtoan96/ouch"
-rev = "0742fff"
-hash = "2bd799b42b8e42b8ef100310be71f8d1"
-
-[[plugin.deps]]
-use = "uhs-robert/recycle-bin"
-rev = "728c0af"
-hash = "6e6a68328ace9b6369ce16b35116894a"
+rev = "406ce6c"
+hash = "f5afc904d5106ee368c8aa2ded43bd74"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "d7588f6"
-hash = "63b6c222bf2103b3023389dde5e2ecfe"
-
-[[plugin.deps]]
-use = "yazi-rs/plugins:mount"
-rev = "d7588f6"
-hash = "e1de3054c0d1a2d8dc6f007eadc0fa31"
-
-[[plugin.deps]]
-use = "Rolv-Apneseth/starship"
-rev = "a63550b"
-hash = "c2021386289a0cbb3e152a052f67c177"
+rev = "bb758e2"
+hash = "932087013feee4921e95c8ecde8b979a"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
-rev = "2301ff8"
-hash = "64713dcd74daf9ec644883a5895e5d1"
+rev = "bb758e2"
+hash = "e0d59bd47866a6a574c74574097e5070"
 
-[[plugin.deps]]
-use = "kirasok/torrent-preview"
-rev = "f465282"
-hash = "b89b46a15035a51d010a254858ba9741"
-
-[flavor]
-deps = []
+[[flavor.deps]]
+use = "yazi-rs/flavors:dracula"
+rev = "4770a34"
+hash = "274c096eed13581770bc39eee590701a"

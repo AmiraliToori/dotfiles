@@ -139,10 +139,10 @@ suppress_preload = false
 
 [plugin]
 prepend_fetchers = [
-  { id = "git", url = "*", run = "git" },
-  { id = "git", url = "*/", run = "git" },
-  { id = "mime", url = "*", run = "mime.local", prio = "high" },
-  { id = "mime", url = "*/", run = "mime.dir", prio = "high" },
+  { url = "*", run = "git", group = "git" },
+  { url = "*/", run = "git", group = "git" },
+  { id = "mime", url = "*", run = "mime.local", prio = "high", group = "mime" },
+  { id = "mime", url = "*/", run = "mime.dir", prio = "high", group = "mime" },
 ]
 
 spotters = [

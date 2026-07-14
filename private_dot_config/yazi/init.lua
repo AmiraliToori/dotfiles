@@ -72,16 +72,10 @@ require("full-border"):setup({
 	type = ui.Border.ROUNDED,
 })
 
--- DuckDB plugin configuration
-require("duckdb"):setup()
-
--- recycle-bin
-require("recycle-bin"):setup()
-
 -- git.yazi
-require("git"):setup()
-
--- starship.yazi
-require("starship"):setup()
+require("git"):setup({
+	-- Order of status signs showing in the linemode
+	order = 1500,
+})
 
 return { setup = setup }
