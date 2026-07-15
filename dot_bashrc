@@ -105,12 +105,6 @@ bats() {
   BATS_RUN_SKIPPED=true command bats *.bats
 }
 
-# Add SSH Keys
-if ! ssh-add -l &>/dev/null; then
-  ssh-add ~/.ssh/gitlab
-  ssh-add ~/.ssh/iran-gitlab
-fi
-
 # Flyline - enhanced Bash experience
 enable -f $HOME/.local/lib/libflyline.so flyline
 
