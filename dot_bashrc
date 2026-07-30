@@ -75,6 +75,9 @@ alias ip="ip --color=auto"
 # ======= gemini ======
 alias gemini="proxychains4 -q gemini"
 
+# ======= lazygit ======
+alias lg="lazygit"
+
 # ====== protontricks-launch =======
 alias protontricks='flatpak run com.github.Matoking.protontricks'
 alias protontricks-launch='flatpak run --command=protontricks-launch com.github.Matoking.protontricks'
@@ -114,3 +117,6 @@ fi
 
 export PS1='\033[38;2;189;147;249m\u\033[0m@\033[38;2;141;233;263m\h\033[0m:\033[38;2;80;250;123m\w\033[0m\033[38;2;255;121;198m$\033[0m '
 export RPS1='\033[38;2;98;114;164m\D{%H:%M}\033[0m'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This loads nvm
