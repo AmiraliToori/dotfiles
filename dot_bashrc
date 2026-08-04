@@ -90,6 +90,9 @@ eval "$(zoxide init bash --cmd cd)"
 # Tv
 eval "$(tv init bash)"
 
+# fzf
+eval "$(fzf --bash)"
+
 # Set up fzf key bindings and fuzzy completion
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
