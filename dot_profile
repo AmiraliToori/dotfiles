@@ -71,6 +71,9 @@ export SUDO_EDITOR="/usr/bin/nvim"
 # NVM
 export NVM_DIR="$HOME/.nvm"
 
+# MAC Address zahra-acer laptop LAN interface
+export ZAHRA_ACER_MACADDRESS="70:5a:b6:41:2c:41"
+
 # ======= THEME ========
 
 # Add Dracula Theme to fzf
