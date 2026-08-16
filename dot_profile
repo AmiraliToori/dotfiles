@@ -42,8 +42,8 @@ export INFOPATH=/usr/local/texlive/2025/texmf-dist/doc/info:$INFOPATH
 # Add luarocks
 export PATH="$HOME/.luarocks/bin:$PATH"
 
-#DuckDB
-export PATH=$HOME/.duckdb/cli/latest:$PATH
+# opencode
+export PATH=/home/glados/.opencode/bin:$PATH
 
 # ======== Credentials =========
 
