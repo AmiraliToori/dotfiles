@@ -72,6 +72,9 @@ alias grep="grep --color=auto"
 # ======= ip =======
 alias ip="ip --color=auto"
 
+# ====== wakeonlan ======
+alias wol="wakeonlan"
+
 # ======= gemini ======
 alias gemini="proxychains4 -q gemini"
 
