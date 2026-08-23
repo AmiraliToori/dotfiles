@@ -22,7 +22,6 @@ $docker_context\
 $conda\
 $time\
 $memory_usage\
-$battery\
 $localip\
 $cmd_duration\
 $line_break\
