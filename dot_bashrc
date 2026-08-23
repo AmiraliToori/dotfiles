@@ -99,6 +99,9 @@ alias protontricks-launch='flatpak run --command=protontricks-launch com.github.
 # Zoxide
 eval "$(zoxide init bash --cmd cd)"
 
+# Starship
+eval "$(starship init bash)"
+
 # Tv
 eval "$(tv init bash)"
 
