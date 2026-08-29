@@ -87,6 +87,9 @@ alias lzg="lazygit"
 # ======= lazydocker ======
 alias lzd="lazydocker"
 
+# ======= Surge =======
+alias surge="Surge"
+
 # ======= Code Crafters ========
 alias codecrafters="proxychains4 -q codecrafters"
 

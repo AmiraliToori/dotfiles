@@ -1,10 +1,9 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[](red)\
 $os\
-[ ](red)\
 $username\
+$hostname\
 $directory\
 $git_branch\
 $git_status\
@@ -20,7 +19,6 @@ $haskell\
 $python\
 $docker_context\
 $conda\
-$time\
 $memory_usage\
 $localip\
 $cmd_duration\
@@ -36,7 +34,7 @@ format = '[\[@$localipv4\]](bold purple) '
 disabled = false
 
 [memory_usage]
-threshold = -1
+threshold = 75
 symbol = '󰍛 '
 style = 'bold pink'
 format = '[\[$symbol ${ram}( | ${swap}\])]($style) '
@@ -107,8 +105,11 @@ style = 'bold green'
 discharging_symbol = '󰁹 '
 charging_symbol = '󰂅 '
 
-[os]
+[sudo]
 disabled = false
+
+[os]
+disabled = true
 style = "bg:red fg:background"
 
 [os.symbols]

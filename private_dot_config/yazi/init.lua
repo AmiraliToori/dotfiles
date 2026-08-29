@@ -10,6 +10,7 @@ local function setup()
 		end
 	end, 3300, Status.LEFT)
 
+	-- Add user:group
 	Status:children_add(function()
 		local h = cx.active.current.hovered
 		if not h or ya.target_family() ~= "unix" then
@@ -24,6 +25,7 @@ local function setup()
 		})
 	end, 500, Status.RIGHT)
 
+	-- Add username@hostname to the header
 	Header:children_add(function()
 		if ya.target_family() ~= "unix" then
 			return ""
