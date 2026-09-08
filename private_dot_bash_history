@@ -25698,3 +25698,2255 @@ cd tsk
 ls
 #1787975591
 y
+#1788001262
+ls
+#1788001264
+ls
+#1788001282
+cd tsk
+#1788001282
+ls
+#1788001286
+lzg
+#1788001302
+ls
+#1788001700
+bat /tmp/anacron.log 
+#1788002828
+go test -v app/*
+#1788002840
+rm -vi test.db && go test -v app/*
+#1788003168
+rm -vi test.db && go test -v app/*
+#1788003222
+ls
+#1788003227
+sqlite3 test.db 
+#1788003331
+rm -vi test.db && go test -v app/*
+#1788003341
+sqlite3 test.db 
+#1788003477
+rm -vi test.db && go test -v app/*
+#1788003508
+rm -vi test.db && go test -v app/*
+#1788004293
+go test -v app/*
+#1788004359
+go test -v app/*
+#1788004374
+go test -v app/*
+#1788004384
+rm -vi test.db 
+#1788004388
+go test -v app/*
+#1788004490
+go test -v app/*
+#1788005364
+go test -v app/*
+#1788005380
+rm -vi test.db && go test -v app/*
+#1788005657
+rm -vi test.db && go test -v app/*
+#1788005673
+go test -v app/*
+#1788006154
+go test -v app/*
+#1788006180
+go test -v app/*
+#1788006186
+go test -v app/*
+#1788006188
+go test -v app/*
+#1788006189
+ls
+#1788006191
+ls
+#1788006201
+sqlite3 test.db 
+#1788006688
+go test -v app/*
+#1788006700
+ls
+#1788006706
+sqlite3 test.db 
+#1788006725
+exit
+#1788006774
+sqlite3 test.db 
+#1788006780
+go test -v app/*
+#1788006784
+lzg
+#1788006792
+ls
+#1788006796
+nvim .gitignore 
+#1788006822
+lzg
+#1788006836
+ls
+#1788006839
+nvim .gitignore 
+#1788006844
+lzg
+#1788006851
+ls
+#1788006852
+ls -al
+#1788006857
+nvim .gitignore 
+#1788006877
+ls
+#1788006890
+lzg
+#1788007067
+wol "$ZAHRA_ACER_MACADDRESS"
+#1788008149
+go get --help
+#1788008154
+go help get
+#1788008278
+go get -u github.com/spf13/cobra@latest
+#1788008514
+gup list
+#1788008530
+bat go.sum 
+#1788011565
+lzg
+#1788011947
+ls
+#1788011957
+mv -v cmd/tsk.go cmd/root.go
+#1788010502
+cd
+#1788010504
+ls
+#1788010573
+cd 
+#1788010614
+cd books
+#1788010616
+y
+#1788010716
+y
+#1788010760
+cd
+#1788018411
+ls
+#1788018425
+cd ABDM video
+#1788018426
+ls
+#1788018480
+scp -i ~/.ssh/zahra-asper The.* zahra@192.168.1.4:/media/shows/
+#1788023638
+kitten ssh -i ~/.ssh/zahra-asper zahra@192.168.1.4
+#1788001839
+ls
+#1788001841
+lzg
+#1788001848
+ls
+#1788001855
+tldr chezmoi
+#1788001867
+chezmoi diff
+#1788001925
+tldr chezmoi
+#1788001951
+chezmoi re-add --help
+#1788002002
+chezmoi re-add --dry-run
+#1788002010
+chezmoi re-add
+#1788002026
+lzg
+#1788002041
+cd
+#1788002132
+cd tsk
+#1788002133
+ls
+#1788002140
+git init
+#1788002145
+git add .
+#1788002148
+git remote -v
+#1788002164
+git remote add github git@github.com:AmiraliToori/tsk.git
+#1788002166
+git remote -v
+#1788002169
+lzg
+#1788002181
+git commit -m "initial commit"
+#1788002186
+lzg
+#1788002213
+git remote -v
+#1788002231
+lzg
+#1788002271
+ls
+#1788002276
+lzg
+#1788002305
+ls
+#1788002307
+ls
+#1788002440
+ls -al
+#1788002448
+cat > .gitignore
+#1788002454
+ls
+#1788002455
+lzg
+#1788002467
+ls
+#1788002497
+nvim app/
+#1788023874
+cd
+#1788023875
+ls
+#1788023901
+cargo install --list
+#1788023951
+chezmoi --version
+#1788023959
+gup list
+#1788025142
+cd Projects/
+#1788025142
+ls
+#1788025144
+cd myscripts/
+#1788025146
+ls
+#1788025151
+cd automation/
+#1788025152
+ls
+#1788025157
+nvim bootstrap.sh 
+#1788025258
+cat bootstrap.sh | wl-copy 
+#1788025259
+ls
+#1788025268
+cd
+#1788025269
+ls
+#1788025270
+ls
+#1788025273
+cd Projects/
+#1788025274
+ls
+#1788025279
+cd Code/
+#1788025279
+ls
+#1788025282
+cd Shell/
+#1788025282
+ls
+#1788025291
+cat > bootstrap.sh
+#1788025294
+ls
+#1788025297
+nvim bootstrap.sh 
+#1788001708
+cd
+#1788001710
+cd repo
+#1788001712
+cd Backup/
+#1788001714
+lzg
+#1788001787
+ls
+#1788001793
+y
+#1788001833
+cd
+#1788001838
+chezmoi cd
+#1788030138
+exit
+#1788030168
+surge
+#1788030910
+hydra
+#1788030913
+hydra interactive 
+#1788030926
+surge
+#1788043335
+cat Daredevil.txt 
+#1788043365
+cd ..
+#1788043366
+ls
+#1788043372
+cd Downloads/
+#1788043373
+ls
+#1788043384
+bat --style plain The\ Office.txt 
+#1788043452
+y
+#1788043469
+cat movies.txt 
+#1788031119
+cd Downloads/
+#1788031120
+ls
+#1788031138
+cat >> The\ Office.txt
+#1788032363
+ls
+#1788032368
+bat The Office.txt 
+#1788032370
+ls
+#1788032382
+bat 'The Office.txt'
+#1788032458
+wl -l The\ Office.txt 
+#1788032462
+wc -l The\ Office.txt 
+#1788032621
+cat > Daredevil.txt
+#1788032632
+ls
+#1788033165
+cat >> movies.txt
+#1788034328
+ls
+#1788034412
+ls
+#1788034418
+cat >> iran.txt
+#1788034440
+nvim iran.txt 
+#1788041434
+ls
+#1788041446
+kitten ssh -i ~/.ssh/zahra-asper zahra@192.168.1.4
+#1788041565
+dysk
+#1788041570
+cd
+#1788041578
+cd Downloads/ABDM/
+#1788041579
+y
+#1788041608
+dysk
+#1788041611
+ls
+#1788042732
+cd
+#1788042734
+cd Downloads/
+#1788042735
+ls
+#1788042749
+cat Daredevil.txt | wl-copy 
+#1788031084
+surge 
+#1788042924
+surge --help
+#1788042927
+tldr Surge
+#1788042935
+tldr surge
+#1788042965
+cd Downloads/
+#1788042966
+ls
+#1788042970
+surge 
+#1788042986
+surge -b Daredevil.txt 
+#1788043195
+surge
+#1788043315
+ls
+#1788043330
+surge
+#1788043422
+surge
+#1788043490
+surge -b The\ Office.txt 
+#1788054465
+ls
+#1788054467
+ls
+#1788054476
+ls -l *.txt
+#1788054523
+cat movies.txt Daredevil.txt iran.txt >> total.txt
+#1788054543
+surge -b total.txt 
+#1788066992
+ls
+#1788067006
+du -sh ../Downloads/
+#1788067135
+exit
+#1788067606
+cd Programs/
+#1788067606
+ls
+#1788067630
+tldr smartctl 
+#1788067658
+lsblk
+#1788067673
+sudo smartctl -h /dev/sda 
+#1788067698
+sudo smartctl --health /dev/sda 
+#1788067721
+sudo smartctl --all /dev/sda 
+#1788071876
+btop
+#1788072411
+ls
+#1788072413
+cd Videos/
+#1788072413
+ls
+#1788072419
+cd
+#1788072423
+cd Downloads/ABDM/
+#1788072423
+ls
+#1788072429
+cd ..
+#1788072430
+ls
+#1788072440
+y
+#1788074309
+which go
+#1788074339
+which go
+#1788074346
+echo $?
+#1788074349
+which dsadsad
+#1788074351
+echo $?
+#1788090262
+kitten ssh -i ~/.ssh/zahra-asper zahra@192.168.1.4
+#1788068751
+cat > .config/surge/themes/dracula.toml
+#1788068755
+surge
+#1788068873
+surge
+#1788071872
+surge
+#1788073965
+ls
+#1788073974
+cd Project code shell
+#1788073975
+ls
+#1788073977
+cd
+#1788073980
+cd Project
+#1788073988
+cd Code/Shell/
+#1788073988
+ls
+#1788073992
+nvim bootstrap.sh 
+#1788080382
+cd
+#1788080385
+cd Downloads/
+#1788080386
+ls
+#1788080406
+ls -1 | grep '\.mkv|mp4'
+#1788080422
+ls -1 | grep '\.(mkv|mp4)$'
+#1788080427
+ls -1 | grep '(mkv|mp4)$'
+#1788080428
+ls -1 | grep '(mkv|mp4)$'
+#1788080433
+ls -1
+#1788080440
+\ls -1 | grep '(mkv|mp4)$'
+#1788080451
+\ls -1 | grep '.*(mkv|mp4)$'
+#1788080475
+wol "$ZAHRA_ACER_MACADDRESS"
+#1788080660
+\ping -a 192.168.1.4
+#1788080666
+ls
+#1788080703
+scp -i ~/.ssh/zahra-asper *.mp4 *.mkv zahra@192.168.1.4:/home/zahra/Videos/
+#1788101218
+cd
+#1788101219
+ls
+#1788101215
+ls
+#1788101233
+kitten ssh -i ~/.ssh/zahra-asper zahra@192.168.1.4
+#1788103203
+y
+#1788107072
+exit
+#1788098374
+ls
+#1788098377
+cd tsk
+#1788098379
+ls
+#1788098380
+lzg
+#1788098392
+ls
+#1788098407
+rm -vi tsk.go.bak 
+#1788098417
+bat tsk.go.bak 
+#1788098427
+ls
+#1788098430
+rm -vi tsk.go.bak 
+#1788098433
+ls
+#1788098439
+y
+#1788098462
+y
+#1788102590
+y
+#1788103113
+cd ..
+#1788103114
+ls
+#1788103120
+go run main.go 
+#1788103153
+go run main.go add 'Task 1' 'in-progress' 'Low'
+#1788103165
+nvim main.go 
+#1788103177
+go run main.go add 'Task 1' 'in-progress' 'Low'
+#1788103268
+ls
+#1788103343
+go run main.go add 'Task 1' 'in-progress' 'Low'
+#1788103386
+go run main.go add 'Task 1' 'in-progress' 'Low'
+#1788103391
+ls
+#1788103394
+y
+#1788103416
+ls
+#1788103421
+cd tsk/
+#1788103422
+ls
+#1788103450
+go test -v app/*
+#1788103460
+ls
+#1788103497
+go run main.go add 'Task 1' 'in-progress' 'Low'
+#1788103501
+go run main.go add 'Task 1' 'in-progress' 'Low'
+#1788103507
+ls
+#1788103518
+sqlite3 my.db 
+#1788103777
+go run main.go add 'Task 1' 'in-progress' 'Low'
+#1788103780
+ls
+#1788103789
+sqlite 3 my.db 
+#1788103793
+sqlite3 my.db 
+#1788103812
+go run main.go add 'Task 1' 'in-progress' 'Low'
+#1788103827
+sqlite3 my.db 
+#1788108755
+cd
+#1788108757
+cd Downloads/Video/
+#1788108758
+ls
+#1788108767
+mv -v Parks.Total ParksTotal.txt
+#1788108773
+wc -l ParksTotal.txt 
+#1788108776
+bat ParksTotal.txt 
+#1788107217
+cd
+#1788107222
+cd Projects/
+#1788107223
+ls
+#1788107226
+cd myscripts/
+#1788107226
+ls
+#1788107234
+nvim test.py
+#1788107411
+ls
+#1788107417
+chmod u+x test.py 
+#1788107418
+ls
+#1788107420
+./test.py 
+#1788108171
+cat > test.py
+#1788108174
+ls
+#1788108178
+./test.py 
+#1788108196
+./test.py 
+#1788108210
+ls
+#1788108216
+bat parksS1 
+#1788108257
+nvim test.py 
+#1788108410
+cat > test.py
+#1788108413
+ls
+#1788108415
+./test.py 
+#1788108416
+extract_links.py
+#1788108416
+Fetches a directory-listing (autoindex-style) page and writes every
+#1788108416
+absolute download link found on it to a text file, one per line.
+#1788108417
+Usage:
+#1788108417
+    python3 extract_links.py <folder_url> <output_file>
+#1788108417
+If either argument is omitted, the script will prompt for it.
+#1788108417
+""""
+#1788108417
+import sys
+#1788108417
+import urllib.request
+#1788108417
+import urllib.error
+#1788108418
+from urllib.parse import urljoin
+#1788108418
+from html.parser import HTMLParser
+#1788108418
+USER_AGENT = ()
+#1788108418
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+#1788108418
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+#1788108418
+    "Chrome/124.0.0.0 Safari/537.36"
+#1788108418
+)
+#1788108419
+# Links that point back up the tree / to the current dir, not to real files.
+#1788108419
+SKIP_HREFS = {"../", "..", "./", "."}}
+#1788108419
+# Only links ending in these extensions are considered movie/episode files.
+#1788108419
+VIDEO_EXTENSIONS = (".mkv", ".mp4", ".avi", ".ts"))
+#1788108419
+class LinkParser(HTMLParser):
+#1788108419
+    """Collects every href value from <a> tags in the page."""
+#1788108420
+    def __init__(self):
+#1788108420
+        super().__init__()
+#1788108420
+        self.hrefs = []
+#1788108420
+    def handle_starttag(self, tag, attrs):
+#1788108426
+ls
+#1788108430
+./test.py 
+#1788108470
+ls
+#1788108474
+y
+#1788108589
+ls
+#1788108595
+./donyayeserial.py 
+#1788108614
+./donyayeserial.py 
+#1788108644
+./donyayeserial.py 
+#1788108675
+./donyayeserial.py 
+#1788108695
+./donyayeserial.py 
+#1788108712
+./donyayeserial.py 
+#1788108721
+lks
+#1788108722
+ls
+#1788108747
+cat parks* > ~/Downloads/Video/Parks.Total
+#1788108750
+ls
+#1788107094
+ls
+#1788107096
+cd Downloads/
+#1788107096
+ls
+#1788107112
+rm -vf *.mkv *.mp4
+#1788107116
+ls
+#1788107123
+rm -vf *.txt
+#1788107127
+cd Video/
+#1788107128
+l
+#1788107130
+ls
+#1788151258
+ls
+#1788151260
+ls -al
+#1788151267
+y
+#1788151294
+whoami
+#1788151304
+ls
+#1788151319
+gum choose "Hello" "Who" "is"
+#1788151327
+lzg
+#1788151332
+ls
+#1788151334
+whoami
+#1788151344
+nvim
+#1788152747
+ls
+#1788152749
+cd ..
+#1788152749
+ls
+#1788152753
+go run main.go 
+#1788152775
+go run main.go add --help 
+#1788152810
+go run main.go add -t "Test 2"
+#1788152836
+go run main.go add -t -p "high" -s "in-progress"
+#1788152850
+go run main.go add -t
+#1788152898
+go run main.go add -t
+#1788152935
+go run main.go add
+#1788153033
+ls
+#1788153034
+lzg
+#1788153125
+tldr git rm
+#1788153140
+git rm --cached test.db 
+#1788153142
+lzg
+#1788153148
+nvim .gitignore 
+#1788153154
+nvim .gitignore 
+#1788153157
+lzg
+#1788153458
+ls
+#1788151370
+ls
+#1788152258
+cd tsk
+#1788152259
+ls
+#1788152263
+y
+#1788169906
+ls
+#1788169908
+cd ..
+#1788169912
+go test -v app/*
+#1788169919
+go test -v cmd/*
+#1788169964
+go test -v cmd/*
+#1788169979
+go run main.go add -t "Test 2"
+#1788169993
+go run main.go add --help
+#1788170163
+go run main.go add --help
+#1788170168
+cd ..
+#1788170170
+go run main.go add --help
+#1788170177
+go test -v cmd/*
+#1788174087
+ls
+#1788174089
+cd ..
+#1788174090
+ls
+#1788174095
+go test -v cmd/*
+#1788174120
+go test -v cmd/*
+#1788174158
+go test -v cmd/*
+#1788174245
+go test -v cmd/*
+#1788174253
+go test -v cmd/*
+#1788174267
+ls
+#1788174269
+ls cmd/
+#1788174286
+rm -vf cmd/my.db 
+#1788174289
+go test -v cmd/*
+#1788174340
+go test -v cmd/*
+#1788174343
+rm -vf cmd/my.db 
+#1788174345
+go test -v cmd/*
+#1788174619
+go test -v cmd/*
+#1788174623
+rm -vf cmd/my.db 
+#1788174625
+go test -v cmd/*
+#1788174843
+go test -v cmd/*
+#1788174847
+rm -vf cmd/my.db 
+#1788174849
+go test -v cmd/*
+#1788176237
+go test -v cmd/*
+#1788176241
+cd ..
+#1788176243
+go test -v cmd/*
+#1788176730
+go test -v cmd/*
+#1788176734
+rm -vf cmd/my.db 
+#1788176878
+go test -v cmd/*
+#1788177879
+go test -v cmd/*
+#1788177882
+rm -vf cmd/my.db 
+#1788177884
+go test -v cmd/*
+#1788178109
+go test -v cmd/*
+#1788178111
+rm -vf cmd/my.db 
+#1788178113
+go test -v cmd/*
+#1788179062
+go test -v cmd/*
+#1788179064
+rm -vf cmd/my.db 
+#1788179065
+go test -v cmd/*
+#1788179481
+rm -vf cmd/my.db 
+#1788179482
+go test -v cmd/*
+#1788180343
+go test -v cmd/*
+#1788180349
+go test -v cmd/root_test.go 
+#1788180356
+go test -v cmd/root_test.go 
+#1788180481
+go test -v cmd/*
+#1788180488
+cd ..
+#1788180490
+go test -v cmd/*
+#1788180496
+rm -vf cmd/my.db 
+#1788180498
+go test -v cmd/*
+#1788181937
+cd ..
+#1788181938
+ls
+#1788170335
+echo $ZAHRA_ACER_MACADDRESS 
+#1788170949
+wol "$ZAHRA_ACER_MACADDRESS"
+#1788173465
+ls
+#1788181945
+cd ..
+#1788181946
+ls
+#1788181950
+go run main.go add --help
+#1788181982
+go run main.go add --title 'Test 3'
+#1788181989
+go run main.go add --priority 2
+#1788182049
+go run main.go add --title "   ds "
+#1788182051
+go run main.go add --title "   ds"
+#1788182054
+go run main.go add --title ""
+#1788182056
+go run main.go add --title "    "
+#1788183431
+ls
+#1788183443
+du -sh ../tsk
+#1788183446
+cd ..
+#1788183447
+ls
+#1788183457
+ouch compress tsk tsk.zip
+#1788183459
+ls
+#1788183504
+rm -vf tsk.zip 
+#1788168835
+cd tsk
+#1788168836
+ls
+#1788168838
+y
+#1788185514
+go doc file
+#1788185519
+go doc path
+#1788237257
+cd tsk
+#1788237258
+ls
+#1788237262
+y
+#1788238998
+exit
+#1788239314
+wol "$ZAHRA_ACER_MACADDRESS"
+#1788240481
+kitten ssh -i ~/.ssh/zahra-asper zahra@192.168.1.4
+#1788240773
+cd tsk
+#1788240775
+ls
+#1788240778
+y
+#1788247770
+gup list
+#1788258109
+wol "$ZAHRA_ACER_MACADDRESS"
+#1788258156
+ip a
+#1788258159
+ls
+#1788258197
+ip a
+#1788258202
+\ping -a 192.168.1.4
+#1788259270
+cd tsk
+#1788259272
+ls
+#1788259274
+y
+#1788259977
+tldr flatpak 
+#1788259983
+flatpak list --app
+#1788260026
+flatpak info org.jellyfin.JellyfinDesktop
+#1788260040
+flatpak --help
+#1788260054
+flatpak search org.jellyfin.JellyfinDesktop
+#1788260680
+cd ..
+#1788260692
+go test -v app/task*
+#1788260703
+go test -v app/*
+#1788260824
+go test -v app/*
+#1788260957
+go test -v app/*
+#1788261031
+lzg
+#1788271479
+cd tsk
+#1788271480
+ls
+#1788271870
+ls
+#1788271871
+y
+#1788271886
+cd ..
+#1788271891
+go test -v app/*
+#1788274609
+go test -v app/*
+#1788274923
+go test -v app/*
+#1788275052
+go test -v app/*
+#1788275111
+go test -v app/*
+#1788313815
+cd Downloads/Video/
+#1788313816
+ls
+#1788313893
+surge -b ParksTotal.txt 
+#1788323953
+ls
+#1788324250
+surge
+#1788324793
+ls
+#1788324809
+du -sh ../Video/
+#1788352417
+go test -v app/*
+#1788352421
+cd ..
+#1788352423
+go test -v app/*
+#1788352882
+go test -v app/*
+#1788353300
+go test -v app/*
+#1788353720
+go test -v app/*
+#1788353755
+go test -v app/*
+#1788353926
+go test -v app/*
+#1788353986
+go test -v app/*
+#1788354012
+lzg
+#1788354577
+go test -v app/*
+#1788355210
+go test -v app/*
+#1788355263
+go test -v app/*
+#1788355270
+lzg
+#1788355359
+ls
+#1788355360
+y
+#1788356401
+go test -v app/*
+#1788356404
+cd ..
+#1788356405
+go test -v app/*
+#1788356673
+go test -v app/*
+#1788356688
+go test -v app/*
+#1788356764
+go test -v app/*
+#1788356767
+lzg
+#1788356975
+lzg
+#1788356981
+go test -v app/*
+#1788356983
+lzg
+#1788358533
+go test -v app/*
+#1788358626
+go test -v app/*
+#1788359205
+ls
+#1788359210
+lt3
+#1788359220
+rm -vf test.db 
+#1788359224
+go test -v app/*
+#1788359229
+lt3
+#1788359553
+go test -v app/*
+#1788359555
+go test -v app/*
+#1788359561
+lzg
+#1788358952
+cd
+#1788358954
+tldr surge
+#1788358970
+surge --help
+#1788358974
+tldr Surge
+#1788359017
+hydra --help
+#1788359059
+surge --help
+#1788352240
+ls
+#1788352247
+cd Project tsk
+#1788352248
+ls
+#1788352249
+y
+#1788413894
+free -h
+#1788411607
+ls -al
+#1788411614
+ls
+#1788411622
+cd tsk
+#1788411624
+ls
+#1788411629
+cd app/db.go 
+#1788411635
+nvim app/db.go 
+#1788423888
+cd tsk
+#1788423890
+ls
+#1788423900
+go test -v app/* -bench=.
+#1788423921
+y
+#1788424084
+\ping -a 192.168.1.4
+#1788430419
+kitten ssh -i ~/.ssh/zahra-asper zahra@192.168.1.4
+#1788413445
+ls
+#1788413450
+nvim Makefile
+#1788413656
+ls
+#1788413702
+go test -v app/*
+#1788413835
+go test -v app/*
+#1788413848
+go test -v app/*
+#1788413871
+lzg
+#1788414059
+go test -v app/*
+#1788416763
+go test -v app/*
+#1788416766
+go test -v app/*
+#1788418261
+go test -v app/*
+#1788418371
+go test -v app/*
+#1788418546
+go test -v app/*
+#1788418601
+go test -v app/*
+#1788418964
+go test -v app/*
+#1788419147
+ls
+#1788419276
+ls
+#1788419277
+go test -v app/*
+#1788422192
+cat app/task.go | wl-copy 
+#1788422320
+cat app/db.go | wl-copy 
+#1788422481
+cat app/db_test.go | wl-copy 
+#1788422573
+go test -v app/*
+#1788423192
+sqlite3 --version
+#1788423357
+sqlite3 --version
+#1788423359
+go test -v app/*
+#1788423491
+go test -v app/*
+#1788423521
+go test -v app/*
+#1788423585
+go test -v app/*
+#1788423608
+lzg
+#1788423734
+wol "$ZAHRA_ACER_MACADDRESS"
+#1788423737
+cd
+#1788423748
+wol "$ZAHRA_ACER_MACADDRESS"
+#1788423793
+wol "$ZAHRA_ACER_MACADDRESS"
+#1788423814
+cd Downloads/Video/
+#1788423815
+ls
+#1788423825
+rm -vi ParksTotal.txt 
+#1788423830
+ls
+#1788424114
+scp -i ~/.ssh/zahra-asper *.mkv zahra@192.168.1.4:/media/shows/
+#1788430477
+ls
+#1788506308
+wol "$ZAHRA_ACER_MACADDRESS"
+#1788512631
+go get charm.land/lipgloss/v2
+#1788514906
+pwd
+#1788506015
+ls
+#1788506029
+cd tsk
+#1788506030
+ls
+#1788506031
+lzg
+#1788506036
+y
+#1788506988
+cd ..
+#1788506991
+go test -v app/*
+#1788508220
+ls
+#1788508222
+y
+#1788508228
+lzg
+#1788514056
+cd ..
+#1788514074
+cat > style/taskstyle.go 
+#1788514078
+ls
+#1788514697
+go run main.go --help
+#1788514744
+go run main.go --help
+#1788514750
+go run main.go list
+#1788514759
+go run main.go list --help
+#1788514825
+go run main.go list
+#1788514934
+go run main.go list
+#1788514972
+go run main.go list
+#1788514998
+sqlite3 my.db 
+#1788515137
+go run main.go add --title "Amirali" --priority "High" --status "in-progress"
+#1788515365
+go run main.go list
+#1788515425
+go run main.go list
+#1788532006
+gemini --version
+#1788532021
+cd
+#1788532024
+bat .bashrc 
+#1788532056
+~/.nvm/nvm.sh 
+#1788532059
+gemini --version
+#1788532071
+~/.nvm/nvm.sh 
+#1788532077
+npm --version
+#1788532084
+bat .bashrc 
+#1788532099
+. .nvm/nvm.sh 
+#1788532105
+npm --version
+#1788532109
+gemini --version
+#1788532120
+npm install -g @google/gemini-cli@latest
+#1788532179
+gemini --version
+#1788532191
+gemini
+#1788532244
+agy 
+#1788532289
+kill %1
+#1788532293
+jobs
+#1788532297
+kill -9 %1
+#1788532300
+jobs
+#1788530434
+ls
+#1788530435
+ls
+#1788530436
+ls -l
+#1788530439
+cd tsk
+#1788530440
+ls
+#1788530452
+y
+#1788530517
+cd ..
+#1788530523
+go run main.go list
+#1788530527
+go run main.go add --title "Amirali" --priority "High" --status "in-progress"
+#1788530596
+go test -v app/*
+#1788530631
+ls
+#1788530641
+sqlite3 my.db 
+#1788530692
+go run main.go add --title "Amirali" --priority "High" --status "in-progress"
+#1788530716
+go run main.go add --title "Amirali" --priority "High" --status "in-progress"
+#1788530730
+go run main.go add --title "Amirali2" --priority "High" --status "in-progress"
+#1788530737
+go run main.go add --title "Amirali3" --priority "High" --status "in-progress"
+#1788530782
+go run main.go --help
+#1788530819
+tldr opencode
+#1788530826
+opencode
+#1788531408
+opencode --help
+#1788531431
+opencode upgrade
+#1788532362
+proxychains4 -q opencode upgrade
+#1788532431
+ls
+#1788532436
+lzg
+#1788533883
+go run main.go list
+#1788533889
+go run main.go list
+#1788533912
+go run main.go list
+#1788534007
+go run main.go list
+#1788534044
+go run main.go list
+#1788534215
+go run main.go add --title "Amirali5" --priority "medium" --status "in-progress"
+#1788534235
+ls
+#1788534237
+lt3
+#1788534241
+ls ../
+#1788532561
+cd
+#1788532573
+proxychains4 -q opencode upgrade
+#1788583352
+kew --help
+#1788583358
+kew -v
+#1788583696
+cd Videos/
+#1788583697
+ls
+#1788583698
+cd
+#1788583701
+cd Downloads/Video/
+#1788583701
+ls
+#1788583706
+rm -vf *.mkv
+#1788583707
+ls
+#1788583710
+cd
+#1788583718
+ls Downloads/ABDM/Videos/
+#1788583721
+ls Videos/
+#1788583724
+ls Videos/*
+#1788603633
+cd Downloads/
+#1788603634
+ls
+#1788603636
+cd Video/
+#1788603636
+ls
+#1788603644
+cat > SiloS3.txt
+#1788603649
+ls
+#1788603651
+bat SiloS3.txt 
+#1788603665
+cat > SiloS3.txt
+#1788603671
+ls
+#1788603675
+bat SiloS3.txt 
+#1788603869
+cd tsk
+#1788603870
+ls
+#1788603873
+y
+#1788604103
+ls
+#1788604106
+cd ..
+#1788604114
+go run main.go add --title "Amirali7" --priority "medium" --status "in-progress"
+#1788604201
+go run main.go add --title "Amirali8" --priority "medium" --status "in-progress"
+#1788604327
+ls
+#1788604331
+rm -vi my.db 
+#1788604343
+go run main.go add --title "Test1" --priority "medium" --status "in-progress"
+#1788604350
+ls
+#1788604443
+go run main.go list
+#1788604448
+go run main.go --help
+#1788604477
+go run main.go add --help
+#1788604576
+go run main.go list
+#1788604626
+go run main.go add --title "Test2" --priority "medium" --status "in-progress"
+#1788604634
+sqlite3 my.db 
+#1788605220
+go run main.go add --title "Test3" --priority "medium" --status "in-progress"
+#1788605509
+go run main.go add --title "Test4" --priority "medium" --status "in-progress"
+#1788605521
+go run main.go list
+#1788605543
+go run main.go list
+#1788605556
+go run main.go list
+#1788605641
+go run main.go list
+#1788605728
+go run main.go list
+#1788605840
+sqlite3 my.db 
+#1788605863
+go run main.go list
+#1788605995
+go run main.go list
+#1788606006
+go run main.go list
+#1788606031
+go run main.go list
+#1788606303
+go run main.go list
+#1788606700
+go run main.go list
+#1788606846
+go run main.go list
+#1788607081
+go run main.go list
+#1788607224
+sqlite3 my.db 
+#1788607359
+wol "$ZAHRA_ACER_MACADDRESS"
+#1788607950
+tldr flatpak
+#1788607959
+flatpak install org.jellyfin.JellyfinDesktop
+#1788613388
+go run main.go list
+#1788613539
+go run main.go list
+#1788613976
+go run main.go list
+#1788614104
+go run main.go list
+#1788614263
+go run main.go list
+#1788614267
+ls
+#1788614269
+lzg
+#1788614354
+ls
+#1788614359
+cd style/
+#1788614359
+ls
+#1788614372
+nvim list.go
+#1788616323
+cd ..
+#1788617090
+go run main.go list
+#1788617152
+go run main.go list
+#1788617320
+rm -vi my.db 
+#1788617325
+go run main.go list
+#1788618673
+go run main.go list
+#1788618709
+go run main.go add --title "Test 1" --status "not started" --priority "low"
+#1788618730
+go run main.go add --title "Test 2" --status "in-progress" --priority "medium"
+#1788618745
+go run main.go add --title "Test 3" --status "done" --priority "High"
+#1788618749
+go run main.go list
+#1788618944
+go run main.go add --title "Test 4" --status "not started" --priority "medium"
+#1788619286
+go run main.go list
+#1788621407
+go run main.go list
+#1788622243
+lzg
+#1788613229
+ls
+#1788613230
+cd tsk
+#1788613231
+ls
+#1788613236
+go run main.go list
+#1788613241
+y
+#1788660382
+cd /etc/bash_completion.d/
+#1788660382
+ls
+#1788660401
+rm glow_bash_completion 
+#1788660410
+sudo rm -fiv glow_bash_completion 
+#1788660435
+sudoedit surge
+#1788660445
+ls
+#1788660446
+y
+#1788660486
+exit
+#1788660629
+cd
+#1788660634
+cd Documents/
+#1788660634
+ls
+#1788660643
+cd Backup/
+#1788660643
+ls
+#1788660649
+ls Restore\ Firefox/
+#1788660709
+cd
+#1788660712
+cd Documents/
+#1788660714
+cd Backup/
+#1788660715
+ls
+#1788660497
+btop
+#1788660522
+cd
+#1788660535
+bat /tmp/anacron.log 
+#1788660556
+bat /tmp/anacron.log 
+#1788660559
+bat /tmp/anacron.log 
+#1788660573
+cd repo backup
+#1788660574
+ls
+#1788660576
+lzg
+#1788660614
+btop
+#1788660705
+ls
+#1788660738
+cd Backup/
+#1788660738
+ls
+#1788660743
+tldr git rm 
+#1788660759
+git rm -r Restore\ Firefox/
+#1788660762
+ls
+#1788660767
+lzg 
+#1788660794
+lzg 
+#1788660809
+sudo lzg
+#1788660822
+which lzg
+#1788660825
+which lazygit
+#1788660834
+lzg
+#1788660846
+ls
+#1788660855
+lzg
+#1788660883
+sudo git commit -m "delete Zen"
+#1788660894
+git commit -m "delete Zen"
+#1788660910
+ls
+#1788660934
+ls -l ../.git/COMMIT_EDITMSG 
+#1788660947
+ls -l ../.git/
+#1788660959
+bat ../.git/COMMIT_EDITMSG 
+#1788660977
+sudo chown glados:glados ../.git/COMMIT_EDITMSG 
+#1788660980
+ls -l ../.git/COMMIT_EDITMSG 
+#1788660984
+lzg
+#1788661009
+ls -l ../.git/*
+#1788661028
+sudo chown -R glados:glados ../.git/*
+#1788661033
+sudo chown -R glados:glados ../.git/*
+#1788661036
+ls -l ../.git/*
+#1788661043
+lzg
+#1788659957
+cd Downloads/Video/
+#1788659957
+ls
+#1788659978
+cat > BamdadS2E7.txt
+#1788660029
+cat > SavageS1.txt
+#1788660058
+nvim SavageS1.txt 
+#1788660110
+nvim SavageS1.txt 
+#1788660117
+ls
+#1788660162
+cat > SavageS2.txt
+#1788660191
+nvim SavageS2.txt 
+#1788660255
+wc -l *
+#1788660285
+ls
+#1788660296
+cat *.txt > total.txt
+#1788660298
+bat total.txt 
+#1788660331
+surge --help
+#1788660339
+surge completion
+#1788660354
+surge completion bash | wl-copy
+#1788661214
+bat ~/Projects/myscripts/backup/mybackup_cron.sh 
+#1788661262
+sudoedit /etc/anacrontab 
+#1788661473
+btop
+#1788661524
+sudo btop
+#1788661645
+ls
+#1788661655
+surge --help
+#1788661662
+surge -b total.txt 
+#1788666936
+ls
+#1788666960
+rm SiloS3.txt 
+#1788666962
+ls
+#1788666972
+rm total.txt 
+#1788666973
+ls
+#1788669959
+btop
+#1788670161
+sudo btop
+#1788670180
+sudoedit /etc/anacrontab 
+#1788670013
+bat /tmp/anacron.log 
+#1788670066
+nvim Projects/myscripts/backup/mybackup_cron.sh 
+#1788670113
+bat /tmp/anacron.log 
+#1788672802
+gup list 
+#1788712871
+lzg
+#1788712802
+cd
+#1788712805
+cd Backup/
+#1788712806
+ls
+#1788712809
+cd ..
+#1788712810
+ls
+#1788712812
+lzg
+#1788712832
+git remote -v
+#1788712845
+tldr github push
+#1788712849
+tldr git push
+#1788712862
+git push github main
+#1788712897
+git push gitlab main
+#1788712978
+git push github main
+#1788713161
+git push gitlab main
+#1788711192
+cd Downloads/Video/
+#1788711193
+ls
+#1788711220
+scp -i ~/.ssh/zahra-asper *.mkv zahra@192.168.1.4:/media/shows/
+#1788712943
+kitten ssh -i ~/.ssh/zahra-asper zahra@192.168.1.4
+#1788712990
+s
+#1788712991
+ls
+#1788713003
+rm -v *.mkv
+#1788713005
+ls
+#1788713007
+dysk
+#1788758102
+cd repo
+#1788758103
+ls
+#1788758124
+tldr git clone
+#1788758226
+ls
+#1788758234
+git clone https://github.com/charmbracelet/lipgloss/tree/main/examples
+#1788758238
+wget https://github.com/charmbracelet/lipgloss/tree/main/examples
+#1788758242
+ls
+#1788758249
+ls -l examples 
+#1788758256
+rm -v examples 
+#1788758297
+# GitHub example - replace with your raw content URL
+#1788758298
+wget https://raw.githubusercontent.com/charmbracelet/lipgloss/tree/main/examples
+#1788758341
+wget https://github.com/charmbracelet/lipgloss/tree/868e8b5c4fb6056c294b9fda2fb9d1090052daee/examples
+#1788758345
+ls
+#1788758353
+rm -v examples 
+#1788758386
+ls
+#1788758394
+ouch decompress lipgloss-main.zip 
+#1788758395
+ls
+#1788758396
+y
+#1788758421
+ls
+#1788758424
+bat main.go 
+#1788758429
+go run main.go 
+#1788758442
+go run main.go 
+#1788758446
+go mod tidy
+#1788758451
+go run main.go 
+#1788758461
+ls ..
+#1788758470
+y
+#1788758476
+go run main.go 
+#1788758486
+y
+#1788758493
+go run main.go 
+#1788758503
+bat main.go 
+#1788758751
+y
+#1788758758
+go run main.go 
+#1788758770
+y
+#1788758775
+go run main.go 
+#1788775984
+cd repo lipgloss
+#1788775985
+ls
+#1788775995
+cd examples/
+#1788775996
+ls
+#1788776002
+cd blending/
+#1788776003
+ls
+#1788776010
+go run border-blend-rotation/bubbletea/main.go 
+#1788776021
+go run linear-1d/bubbletea/main.go 
+#1788776030
+go run linear-1d/standalone/main.go 
+#1788776034
+exit
+#1788775169
+cd repo
+#1788775170
+ls
+#1788775173
+cd lipgloss-main/
+#1788775174
+ls
+#1788775183
+bat Taskfile.yaml 
+#1788775495
+cd examples/
+#1788775495
+ls
+#1788775501
+y
+#1788775510
+go run main.go 
+#1788775524
+bat main.go 
+#1788775570
+cd ..
+#1788775570
+ls
+#1788775574
+cd tree/
+#1788775576
+y
+#1788775580
+go run main.go 
+#1788775589
+go run main.go ../
+#1788775594
+y
+#1788775603
+go run main.go
+#1788775605
+ls
+#1788775608
+y
+#1788775618
+go run main.go
+#1788775624
+y
+#1788775630
+go run main.go
+#1788775632
+y
+#1788775667
+cd ..
+#1788775667
+ls
+#1788775669
+y
+#1788775675
+go run main.go
+#1788775677
+cd ..
+#1788775678
+y
+#1788775682
+go run main.go
+#1788775687
+ls
+#1788775689
+cd ..
+#1788775689
+ls
+#1788775691
+y
+#1788775703
+lt3
+#1788775869
+cd ..
+#1788775874
+ls
+#1788775878
+cd blending/
+#1788775879
+ls
+#1788775885
+lt3
+#1788776046
+cd ..
+#1788776046
+ls
+#1788776051
+cd color/
+#1788776052
+ls
+#1788776107
+lt3
+#1788776110
+cd ..
+#1788776111
+ls
+#1788776114
+lt3
+#1788780556
+cd
+#1788780558
+cd Downloads/
+#1788780558
+ls
+#1788780586
+mv -v *.jpg *.pdf ~/Documents/AmirAli\ Toori/Pictures/
+#1788777326
+cd
+#1788777329
+cd Documents/
+#1788777329
+y
+#1788787994
+\ping -a 192.168.1.4
+#1788788004
+\ping -a 192.168.1.4
+#1788788006
+\ping -a 192.168.1.4
+#1788788007
+\ping -a 192.168.1.4
+#1788788008
+\ping -a 192.168.1.4
+#1788788008
+\ping -a 192.168.1.4
+#1788788009
+\ping -a 192.168.1.4
+#1788788010
+\ping -a 192.168.1.4
+#1788788010
+\ping -a 192.168.1.4
+#1788788017
+\ping -a 192.168.1.5
+#1788788772
+ls
+#1788788777
+go run main.go list
+#1788788821
+go run main.go list
+#1788788857
+go run main.go list
+#1788788897
+go run main.go add --title "TEST 6 - LETS SEE THE ADD MESSAGE" --status "done" --priority "low"
+#1788789005
+go run main.go add --title "#Lets see add message" --status "not started" --priority "low"
+#1788789051
+go run main.go add --title "2#Lets see add message" --status "not started" --priority "low"
+#1788789062
+go run main.go list
+#1788781642
+cd ..
+#1788781646
+go run main.go list
+#1788783424
+مس
+#1788783425
+ls
+#1788784513
+go run main.go list
+#1788785307
+go run main.go list
+#1788786042
+go run main.go list
+#1788786621
+go run main.go list
+#1788786642
+go run main.go list
+#1788786756
+go run main.go list
+#1788786986
+go run main.go list
+#1788787072
+go run main.go list
+#1788787094
+go run main.go list
+#1788787165
+go run main.go add --title "Test 5 - THIS IS A LONG STRING WHICH COULD OVERLAPPED" --status "in-progress" --priority "High"
+#1788787167
+go run main.go list
+#1788787222
+go run main.go list
+#1788787590
+go run main.go list
+#1788787814
+go run main.go list
+#1788776261
+cd
+#1788776263
+cd tsk
+#1788777222
+ls
+#1788777224
+cd style/
+#1788777225
+ls
+#1788777228
+nvim helper.go 
+#1788775708
+go run duckduckgoose/main.go 
+#1788775717
+go run glow/main.go 
+#1788775727
+go run grocery/main.go 
+#1788775734
+go run roman/main.go 
+#1788775740
+go run simple/main.go 
+#1788775744
+go run sublist/main.go 
+#1788775859
+cd ..
+#1788775861
+y
+#1788775892
+go run border-blend-rotation/bubbletea/main.go 
+#1788775920
+go run linear-1d/bubbletea/main.go 
+#1788775939
+go run linear-1d/standalone/main.go 
+#1788775950
+go run linear-2d/bubbletea/
+#1788775951
+go run linear-2d/bubbletea/main.go 
+#1788775963
+go run linear-2d/standalone/main.go 
+#1788776043
+cd ..
+#1788776059
+go run color/bubbletea/main.go 
+#1788776064
+go run color/bubbletea/main.go 
+#1788776070
+go run color/standalone/
+#1788776071
+go run color/standalone/main.go 
+#1788776130
+go run compat/bubbletea/main.go 
+#1788776139
+go run compat/standalone/main.go 
+#1788776148
+go run layout/main.go 
+#1788776205
+go run table/ansi/main.go 
+#1788776212
+go run table/mindy/main.go 
+#1788776223
+go run table/pokemon/main.go 
+#1788781673
+ls
+#1788781676
+cd table/
+#1788781677
+ls
+#1788781679
+cd ansi/
+#1788781680
+ls
+#1788781682
+bat main.go 
+#1788781698
+go run main.go 
+#1788781818
+cd ..
+#1788781837
+cd ..
+#1788781838
+ls
+#1788781842
+cd table/
+#1788781843
+ls
+#1788781848
+go run chess/main.go 
+#1788781854
+bat chess/main.go 
+#1788781957
+bat chess/main.go 
+#1788782324
+ls
+#1788782330
+bat pokemon/main.go 
+#1788783491
+cat pokemon/main.go | wl-copy 
+#1788787373
+go run mindy/main.go 
+#1788782356
+go run pokemon/main.go 
+#1788785353
+ls
+#1788785356
+bat pokemon/main.go 
+#1788785873
+bat --style plain pokemon/main.go 
+#1788786500
+bat --style plain ansi/main.go 
+#1788786520
+bat --style plain languages/main.go 
+#1788786535
+go run languages/main.go 
+#1788786540
+bat --style plain languages/main.go 
+#1788786720
+ls
+#1788786724
+bat --style plain languages/main.go 
+#1788787278
+go run mindy/main.go 
+#1788787280
+cd ..
+#1788787281
+ls
+#1788787287
+go run layout/main.go 
+#1788841243
+cd Documents/
+#1788841244
+ls
+#1788841249
+bat recovery_codes_ilam_auth.txt 
+#1788841263
+mv -v recovery_codes_ilam_auth.txt BackupCodes/
+#1788841270
+ls -l BackupCodes/
+#1788841337
+chmod -R 600 BackupCodes/*
+#1788841339
+ls -l BackupCodes/
+#1788841348
+groups
+#1788841352
+users 
+#1788841355
+users
