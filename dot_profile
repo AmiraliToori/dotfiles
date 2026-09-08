@@ -45,11 +45,6 @@ export PATH="$HOME/.luarocks/bin:$PATH"
 # opencode
 export PATH=/home/glados/.opencode/bin:$PATH
 
-# ======== Credentials =========
-
-#Set Gemini-API key
-export GEMINI_API_KEY="AIzaSyDbu7CBAEOLw4b4-_HFvhJGV4Imi3zBfTw"
-
 # ======== OTHER ENVs ==========
 
 # Increasing the command history size
