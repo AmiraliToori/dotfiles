@@ -29,36 +29,33 @@ ueberzug_scale = 1
 ueberzug_offset = [0, 0, 0, 0]
 
 [opener]
-edit = [{ run = '$EDITOR "$@"', desc = "$EDITOR", block = true, for = "unix" }]
+edit = [{ run = "$EDITOR %s", desc = "$EDITOR", block = true, for = "unix" }]
 open = [
-  { run = 'xdg-open "$1"', desc = "Open", for = "linux" },
-  { run = 'zen "$1"', orphan = true, desc = "Zen Browser", block = false, for = "linux" },
+  { run = "xdg-open %s1", desc = "Open", for = "linux" },
+  { run = "zen %s1", orphan = true, desc = "Zen Browser", block = false, for = "linux" },
 ]
 open_pdf = [
-  { run = 'tdf "$1"', orphan = true, desc = "tdf", block = true, for = "linux" },
-  { run = 'zathura "$@"', orphan = true, desc = "Zathura", block = false, for = "linux" },
-  { run = 'zen "$1"', orphan = true, desc = "Zen Browser", block = false, for = "linux" },
+  { run = "tdf %s1", orphan = true, desc = "tdf", block = true, for = "linux" },
+  { run = "zathura %s", orphan = true, desc = "Zathura", block = false, for = "linux" },
+  { run = "zen %S1", orphan = true, desc = "Zen Browser", block = false, for = "linux" },
 ]
 open_comic = [
-  { run = 'mcomix "$1"', orphan = true, desc = "MComix", block = false, for = "linux" },
+  { run = "mcomix %s1", orphan = true, desc = "MComix", block = false, for = "linux" },
 ]
 reveal = [
   { run = 'xdg-open "$(dirurl "$1")"', desc = "Reveal", for = "linux" },
   { run = '''clear; exiftool "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show EXIF", for = "unix" },
 ]
 reveal_webp = [
-  { run = 'xdg-open "$1"', desc = "Reveal", for = "linux", block = false, orphan = true},
+  { run = "xdg-open $1", desc = "Reveal", for = "linux", block = false, orphan = true},
 ]
 extract = [
-  { run = 'ouch d -y %*', desc = "Extract here with ouch", for = "windows" },
-  { run = 'ouch d -y "$@"', desc = "Extract here with ouch", for = "unix" },
+  { run = "ouch d -y %s", desc = "Extract here with ouch", for = "windows" },
+  { run = "ouch d -y %s", desc = "Extract here with ouch", for = "unix" },
 ]
 play = [
-  { run = 'vlc "$1"', orphan = true, for = "unix" },
+  { run = "vlc %s1", orphan = true, for = "unix" },
   { run = '''mediainfo "$1"; echo "Press enter to exit"; read _''', block = true, desc = "Show media info", for = "unix" },
-]
-download_torrent = [
-  { run = 'torrra download "$@"', desc="Download with Torrra", for = "linux", orphan = true, block = true}
 ]
 
 [open]
@@ -127,15 +124,6 @@ prepend_rules = [
   { url = "*.html", use = ["open", "edit"] },
 ]
 append_rules = [{ url = "*", use = "my-fallback" }]
-
-
-[tasks]
-micro_workers = 10
-macro_workers = 10
-bizarre_retry = 3
-image_alloc = 1073741824 # = 1024*1024*1024 = 1024MB
-image_bound = [0, 0]
-suppress_preload = false
 
 [plugin]
 prepend_fetchers = [

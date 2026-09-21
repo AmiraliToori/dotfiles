@@ -1,34 +1,34 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "bb758e2"
-hash = "7b625412411be411153886894d9acaf"
+rev = "f703392"
+hash = "f281261ff04ad7ec867c3f802a50835f"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "bb758e2"
-hash = "15e5b67a241172cbb86b8fbf9e63692"
+rev = "f703392"
+hash = "5b2fbef7d1513ce38ff72623a071a5e"
 
 [[plugin.deps]]
 use = "boydaihungst/mediainfo"
-rev = "e079a00"
-hash = "4284b3b610838056bf7738c5c84c19ad"
+rev = "f1cec0b"
+hash = "246c5b95a750a37351f81be79f04c380"
 
 [[plugin.deps]]
 use = "ndtoan96/ouch"
-rev = "406ce6c"
-hash = "f5afc904d5106ee368c8aa2ded43bd74"
+rev = "596b666"
+hash = "c2f4f4aca257dcceafa9e3b828dbf1c9"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "bb758e2"
-hash = "932087013feee4921e95c8ecde8b979a"
+rev = "f703392"
+hash = "347cc6b190eb0c2fd60513cc7ae37412"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:piper"
-rev = "bb758e2"
-hash = "e0d59bd47866a6a574c74574097e5070"
+rev = "f703392"
+hash = "d1e0499cae5f3aeb628c267616d4b682"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
-rev = "4770a34"
-hash = "274c096eed13581770bc39eee590701a"
+rev = "20b47bf"
+hash = "40136c9a02e166067a36d9ad618887f2"
